@@ -1,0 +1,76 @@
+version: '2'
+services:
+
+    arches:
+      container_name: arches
+      restart: always
+      image: cvast/cvast-arches:latest
+      build: 
+        context: .
+        dockerfile: ./Dockerfile
+      command: bash -c  "sleep 15 && /install/entrypoint.sh"
+      volumes:
+        - arches-log:/arches/arches/logs
+        - arches-static:/static_root
+        - arches-uploadedfiles:/web_root/arches/arches/uploadedfiles
+        - arches-virtualenv:/web_root/ENV
+      environment:
+        - FORCE_DB_INIT=False
+        - PGPASSWORD=
+        - PGDBNAME=arches
+        - PGHOST=db
+        - PGPORT=5432
+        - ESHOST=elasticsearch
+        - DJANGO_MODE=DEV
+        - DJANGO_DEBUG=True
+        - DOMAIN_NAMES=localhost
+        - MAPBOX_API_KEY=
+        - TZ=EST
+      ports:
+        - '81:8000'
+      depends_on:
+        - db
+        - elasticsearch
+        
+    db:
+      container_name: db
+      restart: always
+      image: mdillon/postgis:9.6
+      volumes:
+          - postgres-data:/var/lib/postgresql/data
+          - postgres-log:/var/log/postgresql
+      ports:
+        - '5432:5432'
+      environment:
+        - POSTGRES_PASSWORD=
+        - TZ=EST
+        
+    elasticsearch:
+      container_name: elasticsearch
+      restart: always
+      image: elasticsearch:5.2
+      volumes:
+        - elasticsearch-config:/usr/share/elasticsearch/config
+        - elasticsearch-data:/usr/share/elasticsearch/data
+      ports:
+        - "9200:9200"
+        - "9300:9300"
+      environment:
+        - TZ=EST
+
+        
+volumes:
+    arches-log:
+    arches-static:
+    arches-uploadedfiles:
+    arches-virtualenv:
+    postgres-data:
+    postgres-log:
+    elasticsearch-data:
+    elasticsearch-config:
+    nginx-root:
+    nginx-conf:
+    nginx-logs:
+    letsencrypt-workdir:
+    letsencrypt-config:
+    letsencrypt-log:

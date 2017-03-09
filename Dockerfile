@@ -1,0 +1,2 @@
+FROM arches/arches:dev
+
