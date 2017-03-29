@@ -1,0 +1,455 @@
+{
+    "graph": [
+        {
+            "subtitle": "Richer Place branch for Heritage Resource and Heritage Resource Group",
+            "mapfeaturecolor": "rgba(255,0.0,0.0,1.0)",
+            "isresource": false,
+            "forms_x_cards": [],
+            "reports": [],
+            "iconclass": "fa fa-map-marker",
+            "functions": [],
+            "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "f77d6fbb-97cc-11e6-84a5-026d961c88e6",
+                    "parentnodegroup_id": "9bda3162-97cb-11e6-84a5-026d961c88e6"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "2316fedf-97cd-11e6-84a5-026d961c88e6",
+                    "parentnodegroup_id": "9bda3162-97cb-11e6-84a5-026d961c88e6"
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "17a4f83f-ab92-11e6-84a5-026d961c88e6",
+                    "parentnodegroup_id": "9bda3162-97cb-11e6-84a5-026d961c88e6"
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "402522d9-ac60-11e6-84a5-026d961c88e6",
+                    "parentnodegroup_id": "9bda3162-97cb-11e6-84a5-026d961c88e6"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "86cc8e77-ab91-11e6-84a5-026d961c88e6",
+                    "parentnodegroup_id": "9bda3162-97cb-11e6-84a5-026d961c88e6"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "9bda3162-97cb-11e6-84a5-026d961c88e6",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "deeb8c5b-ab92-11e6-84a5-026d961c88e6",
+                    "parentnodegroup_id": "9bda3162-97cb-11e6-84a5-026d961c88e6"
+                }
+            ],
+            "author": " GCI",
+            "deploymentfile": null,
+            "forms": [],
+            "version": "",
+            "nodes": [
+                {
+                    "is_collector": true,
+                    "description": "",
+                    "istopnode": true,
+                    "ontologyclass": "E53_Place",
+                    "nodeid": "9bda3162-97cb-11e6-84a5-026d961c88e6",
+                    "datatype": "semantic",
+                    "nodegroup_id": "9bda3162-97cb-11e6-84a5-026d961c88e6",
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "config": null,
+                    "parentproperty": "",
+                    "name": "Place"
+                },
+                {
+                    "is_collector": true,
+                    "description": "Represents a single node in a graph",
+                    "istopnode": false,
+                    "ontologyclass": "E47_Spatial_Coordinates",
+                    "nodeid": "2316fedf-97cd-11e6-84a5-026d961c88e6",
+                    "datatype": "geojson-feature-collection",
+                    "nodegroup_id": "2316fedf-97cd-11e6-84a5-026d961c88e6",
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "config": {"pointColor": "rgba(130, 130, 130, 0.7)", "pointHaloColor": "rgba(200, 200, 200, 0.5)", "radius": 2, "haloRadius": 4, "lineColor": "rgba(130, 130, 130, 0.7)", "lineHaloColor": "rgba(200, 200, 200, 0.5)", "weight": 2, "haloWeight": 4, "fillColor": "rgba(130, 130, 130, 0.5)", "outlineColor": "rgba(200, 200, 200, 0.7)", "outlineWeight": 2, "layerActivated": true, "addToMap": false, "layerIcon": "", "layerName": "", "clusterDistance": 20, "clusterMaxZoom": 5, "clusterMinPoints": 3, "cacheTiles": false, "autoManageCache": false, "advancedStyling": false, "advancedStyle": ""},
+                    "parentproperty": "P87_is_identified_by",
+                    "name": "Spatial Coordinates Geometry"
+                },
+                {
+                    "is_collector": false,
+                    "description": "Represents a single node in a graph",
+                    "istopnode": false,
+                    "ontologyclass": "E55_Type",
+                    "nodeid": "4e3b83fb-97cd-11e6-84a5-026d961c88e6",
+                    "datatype": "concept",
+                    "nodegroup_id": "2316fedf-97cd-11e6-84a5-026d961c88e6",
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "parentproperty": "P2_has_type",
+                    "name": "Geometry Qualifier"
+                },
+                {
+                    "is_collector": false,
+                    "description": "Represents a single node in a graph",
+                    "istopnode": false,
+                    "ontologyclass": "E44_Place_Appellation",
+                    "nodeid": "00125f63-ab93-11e6-84a5-026d961c88e6",
+                    "datatype": "string",
+                    "nodegroup_id": "deeb8c5b-ab92-11e6-84a5-026d961c88e6",
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "config": null,
+                    "parentproperty": "P87_is_identified_by",
+                    "name": "Administrative Subdivision Name"
+                },
+                {
+                    "is_collector": true,
+                    "description": "Represents a single node in a graph",
+                    "istopnode": false,
+                    "ontologyclass": "E55_Type",
+                    "nodeid": "402522d9-ac60-11e6-84a5-026d961c88e6",
+                    "datatype": "concept",
+                    "nodegroup_id": "402522d9-ac60-11e6-84a5-026d961c88e6",
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "parentproperty": "P2_has_type",
+                    "name": "Setting Type"
+                },
+                {
+                    "is_collector": true,
+                    "description": "Represents a single node in a graph",
+                    "istopnode": false,
+                    "ontologyclass": "E44_Place_Appellation",
+                    "nodeid": "17a4f83f-ab92-11e6-84a5-026d961c88e6",
+                    "datatype": "string",
+                    "nodegroup_id": "17a4f83f-ab92-11e6-84a5-026d961c88e6",
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "config": null,
+                    "parentproperty": "P87_is_identified_by",
+                    "name": "Cadastral Reference"
+                },
+                {
+                    "is_collector": true,
+                    "description": "Represents a single node in a graph",
+                    "istopnode": false,
+                    "ontologyclass": "E45_Address",
+                    "nodeid": "f77d6fbb-97cc-11e6-84a5-026d961c88e6",
+                    "datatype": "string",
+                    "nodegroup_id": "f77d6fbb-97cc-11e6-84a5-026d961c88e6",
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "config": null,
+                    "parentproperty": "P87_is_identified_by",
+                    "name": "Place Address"
+                },
+                {
+                    "is_collector": true,
+                    "description": "Represents a single node in a graph",
+                    "istopnode": false,
+                    "ontologyclass": "E13_Attribute_Assignment",
+                    "nodeid": "86cc8e77-ab91-11e6-84a5-026d961c88e6",
+                    "datatype": "semantic",
+                    "nodegroup_id": "86cc8e77-ab91-11e6-84a5-026d961c88e6",
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "config": null,
+                    "parentproperty": "P140i_was_attributed_by",
+                    "name": "Place Description Assignment"
+                },
+                {
+                    "is_collector": false,
+                    "description": "Represents a single node in a graph",
+                    "istopnode": false,
+                    "ontologyclass": "E62_String",
+                    "nodeid": "c66b4c67-ab91-11e6-84a5-026d961c88e6",
+                    "datatype": "string",
+                    "nodegroup_id": "86cc8e77-ab91-11e6-84a5-026d961c88e6",
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "config": null,
+                    "parentproperty": "P3_has_note",
+                    "name": "Place Description"
+                },
+                {
+                    "is_collector": true,
+                    "description": "Represents a single node in a graph",
+                    "istopnode": false,
+                    "ontologyclass": "E53_Place",
+                    "nodeid": "deeb8c5b-ab92-11e6-84a5-026d961c88e6",
+                    "datatype": "semantic",
+                    "nodegroup_id": "deeb8c5b-ab92-11e6-84a5-026d961c88e6",
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "config": null,
+                    "parentproperty": "P89_falls_within",
+                    "name": "Administration Subdivision"
+                },
+                {
+                    "is_collector": false,
+                    "description": "Represents a single node in a graph",
+                    "istopnode": false,
+                    "ontologyclass": "E55_Type",
+                    "nodeid": "0fd20329-97cd-11e6-84a5-026d961c88e6",
+                    "datatype": "concept",
+                    "nodegroup_id": "f77d6fbb-97cc-11e6-84a5-026d961c88e6",
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "parentproperty": "P2_has_type",
+                    "name": "Address Type"
+                },
+                {
+                    "is_collector": false,
+                    "description": "Represents a single node in a graph",
+                    "istopnode": false,
+                    "ontologyclass": "E55_Type",
+                    "nodeid": "32d3a993-ab93-11e6-84a5-026d961c88e6",
+                    "datatype": "concept",
+                    "nodegroup_id": "deeb8c5b-ab92-11e6-84a5-026d961c88e6",
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "config": {
+                        "rdmCollection": "d5230d60-0eb9-483d-90f4-9965eaca0292"
+                    },
+                    "parentproperty": "P2_has_type",
+                    "name": "Administrative Subdivision Type"
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "description": "Describes the physical location of a heritage resource or heritage resource group.  Includes extra nodes for cadastral information.\n\nRelates to Heritage Resource E18 with P53\nRelates to Heritage Resource Group E27 with P89\n",
+            "edges": [
+                {
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "name": null,
+                    "edgeid": "c66b4c68-ab91-11e6-84a5-026d961c88e6",
+                    "domainnode_id": "86cc8e77-ab91-11e6-84a5-026d961c88e6",
+                    "rangenode_id": "c66b4c67-ab91-11e6-84a5-026d961c88e6",
+                    "ontologyproperty": "P3_has_note",
+                    "description": null
+                },
+                {
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "name": null,
+                    "edgeid": "00125f64-ab93-11e6-84a5-026d961c88e6",
+                    "domainnode_id": "deeb8c5b-ab92-11e6-84a5-026d961c88e6",
+                    "rangenode_id": "00125f63-ab93-11e6-84a5-026d961c88e6",
+                    "ontologyproperty": "P87_is_identified_by",
+                    "description": null
+                },
+                {
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "name": null,
+                    "edgeid": "17a4f840-ab92-11e6-84a5-026d961c88e6",
+                    "domainnode_id": "9bda3162-97cb-11e6-84a5-026d961c88e6",
+                    "rangenode_id": "17a4f83f-ab92-11e6-84a5-026d961c88e6",
+                    "ontologyproperty": "P87_is_identified_by",
+                    "description": null
+                },
+                {
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "name": null,
+                    "edgeid": "4e3b83fc-97cd-11e6-84a5-026d961c88e6",
+                    "domainnode_id": "2316fedf-97cd-11e6-84a5-026d961c88e6",
+                    "rangenode_id": "4e3b83fb-97cd-11e6-84a5-026d961c88e6",
+                    "ontologyproperty": "P2_has_type",
+                    "description": null
+                },
+                {
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "name": null,
+                    "edgeid": "32d3a994-ab93-11e6-84a5-026d961c88e6",
+                    "domainnode_id": "deeb8c5b-ab92-11e6-84a5-026d961c88e6",
+                    "rangenode_id": "32d3a993-ab93-11e6-84a5-026d961c88e6",
+                    "ontologyproperty": "P2_has_type",
+                    "description": null
+                },
+                {
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "name": null,
+                    "edgeid": "0fd2032a-97cd-11e6-84a5-026d961c88e6",
+                    "domainnode_id": "f77d6fbb-97cc-11e6-84a5-026d961c88e6",
+                    "rangenode_id": "0fd20329-97cd-11e6-84a5-026d961c88e6",
+                    "ontologyproperty": "P2_has_type",
+                    "description": null
+                },
+                {
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "name": null,
+                    "edgeid": "402522da-ac60-11e6-84a5-026d961c88e6",
+                    "domainnode_id": "9bda3162-97cb-11e6-84a5-026d961c88e6",
+                    "rangenode_id": "402522d9-ac60-11e6-84a5-026d961c88e6",
+                    "ontologyproperty": "P2_has_type",
+                    "description": null
+                },
+                {
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "name": null,
+                    "edgeid": "deeb8c5c-ab92-11e6-84a5-026d961c88e6",
+                    "domainnode_id": "9bda3162-97cb-11e6-84a5-026d961c88e6",
+                    "rangenode_id": "deeb8c5b-ab92-11e6-84a5-026d961c88e6",
+                    "ontologyproperty": "P89_falls_within",
+                    "description": null
+                },
+                {
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "name": null,
+                    "edgeid": "f77d6fbc-97cc-11e6-84a5-026d961c88e6",
+                    "domainnode_id": "9bda3162-97cb-11e6-84a5-026d961c88e6",
+                    "rangenode_id": "f77d6fbb-97cc-11e6-84a5-026d961c88e6",
+                    "ontologyproperty": "P87_is_identified_by",
+                    "description": null
+                },
+                {
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "name": null,
+                    "edgeid": "86cc8e78-ab91-11e6-84a5-026d961c88e6",
+                    "domainnode_id": "9bda3162-97cb-11e6-84a5-026d961c88e6",
+                    "rangenode_id": "86cc8e77-ab91-11e6-84a5-026d961c88e6",
+                    "ontologyproperty": "P140i_was_attributed_by",
+                    "description": null
+                },
+                {
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "name": null,
+                    "edgeid": "2316fee0-97cd-11e6-84a5-026d961c88e6",
+                    "domainnode_id": "9bda3162-97cb-11e6-84a5-026d961c88e6",
+                    "rangenode_id": "2316fedf-97cd-11e6-84a5-026d961c88e6",
+                    "ontologyproperty": "P87_is_identified_by",
+                    "description": null
+                }
+            ],
+            "maplinewidth": 1,
+            "mappointsize": 4,
+            "graphid": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+            "name": "Place 1",
+            "cards_x_nodes_x_widgets": [],
+            "cards": [
+                {
+                    "helpenabled": false,
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "description": "Describes the physical location of a heritage resource or heritage resource group.  Includes extra nodes for cadastral information.\n\nRelates to Heritage Resource E18 with P53\nRelates to Heritage Resource Group E27 with P89\n",
+                    "visible": true,
+                    "nodegroup_id": "9bda3162-97cb-11e6-84a5-026d961c88e6",
+                    "helptext": null,
+                    "sortorder": null,
+                    "cardid": "9bda3165-97cb-11e6-84a5-026d961c88e6",
+                    "helptitle": null,
+                    "instructions": null,
+                    "active": true,
+                    "name": "Place 1"
+                },
+                {
+                    "helpenabled": false,
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "description": "Represents a single node in a graph",
+                    "visible": true,
+                    "nodegroup_id": "17a4f83f-ab92-11e6-84a5-026d961c88e6",
+                    "helptext": null,
+                    "sortorder": 5,
+                    "cardid": "0376b1f2-ac68-11e6-84a5-026d961c88e6",
+                    "helptitle": null,
+                    "instructions": "Enter the cadastral reference number.",
+                    "active": true,
+                    "name": "Cadastral Reference"
+                },
+                {
+                    "helpenabled": false,
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "description": "Represents a single node in a graph",
+                    "visible": true,
+                    "nodegroup_id": "402522d9-ac60-11e6-84a5-026d961c88e6",
+                    "helptext": null,
+                    "sortorder": 3,
+                    "cardid": "0ecc5b56-ac68-11e6-84a5-026d961c88e6",
+                    "helptitle": null,
+                    "instructions": "For Historic Resources only, define the setting of the historic resource.",
+                    "active": true,
+                    "name": "Setting Type"
+                },
+                {
+                    "helpenabled": false,
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "description": "Represents a single node in a graph",
+                    "visible": true,
+                    "nodegroup_id": "2316fedf-97cd-11e6-84a5-026d961c88e6",
+                    "helptext": null,
+                    "sortorder": 0,
+                    "cardid": "45316ce0-ac68-11e6-84a5-026d961c88e6",
+                    "helptitle": null,
+                    "instructions": "Define the spatial location.",
+                    "active": true,
+                    "name": "Spatial Location"
+                },
+                {
+                    "helpenabled": false,
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "description": "Represents a single node in a graph",
+                    "visible": true,
+                    "nodegroup_id": "f77d6fbb-97cc-11e6-84a5-026d961c88e6",
+                    "helptext": null,
+                    "sortorder": 1,
+                    "cardid": "eff18332-ac67-11e6-84a5-026d961c88e6",
+                    "helptitle": null,
+                    "instructions": "Enter the address of the location.",
+                    "active": true,
+                    "name": "Address"
+                },
+                {
+                    "helpenabled": false,
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "description": "Represents a single node in a graph",
+                    "visible": true,
+                    "nodegroup_id": "86cc8e77-ab91-11e6-84a5-026d961c88e6",
+                    "helptext": null,
+                    "sortorder": 4,
+                    "cardid": "adc10e16-ac66-11e6-84a5-026d961c88e6",
+                    "helptitle": null,
+                    "instructions": "Describe the location of the resource.",
+                    "active": true,
+                    "name": "Description Location"
+                },
+                {
+                    "helpenabled": false,
+                    "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                    "description": "Represents a single node in a graph",
+                    "visible": true,
+                    "nodegroup_id": "deeb8c5b-ab92-11e6-84a5-026d961c88e6",
+                    "helptext": null,
+                    "sortorder": 2,
+                    "cardid": "64951704-ac67-11e6-84a5-026d961c88e6",
+                    "helptitle": null,
+                    "instructions": "Select the administrative/governmental subdivision name and type.",
+                    "active": true,
+                    "name": "Administration Subdivision"
+                }
+            ],
+            "root": {
+                "is_collector": true,
+                "description": "",
+                "istopnode": true,
+                "ontologyclass": "E53_Place",
+                "nodeid": "9bda3162-97cb-11e6-84a5-026d961c88e6",
+                "datatype": "semantic",
+                "nodegroup_id": "9bda3162-97cb-11e6-84a5-026d961c88e6",
+                "graph_id": "9bda3163-97cb-11e6-84a5-026d961c88e6",
+                "config": null,
+                "name": "Place"
+            },
+            "isactive": true,
+            "deploymentdate": null
+        }
+    ],
+    "metadata": {
+        "git hash": "ff93bd9 2017-01-24 10:17:51 -0800",
+        "db": "PostgreSQL 9.6.0 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit",
+        "os version": "4.4.0-45-generic",
+        "os": "Linux"
+    }
+}
