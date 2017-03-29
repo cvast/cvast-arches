@@ -83,13 +83,13 @@ STATIC_ROOT = '/var/www/media'
 # Bounding box for geometry data validation. By default set to coordinate system bounding box.
 # NOTE: This is not used by the front end of the application.
 
-# RESOURCE_GRAPH_LOCATIONS = (
+RESOURCE_GRAPH_LOCATIONS = (
     # Put strings here, like "/home/data/resource_graphs" or "C:/data/resource_graphs".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    # os.path.join(ROOT_DIR, 'db', 'graphs', 'branches'),
-    # os.path.join(ROOT_DIR, 'db', 'graphs', 'resource_models'),
-# )
+    os.path.join(APP_ROOT, 'db', 'graphs', 'branches'),
+    os.path.join(APP_ROOT, 'db', 'graphs', 'resource_models'),
+)
 
 # BUSINESS_DATA_FILES = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
