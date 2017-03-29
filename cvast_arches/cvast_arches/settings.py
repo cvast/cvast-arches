@@ -19,7 +19,7 @@ PROJECT_TEMPLATES = os.path.join(APP_ROOT, 'templates')
 TEMPLATES[0]['DIRS'].append(FUNCTION_TEMPLATES)
 TEMPLATES[0]['DIRS'].insert(0, PROJECT_TEMPLATES)
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'sj7rsbdw*7m!w#5-*=6_fv65y6jeec-zh4y&*^d@)w7vpfn44s'
+SECRET_KEY = '5xp6px1(3zu@de!cyw_(&l*l!zaha#a5&$3g$xk6#&0)5eri!$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -152,3 +152,8 @@ STATIC_ROOT = '/var/www/media'
 # HEX_BIN_PRECISION = 4
 
 # BULK_IMPORT_BATCH_SIZE = 2000
+
+try:
+    from settings_local import *
+except ImportError:
+    pass
