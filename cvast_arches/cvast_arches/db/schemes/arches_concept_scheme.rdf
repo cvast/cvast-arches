@@ -5332,7 +5332,7 @@
     </skos:narrower>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/c28e1c88-82d8-4fe1-af76-4d6c1e309762">
-        <skos:prefLabel xml:lang="en-US">{"id": "b733e15c-9797-45b0-a0d6-85c82962122e", "value": "May include one or a full range of Arts & Crafts styles"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-US">{"id": "b733e15c-9797-45b0-a0d6-85c82962122e", "value": "May include one or a full range of Arts and Crafts styles"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
       </skos:Concept>
     </skos:narrower>
@@ -14253,7 +14253,7 @@
     </skos:narrower>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/e6f09aac-1203-49a9-9a36-fce89257385f">
-        <skos:prefLabel xml:lang="en-US">{"id": "7963843f-0c89-47d2-9b88-a2dc7ad1ebe6", "value": "Greene & Greene"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-US">{"id": "7963843f-0c89-47d2-9b88-a2dc7ad1ebe6", "value": "Greene and Greene"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
       </skos:Concept>
     </skos:narrower>
@@ -14535,7 +14535,7 @@
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/6f827ce0-1533-4cb4-b56a-f72f1d97f6ce">
         <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
-        <skos:prefLabel xml:lang="en-US">{"id": "d2542562-0e60-410f-9451-a649d9592121", "value": "Wharton & Vaughan"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-US">{"id": "d2542562-0e60-410f-9451-a649d9592121", "value": "Wharton and Vaughan"}</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
@@ -14801,7 +14801,7 @@
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/c698f9e0-0749-43d1-a8b8-ed263f0f8b02">
         <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
-        <skos:prefLabel xml:lang="en-US">{"id": "de6d5f55-e6d1-4de5-b7e2-39391bd10d79", "value": "Arts & Crafts"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-US">{"id": "de6d5f55-e6d1-4de5-b7e2-39391bd10d79", "value": "Arts and Crafts"}</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
@@ -15451,8 +15451,8 @@
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/ca2fc2a7-93b6-417b-b1e2-8e12454e55c3">
         <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
-        <skos:prefLabel xml:lang="en-US">{"id": "e1aaeb89-139d-4e70-b021-4749baa7690a", "value": "Arts & Architecture"}</skos:prefLabel>
-        <skos:altLabel xml:lang="en-US">{"id": "c6adf6aa-94b0-47c2-891f-0866082178cd", "value": "Arts & Architecture Magazine"}</skos:altLabel>
+        <skos:prefLabel xml:lang="en-US">{"id": "e1aaeb89-139d-4e70-b021-4749baa7690a", "value": "Arts and Architecture"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en-US">{"id": "c6adf6aa-94b0-47c2-891f-0866082178cd", "value": "Arts and Architecture Magazine"}</skos:altLabel>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower rdf:resource="http://www.archesproject.org/45a7a03d-cd2b-43dd-8ea8-c9367304e55a"/>
@@ -15651,7 +15651,7 @@
     </skos:narrower>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/dc9d6e05-0c99-4b01-aa82-aa428bcf70b3">
-        <skos:prefLabel xml:lang="en-US">{"id": "fc7cd093-44f1-446f-86b2-430287e48cef", "value": "Allison & Allison"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-US">{"id": "fc7cd093-44f1-446f-86b2-430287e48cef", "value": "Allison and Allison"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
       </skos:Concept>
     </skos:narrower>
@@ -17012,7 +17012,7 @@
     </skos:narrower>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/3e3c3897-a75c-48b1-a3da-47e268dcc8f2">
-        <skos:prefLabel xml:lang="en-US">{"id": "006556a2-19ea-4412-a583-c92253a06474", "value": "Huntington Land & Improvement Company"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-US">{"id": "006556a2-19ea-4412-a583-c92253a06474", "value": "Huntington Land and Improvement Company"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
       </skos:Concept>
     </skos:narrower>
@@ -17241,7 +17241,7 @@
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/e86b5e75-87d6-4ad4-b9aa-2db058305a2b">
         <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
-        <skos:prefLabel xml:lang="en-US">{"id": "37910ad8-08cd-4cba-8f7f-a9cc711b0f27", "value": "St. Paul's Hospital & Home for Invalids"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-US">{"id": "37910ad8-08cd-4cba-8f7f-a9cc711b0f27", "value": "St. Paul's Hospital and Home for Invalids"}</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
@@ -17728,7 +17728,7 @@
     </skos:narrower>
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/fd215734-174d-4db7-9e38-7b42f21a925d">
-        <skos:prefLabel xml:lang="en-US">{"id": "ea3bfe25-4407-49f5-abb8-b157672fb679", "value": "Eckbo, Royston & Williams"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-US">{"id": "ea3bfe25-4407-49f5-abb8-b157672fb679", "value": "Eckbo, Royston and Williams"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
       </skos:Concept>
     </skos:narrower>
@@ -18083,7 +18083,7 @@
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/b21d7ae1-0915-46a1-bff1-8575bb25f048">
         <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
-        <skos:prefLabel xml:lang="en-US">{"id": "b76e9f61-2e63-4a43-b74c-e275545c0a4d", "value": "Title Guarantee & Trust Company"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-US">{"id": "b76e9f61-2e63-4a43-b74c-e275545c0a4d", "value": "Title Guarantee and Trust Company"}</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
@@ -18600,7 +18600,7 @@
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/c543934f-38f7-40e6-ad9e-347663ff0345">
         <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
-        <skos:prefLabel xml:lang="en-US">{"id": "62afdb2a-03d3-4b6f-a55c-337d6078bb6e", "value": "Allison & Rible"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-US">{"id": "62afdb2a-03d3-4b6f-a55c-337d6078bb6e", "value": "Allison and Rible"}</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
@@ -19141,7 +19141,7 @@
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/cb4e22d6-4fed-4266-8ec8-cb8cfa25db45">
         <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
-        <skos:prefLabel xml:lang="en-US">{"id": "d89b41b8-681c-4727-9399-bb3e136bff98", "value": "Jon A. Randall & Associates"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-US">{"id": "d89b41b8-681c-4727-9399-bb3e136bff98", "value": "Jon A. Randall and Associates"}</skos:prefLabel>
       </skos:Concept>
     </skos:narrower>
     <skos:narrower>
@@ -27175,7 +27175,7 @@
     <skos:prefLabel xml:lang="en-US">{"id": "c817866f-ed07-4347-b26e-ddfa2250c317", "value": "Signage altered"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/3a9fd265-9d54-4ef5-83ef-da55ec701466">
-    <skos:prefLabel xml:lang="en-US">{"id": "eb671c6b-c92f-41e5-9a87-0e240f898b21", "value": "Bank/Saving & Loan"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en-US">{"id": "eb671c6b-c92f-41e5-9a87-0e240f898b21", "value": "Bank/Saving and Loan"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/bb98d922-d4ae-4755-a20b-36195345fcd3">
@@ -29106,7 +29106,7 @@
     <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
     <skos:prefLabel xml:lang="en-US">{"id": "c657087b-73b1-4d20-80a4-458f0bc23640", "value": "University College"}</skos:prefLabel>
     <skos:narrower rdf:resource="http://www.archesproject.org/16d0c3e7-de33-4f59-9e75-aea5c0f44b09"/>
-    <skos:scopeNote xml:lang="en-US">{"id": "45d66fba-5f51-4a87-92f0-994e0daf9274", "value": "E.g. College of Arts & Sciences"}</skos:scopeNote>
+    <skos:scopeNote xml:lang="en-US">{"id": "45d66fba-5f51-4a87-92f0-994e0daf9274", "value": "E.g. College of Arts and Sciences"}</skos:scopeNote>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/a285cb11-c815-4804-a059-0827d08012ec">
     <skos:prefLabel xml:lang="en-US">{"id": "2cbd07ae-71e1-475a-b5e9-3d6e2e4548a8", "value": "Architecture/Design Firm or Partnership"}</skos:prefLabel>
@@ -29277,8 +29277,8 @@
   <skos:Concept rdf:about="http://www.archesproject.org/2f0fa664-db48-4acc-8210-ff717273d706">
     <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
     <skos:narrower rdf:resource="http://www.archesproject.org/23604265-40fd-4257-bb4a-8174e2f2bc45"/>
-    <arches:collector xml:lang="en-US">{"id": "537bd88f-4a51-499a-880d-c29b7f4a1b38", "value": "Public & Defense Housing, 1939-1945"}</arches:collector>
-    <skos:prefLabel xml:lang="en-US">{"id": "4679fb81-4a05-49f1-b59a-580f755ef9f5", "value": "Public & Defense Housing, 1939-1945"}</skos:prefLabel>
+    <arches:collector xml:lang="en-US">{"id": "537bd88f-4a51-499a-880d-c29b7f4a1b38", "value": "Public and Defense Housing, 1939-1945"}</arches:collector>
+    <skos:prefLabel xml:lang="en-US">{"id": "4679fb81-4a05-49f1-b59a-580f755ef9f5", "value": "Public and Defense Housing, 1939-1945"}</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/e59a1cea-85bb-4fd7-9b16-402caf7715a4">
     <skos:narrower>
@@ -32512,7 +32512,7 @@
   <skos:Concept rdf:about="http://www.archesproject.org/bdb66dae-3553-49db-878a-4048fed640fb">
     <skos:narrower>
       <skos:Concept rdf:about="http://www.archesproject.org/1ce017b5-55d9-40c3-9873-0cae5f7934f4">
-        <skos:prefLabel xml:lang="en-US">{"id": "122531cb-9a62-441e-b2a1-9be5276f0cd2", "value": "Bank/Saving & Loan"}</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-US">{"id": "122531cb-9a62-441e-b2a1-9be5276f0cd2", "value": "Bank/Saving and Loan"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
       </skos:Concept>
     </skos:narrower>
@@ -34036,7 +34036,7 @@
     <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/a9f7e616-75ff-438f-bfc1-8f69347a353d">
-    <skos:prefLabel xml:lang="en-US">{"id": "07713f23-774a-4cb6-91e1-560f9c45d47f", "value": "Bank/Saving & Loan"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en-US">{"id": "07713f23-774a-4cb6-91e1-560f9c45d47f", "value": "Bank/Saving and Loan"}</skos:prefLabel>
     <skos:inScheme rdf:resource="http://www.archesproject.org/00000000-0000-0000-0000-000000000001"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://www.archesproject.org/435c8474-f8ed-44a8-a121-1ff4cd0aa089">
