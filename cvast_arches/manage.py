@@ -26,7 +26,7 @@ from cvast_arches import settings
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "cvast_arches.settings")
 
-    if settings.DEBUG:
+    if settings.REMOTE_DEBUG:
         import ptvsd
         debug_secret = settings.get_optional_env_variable("DEBUG_SECRET")
         ptvsd.enable_attach(debug_secret, address = ('0.0.0.0', 3000))

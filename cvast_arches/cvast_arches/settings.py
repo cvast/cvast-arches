@@ -34,6 +34,8 @@ def get_optional_env_variable(var_name):
 
 MODE = get_env_variable('DJANGO_MODE') #options are either "PROD" or "DEV" (installing with Dev mode set, get's you extra dependencies)
 DEBUG = ast.literal_eval(get_env_variable('DJANGO_DEBUG'))
+REMOTE_DEBUG = get_optional_env_variable('DJANGO_REMOTE_DEBUG')
+REMOTE_DEBUG = ast.literal_eval(REMOTE_DEBUG) if REMOTE_DEBUG != None else False
 
 DATABASES = {
     'default': {
