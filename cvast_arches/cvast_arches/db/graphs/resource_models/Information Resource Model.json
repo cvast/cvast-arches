@@ -397,7 +397,7 @@
                     "parentnodegroup_id": null
                 }, 
                 {
-                    "cardinality": "1", 
+                    "cardinality": "n", 
                     "legacygroupid": null, 
                     "nodegroupid": "86a103e6-e74a-11e6-84a6-026d961c88e6", 
                     "parentnodegroup_id": null
@@ -693,7 +693,7 @@
                     "nodegroup_id": "86a103e6-e74a-11e6-84a6-026d961c88e6", 
                     "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
                     "config": {
-                        "rdmCollection": null
+                        "rdmCollection": "e8cdeabd-f63d-4077-b05f-50274742f519"
                     }, 
                     "parentproperty": "P2_has_type", 
                     "name": "Administrative Subdivision Type"
@@ -915,7 +915,7 @@
                     "nodegroup_id": "94d998b7-e74a-11e6-84a6-026d961c88e6", 
                     "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
                     "config": {
-                        "rdmCollection": null
+                        "rdmCollection": "eac2ca3e-3e93-4f31-8a42-2523582e6748"
                     }, 
                     "parentproperty": "P2_has_type", 
                     "name": "Copyright Type"
@@ -1698,6 +1698,20 @@
                     "id": "db3a323a-2920-11e7-a99f-0242ac140004"
                 }, 
                 {
+                    "widget_id": "10000000-0000-0000-0000-000000000001", 
+                    "card_id": "ccf21fb8-2933-11e7-a99f-0242ac140004", 
+                    "label": "Place Description", 
+                    "node_id": "86a103f0-e74a-11e6-84a6-026d961c88e6", 
+                    "sortorder": 1, 
+                    "config": {
+                        "width": "100%", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "label": "Place Description"
+                    }, 
+                    "id": "758ad502-2934-11e7-a99f-0242ac140004"
+                }, 
+                {
                     "widget_id": "10000000-0000-0000-0000-000000000007", 
                     "card_id": "ccf21fb8-2933-11e7-a99f-0242ac140004", 
                     "label": "Spatial Coordinates Geometry", 
@@ -1723,17 +1737,17 @@
                         "overlayOpacity": 0, 
                         "featurePointSize": 3, 
                         "geocodeProvider": "MapzenGeocoder", 
-                        "zoom": 0, 
+                        "zoom": 1.0961178338339037, 
                         "label": "Spatial Coordinates Geometry", 
                         "featureLineWidth": 1, 
                         "geocodePlaceholder": "Search", 
                         "featureColor": "rgba(0,255,133,1)", 
                         "overlayConfigs": [], 
                         "minZoom": 0, 
-                        "centerX": -6.042455424903892e-11, 
+                        "centerX": 14.36119220344537, 
                         "pitch": 0, 
                         "maxZoom": 20, 
-                        "centerY": -3.0382807381101884e-11, 
+                        "centerY": 32.2280294718674, 
                         "basemap": "streets"
                     }, 
                     "id": "758a2a94-2934-11e7-a99f-0242ac140004"
@@ -1741,16 +1755,29 @@
                 {
                     "widget_id": "10000000-0000-0000-0000-000000000001", 
                     "card_id": "ccf21fb8-2933-11e7-a99f-0242ac140004", 
-                    "label": "Place Description", 
-                    "node_id": "86a103f0-e74a-11e6-84a6-026d961c88e6", 
-                    "sortorder": 1, 
+                    "label": "Administrative Subdivision Name", 
+                    "node_id": "86a103f1-e74a-11e6-84a6-026d961c88e6", 
+                    "sortorder": 4, 
                     "config": {
                         "width": "100%", 
                         "maxLength": null, 
                         "placeholder": "Enter text", 
-                        "label": "Place Description"
+                        "label": "Administrative Subdivision Name"
                     }, 
-                    "id": "758ad502-2934-11e7-a99f-0242ac140004"
+                    "id": "758be014-2934-11e7-a99f-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "ccf21fb8-2933-11e7-a99f-0242ac140004", 
+                    "label": "Administrative Subdivision Type", 
+                    "node_id": "86a103ef-e74a-11e6-84a6-026d961c88e6", 
+                    "sortorder": 3, 
+                    "config": {
+                        "placeholder": "Select an option", 
+                        "options": [], 
+                        "label": "Administrative Subdivision Type"
+                    }, 
+                    "id": "758a6e6e-2934-11e7-a99f-0242ac140004"
                 }, 
                 {
                     "widget_id": "10000000-0000-0000-0000-000000000002", 
@@ -1853,33 +1880,6 @@
                         "label": "Geometry Qualifier"
                     }, 
                     "id": "758b56a8-2934-11e7-a99f-0242ac140004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000002", 
-                    "card_id": "ccf21fb8-2933-11e7-a99f-0242ac140004", 
-                    "label": "Administrative Subdivision Type", 
-                    "node_id": "86a103ef-e74a-11e6-84a6-026d961c88e6", 
-                    "sortorder": 3, 
-                    "config": {
-                        "placeholder": "Select an option", 
-                        "options": [], 
-                        "label": "Administrative Subdivision Type"
-                    }, 
-                    "id": "758a6e6e-2934-11e7-a99f-0242ac140004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000001", 
-                    "card_id": "ccf21fb8-2933-11e7-a99f-0242ac140004", 
-                    "label": "Administrative Subdivision Name", 
-                    "node_id": "86a103f1-e74a-11e6-84a6-026d961c88e6", 
-                    "sortorder": 4, 
-                    "config": {
-                        "width": "100%", 
-                        "maxLength": null, 
-                        "placeholder": "Enter text", 
-                        "label": "Administrative Subdivision Name"
-                    }, 
-                    "id": "758be014-2934-11e7-a99f-0242ac140004"
                 }
             ], 
             "cards": [
@@ -1900,16 +1900,16 @@
                 {
                     "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
                     "helpenabled": false, 
-                    "description": "An object or substance used to record and accumulate data", 
+                    "description": "An informative word used for resource information retrieval that indicates the content of a resource.\n\nRelates to resources via P2.", 
                     "visible": true, 
-                    "nodegroup_id": "9f210d2d-e74a-11e6-84a6-026d961c88e6", 
+                    "nodegroup_id": "b5f5b1ed-e74a-11e6-84a6-026d961c88e6", 
                     "helptext": null, 
                     "sortorder": null, 
-                    "cardid": "9f210d2f-e74a-11e6-84a6-026d961c88e6", 
+                    "cardid": "b5f5b1ef-e74a-11e6-84a6-026d961c88e6", 
                     "helptitle": null, 
-                    "instructions": "Select the information carrier for the information resource.", 
+                    "instructions": "Select keywords associated with the resource.", 
                     "active": true, 
-                    "name": "Information Carrier"
+                    "name": "Keyword"
                 }, 
                 {
                     "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
@@ -1970,6 +1970,20 @@
                 {
                     "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
                     "helpenabled": false, 
+                    "description": "An object or substance used to record and accumulate data", 
+                    "visible": true, 
+                    "nodegroup_id": "9f210d2d-e74a-11e6-84a6-026d961c88e6", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "9f210d2f-e74a-11e6-84a6-026d961c88e6", 
+                    "helptitle": null, 
+                    "instructions": "Select the information carrier for the information resource.", 
+                    "active": true, 
+                    "name": "Information Carrier"
+                }, 
+                {
+                    "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
+                    "helpenabled": false, 
                     "description": "This branch describes the language of an Information Resource.", 
                     "visible": true, 
                     "nodegroup_id": "cc16f563-e74a-11e6-84a6-026d961c88e6", 
@@ -1980,20 +1994,6 @@
                     "instructions": "Select language of the information resource.", 
                     "active": true, 
                     "name": "Language"
-                }, 
-                {
-                    "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
-                    "helpenabled": false, 
-                    "description": "An informative word used for resource information retrieval that indicates the content of a resource.\n\nRelates to resources via P2.", 
-                    "visible": true, 
-                    "nodegroup_id": "b5f5b1ed-e74a-11e6-84a6-026d961c88e6", 
-                    "helptext": null, 
-                    "sortorder": null, 
-                    "cardid": "b5f5b1ef-e74a-11e6-84a6-026d961c88e6", 
-                    "helptitle": null, 
-                    "instructions": "Select keywords associated with the resource.", 
-                    "active": true, 
-                    "name": "Keyword"
                 }, 
                 {
                     "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
