@@ -3,129 +3,130 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
     xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
     xmlns:dcterms="http://purl.org/dc/terms/">
-    <skos:Concept rdf:about="http://www.archesproject.org/d332ede1-4c8a-4866-9119-25f7b3171f05">
+    <skos:Concept rdf:about="http://www.archesproject.org/d47eaf5f-bd44-48b7-addd-0cb0323a4e3c">
         <skos:inScheme>
             <skos:ConceptScheme rdf:about="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764">
+                <skos:hasTopConcept rdf:resource="http://www.archesproject.org/ed205fe7-13ae-4d8f-af36-bbeae2dafb65"/>
                 <skos:hasTopConcept rdf:resource="http://www.archesproject.org/4097d159-2c9b-4a6b-9768-bf6f26a83992"/>
                 <dcterms:title xml:lang="en-US">{"id": "3308f469-4728-4a09-8138-eefef48574af", "value": "CVAST"}</dcterms:title>
-                <skos:hasTopConcept rdf:resource="http://www.archesproject.org/ed205fe7-13ae-4d8f-af36-bbeae2dafb65"/>
             </skos:ConceptScheme>
         </skos:inScheme>
+        <skos:prefLabel xml:lang="en-US">{"id": "1b642d57-e8f3-4d3b-8ca9-698181e0b78f", "value": "Konica Minolta Vivid 9i"}</skos:prefLabel>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.archesproject.org/d332ede1-4c8a-4866-9119-25f7b3171f05">
+        <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
         <skos:prefLabel xml:lang="en-US">{"id": "21f3f0b5-e7ea-4af1-8350-cc6f5ef1b9d1", "value": "Artec Eva"}</skos:prefLabel>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://www.archesproject.org/dae14003-3fee-4ae3-975a-97cf17063b73">
-        <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
-        <skos:prefLabel xml:lang="en-US">{"id": "f6fb9b09-467a-47d4-9ce8-7adfd92cb19c", "value": "FARO Focus 110"}</skos:prefLabel>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://www.archesproject.org/493e1730-0eb6-4619-a981-c30e1dff56de">
-        <skos:prefLabel xml:lang="en-US">{"id": "fead1f97-f73d-43a7-a2b2-cf805d245ad7", "value": "Trimble GEO 7x GNSS"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.archesproject.org/165651af-7c60-41c2-9bed-bd6d2e7bd359">
         <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
         <arches:sortorder xml:lang="en-US">{"id": "12496eab-09ae-41e0-84ac-1ad0168056b1", "value": "3"}</arches:sortorder>
         <skos:prefLabel xml:lang="en-US">{"id": "68eda7ed-f167-4b5c-9837-c6b669cc0ead", "value": "External photos"}</skos:prefLabel>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.archesproject.org/49494498-72e1-45ad-8f7d-cda1a90afcf8">
-        <skos:narrower>
-            <skos:Concept rdf:about="http://www.archesproject.org/61fee06c-c707-446d-b7b8-f853b0dfd151">
-                <skos:prefLabel xml:lang="en-US">{"id": "8ddca1b7-72bd-4638-8e66-f7d9f8a7668f", "value": "FARO Freestyle"}</skos:prefLabel>
-                <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
-            </skos:Concept>
-        </skos:narrower>
+    <skos:Concept rdf:about="http://www.archesproject.org/a19c1812-0643-419a-b3d5-c562a3e6668b">
         <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
+        <skos:prefLabel xml:lang="en-US">{"id": "6e0880f6-8176-4b52-ba93-abeea2365768", "value": "FARO Focus3D x330"}</skos:prefLabel>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.archesproject.org/73be5b3e-214b-4d17-8cb6-07734b3bf69d">
+        <skos:prefLabel xml:lang="en-US">{"id": "712565b3-8ae0-4c82-9d4a-12c8c3a3c295", "value": "FARO Edge Arm"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.archesproject.org/5d492264-63eb-47f2-a9ed-996c8c6bceea">
         <skos:narrower>
-            <skos:Concept rdf:about="http://www.archesproject.org/73be5b3e-214b-4d17-8cb6-07734b3bf69d">
-                <skos:prefLabel xml:lang="en-US">{"id": "712565b3-8ae0-4c82-9d4a-12c8c3a3c295", "value": "FARO Edge Arm"}</skos:prefLabel>
+            <skos:Concept rdf:about="http://www.archesproject.org/363505b6-9272-4e95-b4ca-c88a7b8c8e14">
                 <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
+                <skos:prefLabel xml:lang="en-US">{"id": "f3b1e604-b315-4867-8ab1-54502cd385d6", "value": "Canon EOS 5DS"}</skos:prefLabel>
             </skos:Concept>
         </skos:narrower>
-        <skos:prefLabel xml:lang="en-US">{"id": "b3cc9f58-5359-4161-9cdd-ee44f74cdca5", "value": "3D scanners"}</skos:prefLabel>
-        <skos:narrower>
-            <skos:Concept rdf:about="http://www.archesproject.org/d47eaf5f-bd44-48b7-addd-0cb0323a4e3c">
-                <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
-                <skos:prefLabel xml:lang="en-US">{"id": "1b642d57-e8f3-4d3b-8ca9-698181e0b78f", "value": "Konica Minolta Vivid 9i"}</skos:prefLabel>
-            </skos:Concept>
-        </skos:narrower>
-        <skos:narrower>
-            <skos:Concept rdf:about="http://www.archesproject.org/9196979f-9aca-4a32-89fe-65855d27552a">
-                <skos:prefLabel xml:lang="en-US">{"id": "ed672721-8791-4b54-a34f-b4464dff4027", "value": "FARO Focus3D x330 HDR"}</skos:prefLabel>
-                <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
-            </skos:Concept>
-        </skos:narrower>
-        <skos:narrower rdf:resource="http://www.archesproject.org/dae14003-3fee-4ae3-975a-97cf17063b73"/>
-        <arches:collector xml:lang="en-US">{"id": "658bbebb-0f08-4344-9dbb-3699672a510d", "value": "3D scanners"}</arches:collector>
-        <skos:narrower rdf:resource="http://www.archesproject.org/d332ede1-4c8a-4866-9119-25f7b3171f05"/>
-        <skos:narrower>
-            <skos:Concept rdf:about="http://www.archesproject.org/a19c1812-0643-419a-b3d5-c562a3e6668b">
-                <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
-                <skos:prefLabel xml:lang="en-US">{"id": "6e0880f6-8176-4b52-ba93-abeea2365768", "value": "FARO Focus3D x330"}</skos:prefLabel>
-            </skos:Concept>
-        </skos:narrower>
-        <skos:narrower>
-            <skos:Concept rdf:about="http://www.archesproject.org/92671c7e-5b91-428e-9ce8-2c73d4f0c6b6">
-                <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
-                <skos:prefLabel xml:lang="en-US">{"id": "b20141cb-8e95-472a-9f10-6a89c6b0363a", "value": "Artec Spider"}</skos:prefLabel>
-            </skos:Concept>
-        </skos:narrower>
+        <arches:collector xml:lang="en-US">{"id": "a7ef52e6-2fdf-4a91-abef-56b24856f33d", "value": "Cameras"}</arches:collector>
+        <skos:prefLabel xml:lang="en-US">{"id": "bc827548-f8d5-4fe2-b8a2-1ec1ce74d749", "value": "Cameras"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.archesproject.org/65e2dbcc-4b7f-473e-b2f3-e9152f27bfc7">
-        <arches:collector xml:lang="en-US">{"id": "099336c9-d850-43aa-b4c5-201c8f973040", "value": "Other"}</arches:collector>
+        <skos:prefLabel xml:lang="en-US">{"id": "8aba4fc0-5f85-4b00-9823-8ba5164fdad4", "value": "Other"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
+        <skos:narrower>
+            <skos:Concept rdf:about="http://www.archesproject.org/493e1730-0eb6-4619-a981-c30e1dff56de">
+                <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
+                <skos:prefLabel xml:lang="en-US">{"id": "fead1f97-f73d-43a7-a2b2-cf805d245ad7", "value": "Trimble GEO 7x GNSS"}</skos:prefLabel>
+            </skos:Concept>
+        </skos:narrower>
         <skos:narrower>
             <skos:Concept rdf:about="http://www.archesproject.org/6ebb565f-4238-463e-9c17-570d6226eda9">
                 <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
                 <skos:prefLabel xml:lang="en-US">{"id": "ad98f07d-cb11-4cd4-81ad-05479e02fd89", "value": "6m3 Skyhook Helikite"}</skos:prefLabel>
             </skos:Concept>
         </skos:narrower>
-        <skos:narrower rdf:resource="http://www.archesproject.org/493e1730-0eb6-4619-a981-c30e1dff56de"/>
-        <skos:prefLabel xml:lang="en-US">{"id": "8aba4fc0-5f85-4b00-9823-8ba5164fdad4", "value": "Other"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
+        <arches:collector xml:lang="en-US">{"id": "099336c9-d850-43aa-b4c5-201c8f973040", "value": "Other"}</arches:collector>
     </skos:Concept>
-    <skos:Concept rdf:about="http://www.archesproject.org/e2260e7e-2e39-4f28-b43d-23f50308cd89">
+    <skos:Concept rdf:about="http://www.archesproject.org/49494498-72e1-45ad-8f7d-cda1a90afcf8">
+        <skos:narrower>
+            <skos:Concept rdf:about="http://www.archesproject.org/92671c7e-5b91-428e-9ce8-2c73d4f0c6b6">
+                <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
+                <skos:prefLabel xml:lang="en-US">{"id": "b20141cb-8e95-472a-9f10-6a89c6b0363a", "value": "Artec Spider"}</skos:prefLabel>
+            </skos:Concept>
+        </skos:narrower>
+        <skos:narrower rdf:resource="http://www.archesproject.org/a19c1812-0643-419a-b3d5-c562a3e6668b"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/73be5b3e-214b-4d17-8cb6-07734b3bf69d"/>
         <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
-        <skos:prefLabel xml:lang="en-US">{"id": "d48c89d0-7f4d-4f0d-ae6e-5e4273203a1a", "value": "DJI Phantom 4"}</skos:prefLabel>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://www.archesproject.org/46faca3c-c018-49c7-bf26-d05363ead35a">
-        <skos:prefLabel xml:lang="en">{"id": "5bb758dd-5318-4399-b763-581947bbe76d", "value": "No"}</skos:prefLabel>
-        <arches:sortorder xml:lang="en-US">{"id": "febe0123-fb04-41dc-8868-741c444bf8fd", "value": "2"}</arches:sortorder>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://www.archesproject.org/ffc6ddd9-2c5a-40ad-bd00-e1a9e81bb626">
-        <arches:collector xml:lang="en-US">{"id": "f48f4504-77b5-400d-8198-d6c1e4542596", "value": "Drones"}</arches:collector>
-        <skos:prefLabel xml:lang="en-US">{"id": "0be5c619-651b-4a9f-a7a1-320224077e61", "value": "Drones"}</skos:prefLabel>
-        <skos:narrower rdf:resource="http://www.archesproject.org/e2260e7e-2e39-4f28-b43d-23f50308cd89"/>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
+        <skos:narrower rdf:resource="http://www.archesproject.org/d47eaf5f-bd44-48b7-addd-0cb0323a4e3c"/>
+        <skos:narrower>
+            <skos:Concept rdf:about="http://www.archesproject.org/9196979f-9aca-4a32-89fe-65855d27552a">
+                <skos:prefLabel xml:lang="en-US">{"id": "ed672721-8791-4b54-a34f-b4464dff4027", "value": "FARO Focus3D x330 HDR"}</skos:prefLabel>
+                <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
+            </skos:Concept>
+        </skos:narrower>
+        <skos:narrower>
+            <skos:Concept rdf:about="http://www.archesproject.org/dae14003-3fee-4ae3-975a-97cf17063b73">
+                <skos:prefLabel xml:lang="en-US">{"id": "f6fb9b09-467a-47d4-9ce8-7adfd92cb19c", "value": "FARO Focus 110"}</skos:prefLabel>
+                <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
+            </skos:Concept>
+        </skos:narrower>
+        <skos:narrower>
+            <skos:Concept rdf:about="http://www.archesproject.org/61fee06c-c707-446d-b7b8-f853b0dfd151">
+                <skos:prefLabel xml:lang="en-US">{"id": "8ddca1b7-72bd-4638-8e66-f7d9f8a7668f", "value": "FARO Freestyle"}</skos:prefLabel>
+                <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
+            </skos:Concept>
+        </skos:narrower>
+        <arches:collector xml:lang="en-US">{"id": "658bbebb-0f08-4344-9dbb-3699672a510d", "value": "3D scanners"}</arches:collector>
+        <skos:narrower rdf:resource="http://www.archesproject.org/d332ede1-4c8a-4866-9119-25f7b3171f05"/>
+        <skos:prefLabel xml:lang="en-US">{"id": "b3cc9f58-5359-4161-9cdd-ee44f74cdca5", "value": "3D scanners"}</skos:prefLabel>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.archesproject.org/ed205fe7-13ae-4d8f-af36-bbeae2dafb65">
+        <skos:prefLabel xml:lang="en-US">{"id": "c090b911-c2a8-4397-b772-18a93526263f", "value": "Color Capture"}</skos:prefLabel>
         <skos:narrower>
             <skos:Concept rdf:about="http://www.archesproject.org/b0a84a07-bc82-4145-bc51-0a77b35510da">
-                <arches:sortorder xml:lang="en-US">{"id": "b452c09c-7099-4ea8-b745-5c3db3e6388b", "value": "1"}</arches:sortorder>
                 <skos:prefLabel xml:lang="en-US">{"id": "b49da410-f436-4844-b987-2ade6700fe0f", "value": "Yes"}</skos:prefLabel>
+                <arches:sortorder xml:lang="en-US">{"id": "b452c09c-7099-4ea8-b745-5c3db3e6388b", "value": "1"}</arches:sortorder>
                 <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
             </skos:Concept>
         </skos:narrower>
         <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
         <skos:narrower rdf:resource="http://www.archesproject.org/165651af-7c60-41c2-9bed-bd6d2e7bd359"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/46faca3c-c018-49c7-bf26-d05363ead35a"/>
-        <skos:prefLabel xml:lang="en-US">{"id": "c090b911-c2a8-4397-b772-18a93526263f", "value": "Color Capture"}</skos:prefLabel>
-    </skos:Concept>
-    <skos:Concept rdf:about="http://www.archesproject.org/5d492264-63eb-47f2-a9ed-996c8c6bceea">
-        <arches:collector xml:lang="en-US">{"id": "a7ef52e6-2fdf-4a91-abef-56b24856f33d", "value": "Cameras"}</arches:collector>
-        <skos:prefLabel xml:lang="en-US">{"id": "bc827548-f8d5-4fe2-b8a2-1ec1ce74d749", "value": "Cameras"}</skos:prefLabel>
         <skos:narrower>
-            <skos:Concept rdf:about="http://www.archesproject.org/363505b6-9272-4e95-b4ca-c88a7b8c8e14">
-                <skos:prefLabel xml:lang="en-US">{"id": "f3b1e604-b315-4867-8ab1-54502cd385d6", "value": "Canon EOS 5DS"}</skos:prefLabel>
+            <skos:Concept rdf:about="http://www.archesproject.org/46faca3c-c018-49c7-bf26-d05363ead35a">
                 <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
+                <arches:sortorder xml:lang="en-US">{"id": "febe0123-fb04-41dc-8868-741c444bf8fd", "value": "2"}</arches:sortorder>
+                <skos:prefLabel xml:lang="en">{"id": "5bb758dd-5318-4399-b763-581947bbe76d", "value": "No"}</skos:prefLabel>
             </skos:Concept>
         </skos:narrower>
-        <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
     </skos:Concept>
     <skos:Concept rdf:about="http://www.archesproject.org/4097d159-2c9b-4a6b-9768-bf6f26a83992">
-        <skos:narrower rdf:resource="http://www.archesproject.org/ffc6ddd9-2c5a-40ad-bd00-e1a9e81bb626"/>
-        <skos:narrower rdf:resource="http://www.archesproject.org/49494498-72e1-45ad-8f7d-cda1a90afcf8"/>
         <skos:narrower rdf:resource="http://www.archesproject.org/65e2dbcc-4b7f-473e-b2f3-e9152f27bfc7"/>
+        <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
         <skos:narrower rdf:resource="http://www.archesproject.org/5d492264-63eb-47f2-a9ed-996c8c6bceea"/>
         <skos:prefLabel xml:lang="en-US">{"id": "8cd14d98-0af2-4ff3-93fb-c6ba10e59f57", "value": "Digital Technology"}</skos:prefLabel>
+        <skos:narrower>
+            <skos:Concept rdf:about="http://www.archesproject.org/ffc6ddd9-2c5a-40ad-bd00-e1a9e81bb626">
+                <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
+                <arches:collector xml:lang="en-US">{"id": "f48f4504-77b5-400d-8198-d6c1e4542596", "value": "Drones"}</arches:collector>
+                <skos:prefLabel xml:lang="en-US">{"id": "0be5c619-651b-4a9f-a7a1-320224077e61", "value": "Drones"}</skos:prefLabel>
+                <skos:narrower rdf:resource="http://www.archesproject.org/e2260e7e-2e39-4f28-b43d-23f50308cd89"/>
+            </skos:Concept>
+        </skos:narrower>
+        <skos:narrower rdf:resource="http://www.archesproject.org/49494498-72e1-45ad-8f7d-cda1a90afcf8"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://www.archesproject.org/e2260e7e-2e39-4f28-b43d-23f50308cd89">
+        <skos:prefLabel xml:lang="en-US">{"id": "d48c89d0-7f4d-4f0d-ae6e-5e4273203a1a", "value": "DJI Phantom 4"}</skos:prefLabel>
         <skos:inScheme rdf:resource="http://www.archesproject.org/4e5ceaa5-441d-4c14-b6fd-672127c18764"/>
     </skos:Concept>
 </rdf:RDF>

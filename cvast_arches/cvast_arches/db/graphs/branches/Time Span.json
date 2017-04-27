@@ -1,0 +1,131 @@
+{
+    "graph": [
+        {
+            "subtitle": "", 
+            "functions_x_graphs": [], 
+            "mapfeaturecolor": "#FF0000", 
+            "isresource": false, 
+            "forms_x_cards": [], 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "iconclass": "fa fa-calendar", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "0a48afe4-2b55-11e7-9130-0242ac140004", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "author": " CVAST", 
+            "deploymentfile": null, 
+            "forms": [], 
+            "version": "", 
+            "nodes": [
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E49_Time_Appellation", 
+                    "nodeid": "4399bcac-2b55-11e7-9130-0242ac140004", 
+                    "datatype": "date", 
+                    "nodegroup_id": "0a48afe4-2b55-11e7-9130-0242ac140004", 
+                    "graph_id": "0a48b340-2b55-11e7-9130-0242ac140004", 
+                    "config": null, 
+                    "parentproperty": "P78_is_identified_by", 
+                    "name": "To Date"
+                }, 
+                {
+                    "is_collector": true, 
+                    "description": "", 
+                    "istopnode": true, 
+                    "ontologyclass": "E52_Time-Span", 
+                    "nodeid": "0a48afe4-2b55-11e7-9130-0242ac140004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "0a48afe4-2b55-11e7-9130-0242ac140004", 
+                    "graph_id": "0a48b340-2b55-11e7-9130-0242ac140004", 
+                    "config": null, 
+                    "parentproperty": "", 
+                    "name": "Time Span"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E49_Time_Appellation", 
+                    "nodeid": "323b5aa6-2b55-11e7-9130-0242ac140004", 
+                    "datatype": "date", 
+                    "nodegroup_id": "0a48afe4-2b55-11e7-9130-0242ac140004", 
+                    "graph_id": "0a48b340-2b55-11e7-9130-0242ac140004", 
+                    "config": null, 
+                    "parentproperty": "P78_is_identified_by", 
+                    "name": "From Date"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "description": "Generic time span with start and end date", 
+            "resource_2_resource_constraints": [], 
+            "edges": [
+                {
+                    "graph_id": "0a48b340-2b55-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "323b5d58-2b55-11e7-9130-0242ac140004", 
+                    "domainnode_id": "0a48afe4-2b55-11e7-9130-0242ac140004", 
+                    "rangenode_id": "323b5aa6-2b55-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P78_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "0a48b340-2b55-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "4399bf36-2b55-11e7-9130-0242ac140004", 
+                    "domainnode_id": "0a48afe4-2b55-11e7-9130-0242ac140004", 
+                    "rangenode_id": "4399bcac-2b55-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P78_is_identified_by", 
+                    "description": null
+                }
+            ], 
+            "maplinewidth": 1, 
+            "mappointsize": 3, 
+            "graphid": "0a48b340-2b55-11e7-9130-0242ac140004", 
+            "name": "Time Span", 
+            "cards_x_nodes_x_widgets": [], 
+            "cards": [
+                {
+                    "graph_id": "0a48b340-2b55-11e7-9130-0242ac140004", 
+                    "helpenabled": false, 
+                    "description": "Generic time span with start and end date", 
+                    "visible": true, 
+                    "nodegroup_id": "0a48afe4-2b55-11e7-9130-0242ac140004", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "0a4c3a2e-2b55-11e7-9130-0242ac140004", 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "active": true, 
+                    "name": "Time Span"
+                }
+            ], 
+            "root": {
+                "is_collector": true, 
+                "description": "", 
+                "istopnode": true, 
+                "ontologyclass": "E52_Time-Span", 
+                "nodeid": "0a48afe4-2b55-11e7-9130-0242ac140004", 
+                "datatype": "semantic", 
+                "nodegroup_id": "0a48afe4-2b55-11e7-9130-0242ac140004", 
+                "graph_id": "0a48b340-2b55-11e7-9130-0242ac140004", 
+                "config": null, 
+                "name": "Time Span"
+            }, 
+            "isactive": true, 
+            "deploymentdate": null
+        }
+    ], 
+    "metadata": {
+        "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
+        "os version": "4.9.13-moby", 
+        "os": "Linux"
+    }
+}

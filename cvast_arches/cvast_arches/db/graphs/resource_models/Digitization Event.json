@@ -1,7 +1,7 @@
 {
     "graph": [
         {
-            "subtitle": "", 
+            "subtitle": "Resource Model for documenting a scan session with a date range and the technical specification of that session (scanner settings, etc.)", 
             "functions_x_graphs": [], 
             "mapfeaturecolor": "rgba(73,177,184,1)", 
             "isresource": true, 
@@ -13,32 +13,38 @@
                     "id": "473f468c-2b56-11e7-9130-0242ac140004"
                 }, 
                 {
-                    "card_id": "26506938-2b56-11e7-9130-0242ac140004", 
-                    "sortorder": 0, 
-                    "form_id": "4855a142-2b56-11e7-9130-0242ac140004", 
-                    "id": "dfcfe758-2b56-11e7-9130-0242ac140004"
-                }, 
-                {
                     "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
                     "sortorder": 0, 
                     "form_id": "99f6981c-2b56-11e7-9130-0242ac140004", 
                     "id": "a0f5a892-2b56-11e7-9130-0242ac140004"
+                }, 
+                {
+                    "card_id": "c7eb18e8-2b8c-11e7-b962-0242ac140004", 
+                    "sortorder": 0, 
+                    "form_id": "4855a142-2b56-11e7-9130-0242ac140004", 
+                    "id": "d9903e60-2b8d-11e7-b962-0242ac140004"
                 }
             ], 
             "relatable_resource_model_ids": [
                 "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                "3854b1f2-14a9-11e7-b06e-0242ac150005", 
                 "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                "f5624ce7-b66c-11e6-84a5-026d961c88e6", 
                 "ccbd1537-ac5e-11e6-84a5-026d961c88e6", 
                 "99417385-b8fa-11e6-84a5-026d961c88e6", 
+                "f5624ce7-b66c-11e6-84a5-026d961c88e6", 
                 "fad0563b-b8f8-11e6-84a5-026d961c88e6", 
+                "3854b1f2-14a9-11e7-b06e-0242ac150005", 
                 "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
                 "64ae35a0-2b53-11e7-9130-0242ac140004"
             ], 
             "reports": [], 
             "iconclass": "fa fa-angle-double-right", 
             "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "c7eb1276-2b8c-11e7-b962-0242ac140004", 
+                    "parentnodegroup_id": null
+                }, 
                 {
                     "cardinality": "1", 
                     "legacygroupid": null, 
@@ -49,12 +55,6 @@
                     "cardinality": "n", 
                     "legacygroupid": null, 
                     "nodegroupid": "946ceb44-2b56-11e7-9130-0242ac140004", 
-                    "parentnodegroup_id": null
-                }, 
-                {
-                    "cardinality": "1", 
-                    "legacygroupid": null, 
-                    "nodegroupid": "26506474-2b56-11e7-9130-0242ac140004", 
                     "parentnodegroup_id": null
                 }
             ], 
@@ -71,21 +71,21 @@
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004"
                 }, 
                 {
-                    "iconclass": "fa fa-wrench", 
-                    "subtitle": null, 
-                    "title": "Digital Production Method", 
-                    "formid": "4855a142-2b56-11e7-9130-0242ac140004", 
-                    "visible": true, 
-                    "sortorder": 1, 
-                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004"
-                }, 
-                {
                     "iconclass": "fa fa-align-justify", 
                     "subtitle": null, 
                     "title": "Description", 
                     "formid": "99f6981c-2b56-11e7-9130-0242ac140004", 
                     "visible": true, 
                     "sortorder": 2, 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004"
+                }, 
+                {
+                    "iconclass": "fa fa-wrench", 
+                    "subtitle": null, 
+                    "title": "Digital Production Method", 
+                    "formid": "4855a142-2b56-11e7-9130-0242ac140004", 
+                    "visible": true, 
+                    "sortorder": 1, 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004"
                 }
             ], 
@@ -95,31 +95,14 @@
                     "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E55_Type", 
-                    "nodeid": "26506b18-2b56-11e7-9130-0242ac140004", 
-                    "datatype": "concept", 
-                    "nodegroup_id": "26506474-2b56-11e7-9130-0242ac140004", 
+                    "ontologyclass": "E49_Time_Appellation", 
+                    "nodeid": "5db47d8e-2b55-11e7-9130-0242ac140004", 
+                    "datatype": "date", 
+                    "nodegroup_id": "5db47528-2b55-11e7-9130-0242ac140004", 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "config": {
-                        "rdmCollection": "97b53c65-d816-4b55-8fde-08dc24eb29cc"
-                    }, 
-                    "parentproperty": "P2_has_type", 
-                    "name": "Digital Production Technology"
-                }, 
-                {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "E1_CRM_Entity", 
-                    "nodeid": "26506cc6-2b56-11e7-9130-0242ac140004", 
-                    "datatype": "concept", 
-                    "nodegroup_id": "26506474-2b56-11e7-9130-0242ac140004", 
-                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "config": {
-                        "rdmCollection": "41875f2c-e130-44ce-ac41-d33c53524d18"
-                    }, 
-                    "parentproperty": "P15_was_influenced_by", 
-                    "name": "Color Capture"
+                    "config": null, 
+                    "parentproperty": "P78_is_identified_by", 
+                    "name": "From Date"
                 }, 
                 {
                     "is_collector": true, 
@@ -133,6 +116,47 @@
                     "config": null, 
                     "parentproperty": "P140i_was_attributed_by", 
                     "name": "Description Assignment"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E60_Number", 
+                    "nodeid": "c7eb2482-2b8c-11e7-b962-0242ac140004", 
+                    "datatype": "number", 
+                    "nodegroup_id": "c7eb1276-2b8c-11e7-b962-0242ac140004", 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": null, 
+                    "parentproperty": "P90_has_value", 
+                    "name": "Resolution Value"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E58_Measurement_Unit", 
+                    "nodeid": "c7eb1ffa-2b8c-11e7-b962-0242ac140004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "c7eb1276-2b8c-11e7-b962-0242ac140004", 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": {
+                        "rdmCollection": "fa8a9bcc-82ee-4882-bf56-1c029c3d8a77"
+                    }, 
+                    "parentproperty": "P91_has_unit", 
+                    "name": "Resolution Unit"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E62_String", 
+                    "nodeid": "946cf454-2b56-11e7-9130-0242ac140004", 
+                    "datatype": "string", 
+                    "nodegroup_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": null, 
+                    "parentproperty": "P3_has_note", 
+                    "name": "Description"
                 }, 
                 {
                     "is_collector": false, 
@@ -151,40 +175,27 @@
                     "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E62_String", 
-                    "nodeid": "946cf454-2b56-11e7-9130-0242ac140004", 
-                    "datatype": "string", 
-                    "nodegroup_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "ontologyclass": "E54_Dimension", 
+                    "nodeid": "c7eb1ba4-2b8c-11e7-b962-0242ac140004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "c7eb1276-2b8c-11e7-b962-0242ac140004", 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "config": null, 
-                    "parentproperty": "P3_has_note", 
-                    "name": "Description"
+                    "parentproperty": "O12_has_dimension", 
+                    "name": "Initial Resolution"
                 }, 
                 {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
+                    "is_collector": true, 
+                    "description": "", 
                     "istopnode": false, 
-                    "ontologyclass": "E49_Time_Appellation", 
-                    "nodeid": "5db47f46-2b55-11e7-9130-0242ac140004", 
-                    "datatype": "date", 
-                    "nodegroup_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "ontologyclass": "E12_Production", 
+                    "nodeid": "c7eb1276-2b8c-11e7-b962-0242ac140004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "c7eb1276-2b8c-11e7-b962-0242ac140004", 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "config": null, 
-                    "parentproperty": "P78_is_identified_by", 
-                    "name": "To Date"
-                }, 
-                {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "E49_Time_Appellation", 
-                    "nodeid": "5db47d8e-2b55-11e7-9130-0242ac140004", 
-                    "datatype": "date", 
-                    "nodegroup_id": "5db47528-2b55-11e7-9130-0242ac140004", 
-                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "config": null, 
-                    "parentproperty": "P78_is_identified_by", 
-                    "name": "From Date"
+                    "parentproperty": "P134_continued", 
+                    "name": "Digital Production"
                 }, 
                 {
                     "is_collector": true, 
@@ -204,6 +215,36 @@
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
                     "ontologyclass": "E55_Type", 
+                    "nodeid": "c7eb26a8-2b8c-11e7-b962-0242ac140004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "c7eb1276-2b8c-11e7-b962-0242ac140004", 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": {
+                        "rdmCollection": "97b53c65-d816-4b55-8fde-08dc24eb29cc"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Digital Production Technology"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "c7eb2252-2b8c-11e7-b962-0242ac140004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "c7eb1276-2b8c-11e7-b962-0242ac140004", 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": {
+                        "rdmCollection": "41875f2c-e130-44ce-ac41-d33c53524d18"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Color Capture"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
                     "nodeid": "946cf710-2b56-11e7-9130-0242ac140004", 
                     "datatype": "concept", 
                     "nodegroup_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
@@ -215,17 +256,17 @@
                     "name": "Description Type"
                 }, 
                 {
-                    "is_collector": true, 
-                    "description": "", 
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E12_Production", 
-                    "nodeid": "26506474-2b56-11e7-9130-0242ac140004", 
-                    "datatype": "semantic", 
-                    "nodegroup_id": "26506474-2b56-11e7-9130-0242ac140004", 
+                    "ontologyclass": "E49_Time_Appellation", 
+                    "nodeid": "5db47f46-2b55-11e7-9130-0242ac140004", 
+                    "datatype": "date", 
+                    "nodegroup_id": "5db47528-2b55-11e7-9130-0242ac140004", 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "config": null, 
-                    "parentproperty": "P134_continued", 
-                    "name": "Digital Production"
+                    "parentproperty": "P78_is_identified_by", 
+                    "name": "To Date"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
@@ -235,37 +276,19 @@
                 {
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "name": null, 
-                    "edgeid": "26507374-2b56-11e7-9130-0242ac140004", 
-                    "domainnode_id": "26506474-2b56-11e7-9130-0242ac140004", 
-                    "rangenode_id": "26506cc6-2b56-11e7-9130-0242ac140004", 
-                    "ontologyproperty": "P15_was_influenced_by", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "name": null, 
-                    "edgeid": "265075ae-2b56-11e7-9130-0242ac140004", 
+                    "edgeid": "5db48676-2b55-11e7-9130-0242ac140004", 
                     "domainnode_id": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
-                    "rangenode_id": "26506474-2b56-11e7-9130-0242ac140004", 
+                    "rangenode_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P160_has_temporal_projection", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "c7eb4020-2b8c-11e7-b962-0242ac140004", 
+                    "domainnode_id": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
+                    "rangenode_id": "c7eb1276-2b8c-11e7-b962-0242ac140004", 
                     "ontologyproperty": "P134_continued", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "name": null, 
-                    "edgeid": "946cfe5e-2b56-11e7-9130-0242ac140004", 
-                    "domainnode_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
-                    "rangenode_id": "946cf454-2b56-11e7-9130-0242ac140004", 
-                    "ontologyproperty": "P3_has_note", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "name": null, 
-                    "edgeid": "5db48310-2b55-11e7-9130-0242ac140004", 
-                    "domainnode_id": "5db47528-2b55-11e7-9130-0242ac140004", 
-                    "rangenode_id": "5db47d8e-2b55-11e7-9130-0242ac140004", 
-                    "ontologyproperty": "P78_is_identified_by", 
                     "description": null
                 }, 
                 {
@@ -280,18 +303,54 @@
                 {
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "name": null, 
-                    "edgeid": "5db484c8-2b55-11e7-9130-0242ac140004", 
+                    "edgeid": "c7eb3d50-2b8c-11e7-b962-0242ac140004", 
+                    "domainnode_id": "c7eb1276-2b8c-11e7-b962-0242ac140004", 
+                    "rangenode_id": "c7eb1ba4-2b8c-11e7-b962-0242ac140004", 
+                    "ontologyproperty": "O12_has_dimension", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "5db48310-2b55-11e7-9130-0242ac140004", 
                     "domainnode_id": "5db47528-2b55-11e7-9130-0242ac140004", 
-                    "rangenode_id": "5db47f46-2b55-11e7-9130-0242ac140004", 
+                    "rangenode_id": "5db47d8e-2b55-11e7-9130-0242ac140004", 
                     "ontologyproperty": "P78_is_identified_by", 
                     "description": null
                 }, 
                 {
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "name": null, 
-                    "edgeid": "26507248-2b56-11e7-9130-0242ac140004", 
-                    "domainnode_id": "26506474-2b56-11e7-9130-0242ac140004", 
-                    "rangenode_id": "26506b18-2b56-11e7-9130-0242ac140004", 
+                    "edgeid": "946cfe5e-2b56-11e7-9130-0242ac140004", 
+                    "domainnode_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "rangenode_id": "946cf454-2b56-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P3_has_note", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "c7eb3bc0-2b8c-11e7-b962-0242ac140004", 
+                    "domainnode_id": "c7eb1ba4-2b8c-11e7-b962-0242ac140004", 
+                    "rangenode_id": "c7eb2482-2b8c-11e7-b962-0242ac140004", 
+                    "ontologyproperty": "P90_has_value", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "c7eb3882-2b8c-11e7-b962-0242ac140004", 
+                    "domainnode_id": "c7eb1ba4-2b8c-11e7-b962-0242ac140004", 
+                    "rangenode_id": "c7eb1ffa-2b8c-11e7-b962-0242ac140004", 
+                    "ontologyproperty": "P91_has_unit", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "c7eb3a26-2b8c-11e7-b962-0242ac140004", 
+                    "domainnode_id": "c7eb1276-2b8c-11e7-b962-0242ac140004", 
+                    "rangenode_id": "c7eb2252-2b8c-11e7-b962-0242ac140004", 
                     "ontologyproperty": "P2_has_type", 
                     "description": null
                 }, 
@@ -307,10 +366,19 @@
                 {
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "name": null, 
-                    "edgeid": "5db48676-2b55-11e7-9130-0242ac140004", 
-                    "domainnode_id": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
-                    "rangenode_id": "5db47528-2b55-11e7-9130-0242ac140004", 
-                    "ontologyproperty": "P160_has_temporal_projection", 
+                    "edgeid": "c7eb3698-2b8c-11e7-b962-0242ac140004", 
+                    "domainnode_id": "c7eb1276-2b8c-11e7-b962-0242ac140004", 
+                    "rangenode_id": "c7eb26a8-2b8c-11e7-b962-0242ac140004", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "5db484c8-2b55-11e7-9130-0242ac140004", 
+                    "domainnode_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "rangenode_id": "5db47f46-2b55-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P78_is_identified_by", 
                     "description": null
                 }
             ], 
@@ -320,74 +388,10 @@
             "name": "Digitization Event", 
             "cards_x_nodes_x_widgets": [
                 {
-                    "widget_id": "10000000-0000-0000-0000-000000000005", 
-                    "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
-                    "label": "Description", 
-                    "node_id": "946cf454-2b56-11e7-9130-0242ac140004", 
-                    "sortorder": 0, 
-                    "config": {
-                        "width": "100%", 
-                        "placeholder": "Enter text", 
-                        "label": "Description"
-                    }, 
-                    "id": "946cf9ae-2b56-11e7-9130-0242ac140004"
-                }, 
-                {
                     "widget_id": "10000000-0000-0000-0000-000000000002", 
-                    "card_id": "26506938-2b56-11e7-9130-0242ac140004", 
-                    "label": "Color Capture", 
-                    "node_id": "26506cc6-2b56-11e7-9130-0242ac140004", 
-                    "sortorder": 1, 
-                    "config": {
-                        "placeholder": "Was color captured during the digitization?", 
-                        "options": [
-                            {
-                                "conceptid": "b0a84a07-bc82-4145-bc51-0a77b35510da", 
-                                "text": "Yes", 
-                                "children": [], 
-                                "sortorder": "1", 
-                                "collector": "", 
-                                "id": "b49da410-f436-4844-b987-2ade6700fe0f"
-                            }, 
-                            {
-                                "conceptid": "46faca3c-c018-49c7-bf26-d05363ead35a", 
-                                "text": "No", 
-                                "children": [], 
-                                "sortorder": "2", 
-                                "collector": "", 
-                                "id": "5bb758dd-5318-4399-b763-581947bbe76d"
-                            }, 
-                            {
-                                "conceptid": "165651af-7c60-41c2-9bed-bd6d2e7bd359", 
-                                "text": "External photos", 
-                                "children": [], 
-                                "sortorder": "3", 
-                                "collector": "", 
-                                "id": "68eda7ed-f167-4b5c-9837-c6b669cc0ead"
-                            }
-                        ], 
-                        "label": "Color Capture"
-                    }, 
-                    "id": "26506ece-2b56-11e7-9130-0242ac140004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000002", 
-                    "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
-                    "label": "Description Type", 
-                    "node_id": "946cf710-2b56-11e7-9130-0242ac140004", 
-                    "sortorder": 1, 
-                    "config": {
-                        "placeholder": "Select a description type", 
-                        "options": [], 
-                        "label": "Description Type"
-                    }, 
-                    "id": "946cf83c-2b56-11e7-9130-0242ac140004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000002", 
-                    "card_id": "26506938-2b56-11e7-9130-0242ac140004", 
+                    "card_id": "c7eb18e8-2b8c-11e7-b962-0242ac140004", 
                     "label": "Digital Production Technology", 
-                    "node_id": "26506b18-2b56-11e7-9130-0242ac140004", 
+                    "node_id": "c7eb26a8-2b8c-11e7-b962-0242ac140004", 
                     "sortorder": 0, 
                     "config": {
                         "placeholder": "Technology used for digitization", 
@@ -523,24 +527,215 @@
                         ], 
                         "label": "Digital Production Technology"
                     }, 
-                    "id": "26506de8-2b56-11e7-9130-0242ac140004"
+                    "id": "c7eb2b08-2b8c-11e7-b962-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "c7eb18e8-2b8c-11e7-b962-0242ac140004", 
+                    "label": "Resolution Unit", 
+                    "node_id": "c7eb1ffa-2b8c-11e7-b962-0242ac140004", 
+                    "sortorder": 2, 
+                    "config": {
+                        "placeholder": "Select resolution unit", 
+                        "options": [
+                            {
+                                "conceptid": "47f1dd47-99c2-4b5a-bd1d-d9cdad77e19e", 
+                                "text": "microns", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "33ca9ce0-1102-48a4-a1f9-dbb01da2c29f"
+                            }, 
+                            {
+                                "conceptid": "0e492db2-a026-4d6b-81f5-e409775be21f", 
+                                "text": "inches", 
+                                "children": [], 
+                                "sortorder": "1", 
+                                "collector": "", 
+                                "id": "5509b823-7ace-4253-a3e5-0ebb5b976392"
+                            }, 
+                            {
+                                "conceptid": "14923c78-a07a-478f-9d5b-d054de6d98e4", 
+                                "text": "meters", 
+                                "children": [], 
+                                "sortorder": "10", 
+                                "collector": "", 
+                                "id": "b7611b55-55e2-4889-b923-687a89765c02"
+                            }, 
+                            {
+                                "conceptid": "ef64d304-a3c8-450a-a4cd-4462bbd00262", 
+                                "text": "kilometers", 
+                                "children": [], 
+                                "sortorder": "11", 
+                                "collector": "", 
+                                "id": "928219af-a567-40c0-a9ad-8640c8afc800"
+                            }, 
+                            {
+                                "conceptid": "5a2383f4-10d8-41d8-8a2b-c66b4919b955", 
+                                "text": "grams", 
+                                "children": [], 
+                                "sortorder": "12", 
+                                "collector": "", 
+                                "id": "d7a48024-8240-40b9-b8db-dce1067721fa"
+                            }, 
+                            {
+                                "conceptid": "67ffe1c8-3399-481c-87c8-65a0b61bf868", 
+                                "text": "kilograms", 
+                                "children": [], 
+                                "sortorder": "13", 
+                                "collector": "", 
+                                "id": "1064db18-7c59-4e02-9080-d1664bb3742e"
+                            }, 
+                            {
+                                "conceptid": "73f04aea-6da6-4b06-aa2e-332126f3a240", 
+                                "text": "feet", 
+                                "children": [], 
+                                "sortorder": "2", 
+                                "collector": "", 
+                                "id": "04705f94-7f76-4021-8490-12546cd323f9"
+                            }, 
+                            {
+                                "conceptid": "00d2586d-0739-45f5-8812-993ae25a540e", 
+                                "text": "yards", 
+                                "children": [], 
+                                "sortorder": "3", 
+                                "collector": "", 
+                                "id": "9eb07bbd-70d6-4929-8d0f-fdd2ffdbf616"
+                            }, 
+                            {
+                                "conceptid": "bf2c2b08-9a80-4a01-b063-2cac9fb16eac", 
+                                "text": "miles", 
+                                "children": [], 
+                                "sortorder": "4", 
+                                "collector": "", 
+                                "id": "b555a5f5-4ac5-43c9-b6f0-8582e06bd2b1"
+                            }, 
+                            {
+                                "conceptid": "a65d1d4a-04b9-4ae5-9ee6-be8cba3da3f0", 
+                                "text": "ounces", 
+                                "children": [], 
+                                "sortorder": "5", 
+                                "collector": "", 
+                                "id": "fda6e884-8eae-4c13-8490-1ff30b6c8246"
+                            }, 
+                            {
+                                "conceptid": "ce8628de-2c44-48ca-a2ee-40375a27c5d5", 
+                                "text": "pounds", 
+                                "children": [], 
+                                "sortorder": "6", 
+                                "collector": "", 
+                                "id": "b9214765-3e1f-4a25-a57e-dfb8af66ad6d"
+                            }, 
+                            {
+                                "conceptid": "701743e7-595b-4a8b-9576-3d46fa52b14c", 
+                                "text": "tons", 
+                                "children": [], 
+                                "sortorder": "7", 
+                                "collector": "", 
+                                "id": "ccd30536-474c-496b-a617-538750c5a714"
+                            }, 
+                            {
+                                "conceptid": "a048b03a-f279-454b-baa3-253891cf47bb", 
+                                "text": "millimeters", 
+                                "children": [], 
+                                "sortorder": "8", 
+                                "collector": "", 
+                                "id": "bd87e569-754e-4738-ad22-887be1feb92b"
+                            }, 
+                            {
+                                "conceptid": "5884d60d-1b8c-40fc-99c8-055bca602fa7", 
+                                "text": "centimeters", 
+                                "children": [], 
+                                "sortorder": "9", 
+                                "collector": "", 
+                                "id": "41722438-4e84-45ed-a3b5-f12e04dcfd5c"
+                            }
+                        ], 
+                        "label": "Resolution Unit"
+                    }, 
+                    "id": "c7eb2c5c-2b8c-11e7-b962-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000008", 
+                    "card_id": "c7eb18e8-2b8c-11e7-b962-0242ac140004", 
+                    "label": "Resolution Value", 
+                    "node_id": "c7eb2482-2b8c-11e7-b962-0242ac140004", 
+                    "sortorder": 1, 
+                    "config": {
+                        "max": "", 
+                        "label": "Resolution Value", 
+                        "placeholder": "Enter resolution value", 
+                        "width": "100%", 
+                        "min": ""
+                    }, 
+                    "id": "c7eb29be-2b8c-11e7-b962-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "c7eb18e8-2b8c-11e7-b962-0242ac140004", 
+                    "label": "Color Capture", 
+                    "node_id": "c7eb2252-2b8c-11e7-b962-0242ac140004", 
+                    "sortorder": 3, 
+                    "config": {
+                        "placeholder": "Was color captured during the digitization?", 
+                        "options": [
+                            {
+                                "conceptid": "b0a84a07-bc82-4145-bc51-0a77b35510da", 
+                                "text": "Yes", 
+                                "children": [], 
+                                "sortorder": "1", 
+                                "collector": "", 
+                                "id": "b49da410-f436-4844-b987-2ade6700fe0f"
+                            }, 
+                            {
+                                "conceptid": "46faca3c-c018-49c7-bf26-d05363ead35a", 
+                                "text": "No", 
+                                "children": [], 
+                                "sortorder": "2", 
+                                "collector": "", 
+                                "id": "5bb758dd-5318-4399-b763-581947bbe76d"
+                            }, 
+                            {
+                                "conceptid": "165651af-7c60-41c2-9bed-bd6d2e7bd359", 
+                                "text": "External photos", 
+                                "children": [], 
+                                "sortorder": "3", 
+                                "collector": "", 
+                                "id": "68eda7ed-f167-4b5c-9837-c6b669cc0ead"
+                            }
+                        ], 
+                        "label": "Color Capture"
+                    }, 
+                    "id": "c7eb2856-2b8c-11e7-b962-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
+                    "label": "Description Type", 
+                    "node_id": "946cf710-2b56-11e7-9130-0242ac140004", 
+                    "sortorder": 1, 
+                    "config": {
+                        "placeholder": "Select a description type", 
+                        "options": [], 
+                        "label": "Description Type"
+                    }, 
+                    "id": "946cf83c-2b56-11e7-9130-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000005", 
+                    "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
+                    "label": "Description", 
+                    "node_id": "946cf454-2b56-11e7-9130-0242ac140004", 
+                    "sortorder": 0, 
+                    "config": {
+                        "width": "100%", 
+                        "placeholder": "Enter text", 
+                        "label": "Description"
+                    }, 
+                    "id": "946cf9ae-2b56-11e7-9130-0242ac140004"
                 }
             ], 
             "cards": [
-                {
-                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "helpenabled": false, 
-                    "description": "Branch for the production of a digital resource", 
-                    "visible": true, 
-                    "nodegroup_id": "26506474-2b56-11e7-9130-0242ac140004", 
-                    "helptext": null, 
-                    "sortorder": null, 
-                    "cardid": "26506938-2b56-11e7-9130-0242ac140004", 
-                    "helptitle": null, 
-                    "instructions": "Enter technical information regarding scanners, settings, etc.", 
-                    "active": true, 
-                    "name": "Digital Production"
-                }, 
                 {
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "helpenabled": false, 
@@ -568,6 +763,20 @@
                     "instructions": null, 
                     "active": true, 
                     "name": "Time Span"
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "helpenabled": false, 
+                    "description": "Branch for the production of a digital resource", 
+                    "visible": true, 
+                    "nodegroup_id": "c7eb1276-2b8c-11e7-b962-0242ac140004", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "c7eb18e8-2b8c-11e7-b962-0242ac140004", 
+                    "helptitle": null, 
+                    "instructions": "Enter technical information regarding scanners, settings, etc.", 
+                    "active": true, 
+                    "name": "Digital Production"
                 }
             ], 
             "root": {
