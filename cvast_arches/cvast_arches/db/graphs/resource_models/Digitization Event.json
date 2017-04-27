@@ -1,0 +1,595 @@
+{
+    "graph": [
+        {
+            "subtitle": "", 
+            "functions_x_graphs": [], 
+            "mapfeaturecolor": "rgba(73,177,184,1)", 
+            "isresource": true, 
+            "forms_x_cards": [
+                {
+                    "card_id": "5db47a5a-2b55-11e7-9130-0242ac140004", 
+                    "sortorder": 0, 
+                    "form_id": "39194e68-2b56-11e7-9130-0242ac140004", 
+                    "id": "473f468c-2b56-11e7-9130-0242ac140004"
+                }, 
+                {
+                    "card_id": "26506938-2b56-11e7-9130-0242ac140004", 
+                    "sortorder": 0, 
+                    "form_id": "4855a142-2b56-11e7-9130-0242ac140004", 
+                    "id": "dfcfe758-2b56-11e7-9130-0242ac140004"
+                }, 
+                {
+                    "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
+                    "sortorder": 0, 
+                    "form_id": "99f6981c-2b56-11e7-9130-0242ac140004", 
+                    "id": "a0f5a892-2b56-11e7-9130-0242ac140004"
+                }
+            ], 
+            "relatable_resource_model_ids": [
+                "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                "3854b1f2-14a9-11e7-b06e-0242ac150005", 
+                "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                "f5624ce7-b66c-11e6-84a5-026d961c88e6", 
+                "ccbd1537-ac5e-11e6-84a5-026d961c88e6", 
+                "99417385-b8fa-11e6-84a5-026d961c88e6", 
+                "fad0563b-b8f8-11e6-84a5-026d961c88e6", 
+                "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
+                "64ae35a0-2b53-11e7-9130-0242ac140004"
+            ], 
+            "reports": [], 
+            "iconclass": "fa fa-angle-double-right", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "26506474-2b56-11e7-9130-0242ac140004", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "author": " CVAST", 
+            "deploymentfile": null, 
+            "forms": [
+                {
+                    "iconclass": "fa fa-calendar", 
+                    "subtitle": null, 
+                    "title": "Time span", 
+                    "formid": "39194e68-2b56-11e7-9130-0242ac140004", 
+                    "visible": true, 
+                    "sortorder": 0, 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004"
+                }, 
+                {
+                    "iconclass": "fa fa-wrench", 
+                    "subtitle": null, 
+                    "title": "Digital Production Method", 
+                    "formid": "4855a142-2b56-11e7-9130-0242ac140004", 
+                    "visible": true, 
+                    "sortorder": 1, 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004"
+                }, 
+                {
+                    "iconclass": "fa fa-align-justify", 
+                    "subtitle": null, 
+                    "title": "Description", 
+                    "formid": "99f6981c-2b56-11e7-9130-0242ac140004", 
+                    "visible": true, 
+                    "sortorder": 2, 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004"
+                }
+            ], 
+            "version": "", 
+            "nodes": [
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "26506b18-2b56-11e7-9130-0242ac140004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "26506474-2b56-11e7-9130-0242ac140004", 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": {
+                        "rdmCollection": "97b53c65-d816-4b55-8fde-08dc24eb29cc"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Digital Production Technology"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E1_CRM_Entity", 
+                    "nodeid": "26506cc6-2b56-11e7-9130-0242ac140004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "26506474-2b56-11e7-9130-0242ac140004", 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": {
+                        "rdmCollection": "41875f2c-e130-44ce-ac41-d33c53524d18"
+                    }, 
+                    "parentproperty": "P15_was_influenced_by", 
+                    "name": "Color Capture"
+                }, 
+                {
+                    "is_collector": true, 
+                    "description": "", 
+                    "istopnode": false, 
+                    "ontologyclass": "E13_Attribute_Assignment", 
+                    "nodeid": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": null, 
+                    "parentproperty": "P140i_was_attributed_by", 
+                    "name": "Description Assignment"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "", 
+                    "istopnode": true, 
+                    "ontologyclass": "E7_Activity", 
+                    "nodeid": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": null, 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": null, 
+                    "parentproperty": "", 
+                    "name": "Digitization Event"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E62_String", 
+                    "nodeid": "946cf454-2b56-11e7-9130-0242ac140004", 
+                    "datatype": "string", 
+                    "nodegroup_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": null, 
+                    "parentproperty": "P3_has_note", 
+                    "name": "Description"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E49_Time_Appellation", 
+                    "nodeid": "5db47f46-2b55-11e7-9130-0242ac140004", 
+                    "datatype": "date", 
+                    "nodegroup_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": null, 
+                    "parentproperty": "P78_is_identified_by", 
+                    "name": "To Date"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E49_Time_Appellation", 
+                    "nodeid": "5db47d8e-2b55-11e7-9130-0242ac140004", 
+                    "datatype": "date", 
+                    "nodegroup_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": null, 
+                    "parentproperty": "P78_is_identified_by", 
+                    "name": "From Date"
+                }, 
+                {
+                    "is_collector": true, 
+                    "description": "", 
+                    "istopnode": false, 
+                    "ontologyclass": "E52_Time-Span", 
+                    "nodeid": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": null, 
+                    "parentproperty": "P160_has_temporal_projection", 
+                    "name": "Event Time Span"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "946cf710-2b56-11e7-9130-0242ac140004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": {
+                        "rdmCollection": "b8e04327-c132-4235-8f29-c4ba8c4f7923"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Description Type"
+                }, 
+                {
+                    "is_collector": true, 
+                    "description": "", 
+                    "istopnode": false, 
+                    "ontologyclass": "E12_Production", 
+                    "nodeid": "26506474-2b56-11e7-9130-0242ac140004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "26506474-2b56-11e7-9130-0242ac140004", 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": null, 
+                    "parentproperty": "P134_continued", 
+                    "name": "Digital Production"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "description": "Resource Model for documenting a scan session and the technical specification of that session (scanner settings, etc.)", 
+            "resource_2_resource_constraints": [], 
+            "edges": [
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "26507374-2b56-11e7-9130-0242ac140004", 
+                    "domainnode_id": "26506474-2b56-11e7-9130-0242ac140004", 
+                    "rangenode_id": "26506cc6-2b56-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P15_was_influenced_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "265075ae-2b56-11e7-9130-0242ac140004", 
+                    "domainnode_id": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
+                    "rangenode_id": "26506474-2b56-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P134_continued", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "946cfe5e-2b56-11e7-9130-0242ac140004", 
+                    "domainnode_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "rangenode_id": "946cf454-2b56-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P3_has_note", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "5db48310-2b55-11e7-9130-0242ac140004", 
+                    "domainnode_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "rangenode_id": "5db47d8e-2b55-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P78_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "946cfd28-2b56-11e7-9130-0242ac140004", 
+                    "domainnode_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "rangenode_id": "946cf710-2b56-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "5db484c8-2b55-11e7-9130-0242ac140004", 
+                    "domainnode_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "rangenode_id": "5db47f46-2b55-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P78_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "26507248-2b56-11e7-9130-0242ac140004", 
+                    "domainnode_id": "26506474-2b56-11e7-9130-0242ac140004", 
+                    "rangenode_id": "26506b18-2b56-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "946d002a-2b56-11e7-9130-0242ac140004", 
+                    "domainnode_id": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
+                    "rangenode_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P140i_was_attributed_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "5db48676-2b55-11e7-9130-0242ac140004", 
+                    "domainnode_id": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
+                    "rangenode_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P160_has_temporal_projection", 
+                    "description": null
+                }
+            ], 
+            "maplinewidth": 1, 
+            "mappointsize": 3, 
+            "graphid": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+            "name": "Digitization Event", 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000005", 
+                    "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
+                    "label": "Description", 
+                    "node_id": "946cf454-2b56-11e7-9130-0242ac140004", 
+                    "sortorder": 0, 
+                    "config": {
+                        "width": "100%", 
+                        "placeholder": "Enter text", 
+                        "label": "Description"
+                    }, 
+                    "id": "946cf9ae-2b56-11e7-9130-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "26506938-2b56-11e7-9130-0242ac140004", 
+                    "label": "Color Capture", 
+                    "node_id": "26506cc6-2b56-11e7-9130-0242ac140004", 
+                    "sortorder": 1, 
+                    "config": {
+                        "placeholder": "Was color captured during the digitization?", 
+                        "options": [
+                            {
+                                "conceptid": "b0a84a07-bc82-4145-bc51-0a77b35510da", 
+                                "text": "Yes", 
+                                "children": [], 
+                                "sortorder": "1", 
+                                "collector": "", 
+                                "id": "b49da410-f436-4844-b987-2ade6700fe0f"
+                            }, 
+                            {
+                                "conceptid": "46faca3c-c018-49c7-bf26-d05363ead35a", 
+                                "text": "No", 
+                                "children": [], 
+                                "sortorder": "2", 
+                                "collector": "", 
+                                "id": "5bb758dd-5318-4399-b763-581947bbe76d"
+                            }, 
+                            {
+                                "conceptid": "165651af-7c60-41c2-9bed-bd6d2e7bd359", 
+                                "text": "External photos", 
+                                "children": [], 
+                                "sortorder": "3", 
+                                "collector": "", 
+                                "id": "68eda7ed-f167-4b5c-9837-c6b669cc0ead"
+                            }
+                        ], 
+                        "label": "Color Capture"
+                    }, 
+                    "id": "26506ece-2b56-11e7-9130-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
+                    "label": "Description Type", 
+                    "node_id": "946cf710-2b56-11e7-9130-0242ac140004", 
+                    "sortorder": 1, 
+                    "config": {
+                        "placeholder": "Select a description type", 
+                        "options": [], 
+                        "label": "Description Type"
+                    }, 
+                    "id": "946cf83c-2b56-11e7-9130-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "26506938-2b56-11e7-9130-0242ac140004", 
+                    "label": "Digital Production Technology", 
+                    "node_id": "26506b18-2b56-11e7-9130-0242ac140004", 
+                    "sortorder": 0, 
+                    "config": {
+                        "placeholder": "Technology used for digitization", 
+                        "options": [
+                            {
+                                "text": "3D scanners", 
+                                "conceptid": "49494498-72e1-45ad-8f7d-cda1a90afcf8", 
+                                "collector": "collector", 
+                                "children": [
+                                    {
+                                        "conceptid": "d332ede1-4c8a-4866-9119-25f7b3171f05", 
+                                        "text": "Artec Eva", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "21f3f0b5-e7ea-4af1-8350-cc6f5ef1b9d1"
+                                    }, 
+                                    {
+                                        "conceptid": "92671c7e-5b91-428e-9ce8-2c73d4f0c6b6", 
+                                        "text": "Artec Spider", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "b20141cb-8e95-472a-9f10-6a89c6b0363a"
+                                    }, 
+                                    {
+                                        "conceptid": "73be5b3e-214b-4d17-8cb6-07734b3bf69d", 
+                                        "text": "FARO Edge Arm", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "712565b3-8ae0-4c82-9d4a-12c8c3a3c295"
+                                    }, 
+                                    {
+                                        "conceptid": "dae14003-3fee-4ae3-975a-97cf17063b73", 
+                                        "text": "FARO Focus 110", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "f6fb9b09-467a-47d4-9ce8-7adfd92cb19c"
+                                    }, 
+                                    {
+                                        "conceptid": "a19c1812-0643-419a-b3d5-c562a3e6668b", 
+                                        "text": "FARO Focus3D x330", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "6e0880f6-8176-4b52-ba93-abeea2365768"
+                                    }, 
+                                    {
+                                        "conceptid": "9196979f-9aca-4a32-89fe-65855d27552a", 
+                                        "text": "FARO Focus3D x330 HDR", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "ed672721-8791-4b54-a34f-b4464dff4027"
+                                    }, 
+                                    {
+                                        "conceptid": "61fee06c-c707-446d-b7b8-f853b0dfd151", 
+                                        "text": "FARO Freestyle", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "8ddca1b7-72bd-4638-8e66-f7d9f8a7668f"
+                                    }, 
+                                    {
+                                        "conceptid": "d47eaf5f-bd44-48b7-addd-0cb0323a4e3c", 
+                                        "text": "Konica Minolta Vivid 9i", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "1b642d57-e8f3-4d3b-8ca9-698181e0b78f"
+                                    }
+                                ], 
+                                "sortorder": ""
+                            }, 
+                            {
+                                "text": "Cameras", 
+                                "conceptid": "5d492264-63eb-47f2-a9ed-996c8c6bceea", 
+                                "collector": "collector", 
+                                "children": [
+                                    {
+                                        "conceptid": "363505b6-9272-4e95-b4ca-c88a7b8c8e14", 
+                                        "text": "Canon EOS 5DS", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "f3b1e604-b315-4867-8ab1-54502cd385d6"
+                                    }
+                                ], 
+                                "sortorder": ""
+                            }, 
+                            {
+                                "text": "Drones", 
+                                "conceptid": "ffc6ddd9-2c5a-40ad-bd00-e1a9e81bb626", 
+                                "collector": "collector", 
+                                "children": [
+                                    {
+                                        "conceptid": "e2260e7e-2e39-4f28-b43d-23f50308cd89", 
+                                        "text": "DJI Phantom 4", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "d48c89d0-7f4d-4f0d-ae6e-5e4273203a1a"
+                                    }
+                                ], 
+                                "sortorder": ""
+                            }, 
+                            {
+                                "text": "Other", 
+                                "conceptid": "65e2dbcc-4b7f-473e-b2f3-e9152f27bfc7", 
+                                "collector": "collector", 
+                                "children": [
+                                    {
+                                        "conceptid": "6ebb565f-4238-463e-9c17-570d6226eda9", 
+                                        "text": "6m3 Skyhook Helikite", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "ad98f07d-cb11-4cd4-81ad-05479e02fd89"
+                                    }, 
+                                    {
+                                        "conceptid": "493e1730-0eb6-4619-a981-c30e1dff56de", 
+                                        "text": "Trimble GEO 7x GNSS", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "fead1f97-f73d-43a7-a2b2-cf805d245ad7"
+                                    }
+                                ], 
+                                "sortorder": ""
+                            }
+                        ], 
+                        "label": "Digital Production Technology"
+                    }, 
+                    "id": "26506de8-2b56-11e7-9130-0242ac140004"
+                }
+            ], 
+            "cards": [
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "helpenabled": false, 
+                    "description": "Branch for the production of a digital resource", 
+                    "visible": true, 
+                    "nodegroup_id": "26506474-2b56-11e7-9130-0242ac140004", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "26506938-2b56-11e7-9130-0242ac140004", 
+                    "helptitle": null, 
+                    "instructions": "Enter technical information regarding scanners, settings, etc.", 
+                    "active": true, 
+                    "name": "Digital Production"
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "helpenabled": false, 
+                    "description": "Generic branch for capturing free-form written descriptive information.\nIntended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n\nThis branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n\nConnects to all resources with P140i", 
+                    "visible": true, 
+                    "nodegroup_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "946cf18e-2b56-11e7-9130-0242ac140004", 
+                    "helptitle": null, 
+                    "instructions": "Enter a description and description type for the resource.", 
+                    "active": true, 
+                    "name": "Description"
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "helpenabled": false, 
+                    "description": "Generic time span with start and end date", 
+                    "visible": true, 
+                    "nodegroup_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "5db47a5a-2b55-11e7-9130-0242ac140004", 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "active": true, 
+                    "name": "Time Span"
+                }
+            ], 
+            "root": {
+                "is_collector": false, 
+                "description": "", 
+                "istopnode": true, 
+                "ontologyclass": "E7_Activity", 
+                "nodeid": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
+                "datatype": "semantic", 
+                "nodegroup_id": null, 
+                "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                "config": null, 
+                "name": "Digitization Event"
+            }, 
+            "isactive": true, 
+            "deploymentdate": null
+        }
+    ], 
+    "metadata": {
+        "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
+        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
+        "os version": "4.9.13-moby", 
+        "os": "Linux"
+    }
+}
