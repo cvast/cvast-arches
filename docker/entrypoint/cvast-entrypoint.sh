@@ -37,7 +37,7 @@ db_exists() {
 
 graphs_exist() {
 	row_count=$(psql -h ${PGHOST} -U postgres -d ${PGDBNAME} -Atc "SELECT COUNT(*) FROM public.graphs")
-	if [[ ${row_count} -le 2 ]]; then
+	if [[ ${row_count} -le 3 ]]; then
 		return 1
 	else 
 		return 0
