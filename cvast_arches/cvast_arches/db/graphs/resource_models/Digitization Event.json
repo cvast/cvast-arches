@@ -46,7 +46,7 @@
             "iconclass": "fa fa-barcode", 
             "nodegroups": [
                 {
-                    "cardinality": "1", 
+                    "cardinality": "n", 
                     "legacygroupid": null, 
                     "nodegroupid": "c24558a2-2c4c-11e7-9cab-0242ac140004", 
                     "parentnodegroup_id": null
@@ -492,21 +492,6 @@
             "name": "Digitization Event", 
             "cards_x_nodes_x_widgets": [
                 {
-                    "widget_id": "10000000-0000-0000-0000-000000000008", 
-                    "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
-                    "label": "Resolution Value", 
-                    "node_id": "c24569e6-2c4c-11e7-9cab-0242ac140004", 
-                    "sortorder": 3, 
-                    "config": {
-                        "max": "", 
-                        "label": "Resolution Value", 
-                        "placeholder": "Enter resolution value", 
-                        "width": "100%", 
-                        "min": ""
-                    }, 
-                    "id": "c2456c48-2c4c-11e7-9cab-0242ac140004"
-                }, 
-                {
                     "widget_id": "10000000-0000-0000-0000-000000000002", 
                     "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
                     "label": "Digital Production Technology", 
@@ -651,6 +636,155 @@
                 {
                     "widget_id": "10000000-0000-0000-0000-000000000002", 
                     "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
+                    "label": "Resolution Unit", 
+                    "node_id": "c2456734-2c4c-11e7-9cab-0242ac140004", 
+                    "sortorder": 4, 
+                    "config": {
+                        "placeholder": "Select resolution unit", 
+                        "options": [
+                            {
+                                "conceptid": "0e492db2-a026-4d6b-81f5-e409775be21f", 
+                                "text": "inches", 
+                                "children": [], 
+                                "sortorder": "1", 
+                                "collector": "", 
+                                "id": "5509b823-7ace-4253-a3e5-0ebb5b976392"
+                            }, 
+                            {
+                                "conceptid": "5884d60d-1b8c-40fc-99c8-055bca602fa7", 
+                                "text": "centimeters", 
+                                "children": [], 
+                                "sortorder": "10", 
+                                "collector": "", 
+                                "id": "41722438-4e84-45ed-a3b5-f12e04dcfd5c"
+                            }, 
+                            {
+                                "conceptid": "14923c78-a07a-478f-9d5b-d054de6d98e4", 
+                                "text": "meters", 
+                                "children": [], 
+                                "sortorder": "11", 
+                                "collector": "", 
+                                "id": "b7611b55-55e2-4889-b923-687a89765c02"
+                            }, 
+                            {
+                                "conceptid": "ef64d304-a3c8-450a-a4cd-4462bbd00262", 
+                                "text": "kilometers", 
+                                "children": [], 
+                                "sortorder": "12", 
+                                "collector": "", 
+                                "id": "928219af-a567-40c0-a9ad-8640c8afc800"
+                            }, 
+                            {
+                                "conceptid": "5a2383f4-10d8-41d8-8a2b-c66b4919b955", 
+                                "text": "grams", 
+                                "children": [], 
+                                "sortorder": "13", 
+                                "collector": "", 
+                                "id": "d7a48024-8240-40b9-b8db-dce1067721fa"
+                            }, 
+                            {
+                                "conceptid": "67ffe1c8-3399-481c-87c8-65a0b61bf868", 
+                                "text": "kilograms", 
+                                "children": [], 
+                                "sortorder": "14", 
+                                "collector": "", 
+                                "id": "1064db18-7c59-4e02-9080-d1664bb3742e"
+                            }, 
+                            {
+                                "conceptid": "493af13d-09a2-4e46-9461-d8d6697ae334", 
+                                "text": "degrees", 
+                                "children": [], 
+                                "sortorder": "15", 
+                                "collector": "", 
+                                "id": "46a165fe-5272-4940-b1bc-b74c77afd44a"
+                            }, 
+                            {
+                                "conceptid": "73f04aea-6da6-4b06-aa2e-332126f3a240", 
+                                "text": "feet", 
+                                "children": [], 
+                                "sortorder": "2", 
+                                "collector": "", 
+                                "id": "04705f94-7f76-4021-8490-12546cd323f9"
+                            }, 
+                            {
+                                "conceptid": "00d2586d-0739-45f5-8812-993ae25a540e", 
+                                "text": "yards", 
+                                "children": [], 
+                                "sortorder": "3", 
+                                "collector": "", 
+                                "id": "9eb07bbd-70d6-4929-8d0f-fdd2ffdbf616"
+                            }, 
+                            {
+                                "conceptid": "bf2c2b08-9a80-4a01-b063-2cac9fb16eac", 
+                                "text": "miles", 
+                                "children": [], 
+                                "sortorder": "4", 
+                                "collector": "", 
+                                "id": "b555a5f5-4ac5-43c9-b6f0-8582e06bd2b1"
+                            }, 
+                            {
+                                "conceptid": "a65d1d4a-04b9-4ae5-9ee6-be8cba3da3f0", 
+                                "text": "ounces", 
+                                "children": [], 
+                                "sortorder": "5", 
+                                "collector": "", 
+                                "id": "fda6e884-8eae-4c13-8490-1ff30b6c8246"
+                            }, 
+                            {
+                                "conceptid": "ce8628de-2c44-48ca-a2ee-40375a27c5d5", 
+                                "text": "pounds", 
+                                "children": [], 
+                                "sortorder": "6", 
+                                "collector": "", 
+                                "id": "b9214765-3e1f-4a25-a57e-dfb8af66ad6d"
+                            }, 
+                            {
+                                "conceptid": "701743e7-595b-4a8b-9576-3d46fa52b14c", 
+                                "text": "tons", 
+                                "children": [], 
+                                "sortorder": "7", 
+                                "collector": "", 
+                                "id": "ccd30536-474c-496b-a617-538750c5a714"
+                            }, 
+                            {
+                                "conceptid": "47f1dd47-99c2-4b5a-bd1d-d9cdad77e19e", 
+                                "text": "microns", 
+                                "children": [], 
+                                "sortorder": "8", 
+                                "collector": "", 
+                                "id": "33ca9ce0-1102-48a4-a1f9-dbb01da2c29f"
+                            }, 
+                            {
+                                "conceptid": "a048b03a-f279-454b-baa3-253891cf47bb", 
+                                "text": "millimeters", 
+                                "children": [], 
+                                "sortorder": "9", 
+                                "collector": "", 
+                                "id": "bd87e569-754e-4738-ad22-887be1feb92b"
+                            }
+                        ], 
+                        "label": "Resolution Unit"
+                    }, 
+                    "id": "c2456fea-2c4c-11e7-9cab-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000008", 
+                    "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
+                    "label": "Resolution Value", 
+                    "node_id": "c24569e6-2c4c-11e7-9cab-0242ac140004", 
+                    "sortorder": 3, 
+                    "config": {
+                        "max": "", 
+                        "label": "Resolution Value", 
+                        "placeholder": "Enter resolution value", 
+                        "width": "100%", 
+                        "min": ""
+                    }, 
+                    "id": "c2456c48-2c4c-11e7-9cab-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
                     "label": "Color Capture", 
                     "node_id": "c2456540-2c4c-11e7-9cab-0242ac140004", 
                     "sortorder": 3, 
@@ -715,32 +849,6 @@
                         "label": "Title Type"
                     }, 
                     "id": "0518b002-2c4d-11e7-9cab-0242ac140004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000005", 
-                    "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
-                    "label": "Description", 
-                    "node_id": "946cf454-2b56-11e7-9130-0242ac140004", 
-                    "sortorder": 0, 
-                    "config": {
-                        "width": "100%", 
-                        "placeholder": "Enter text", 
-                        "label": "Description"
-                    }, 
-                    "id": "946cf9ae-2b56-11e7-9130-0242ac140004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000002", 
-                    "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
-                    "label": "Description Type", 
-                    "node_id": "946cf710-2b56-11e7-9130-0242ac140004", 
-                    "sortorder": 1, 
-                    "config": {
-                        "placeholder": "Select a description type", 
-                        "options": [], 
-                        "label": "Description Type"
-                    }, 
-                    "id": "946cf83c-2b56-11e7-9130-0242ac140004"
                 }, 
                 {
                     "widget_id": "10000000-0000-0000-0000-000000000009", 
@@ -827,130 +935,30 @@
                     "id": "c24570b2-2c4c-11e7-9cab-0242ac140004"
                 }, 
                 {
-                    "widget_id": "10000000-0000-0000-0000-000000000002", 
-                    "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
-                    "label": "Resolution Unit", 
-                    "node_id": "c2456734-2c4c-11e7-9cab-0242ac140004", 
-                    "sortorder": 4, 
+                    "widget_id": "10000000-0000-0000-0000-000000000005", 
+                    "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
+                    "label": "Description", 
+                    "node_id": "946cf454-2b56-11e7-9130-0242ac140004", 
+                    "sortorder": 0, 
                     "config": {
-                        "placeholder": "Select resolution unit", 
-                        "options": [
-                            {
-                                "conceptid": "0e492db2-a026-4d6b-81f5-e409775be21f", 
-                                "text": "inches", 
-                                "children": [], 
-                                "sortorder": "1", 
-                                "collector": "", 
-                                "id": "5509b823-7ace-4253-a3e5-0ebb5b976392"
-                            }, 
-                            {
-                                "conceptid": "5884d60d-1b8c-40fc-99c8-055bca602fa7", 
-                                "text": "centimeters", 
-                                "children": [], 
-                                "sortorder": "10", 
-                                "collector": "", 
-                                "id": "41722438-4e84-45ed-a3b5-f12e04dcfd5c"
-                            }, 
-                            {
-                                "conceptid": "14923c78-a07a-478f-9d5b-d054de6d98e4", 
-                                "text": "meters", 
-                                "children": [], 
-                                "sortorder": "11", 
-                                "collector": "", 
-                                "id": "b7611b55-55e2-4889-b923-687a89765c02"
-                            }, 
-                            {
-                                "conceptid": "ef64d304-a3c8-450a-a4cd-4462bbd00262", 
-                                "text": "kilometers", 
-                                "children": [], 
-                                "sortorder": "12", 
-                                "collector": "", 
-                                "id": "928219af-a567-40c0-a9ad-8640c8afc800"
-                            }, 
-                            {
-                                "conceptid": "5a2383f4-10d8-41d8-8a2b-c66b4919b955", 
-                                "text": "grams", 
-                                "children": [], 
-                                "sortorder": "13", 
-                                "collector": "", 
-                                "id": "d7a48024-8240-40b9-b8db-dce1067721fa"
-                            }, 
-                            {
-                                "conceptid": "67ffe1c8-3399-481c-87c8-65a0b61bf868", 
-                                "text": "kilograms", 
-                                "children": [], 
-                                "sortorder": "14", 
-                                "collector": "", 
-                                "id": "1064db18-7c59-4e02-9080-d1664bb3742e"
-                            }, 
-                            {
-                                "conceptid": "73f04aea-6da6-4b06-aa2e-332126f3a240", 
-                                "text": "feet", 
-                                "children": [], 
-                                "sortorder": "2", 
-                                "collector": "", 
-                                "id": "04705f94-7f76-4021-8490-12546cd323f9"
-                            }, 
-                            {
-                                "conceptid": "00d2586d-0739-45f5-8812-993ae25a540e", 
-                                "text": "yards", 
-                                "children": [], 
-                                "sortorder": "3", 
-                                "collector": "", 
-                                "id": "9eb07bbd-70d6-4929-8d0f-fdd2ffdbf616"
-                            }, 
-                            {
-                                "conceptid": "bf2c2b08-9a80-4a01-b063-2cac9fb16eac", 
-                                "text": "miles", 
-                                "children": [], 
-                                "sortorder": "4", 
-                                "collector": "", 
-                                "id": "b555a5f5-4ac5-43c9-b6f0-8582e06bd2b1"
-                            }, 
-                            {
-                                "conceptid": "a65d1d4a-04b9-4ae5-9ee6-be8cba3da3f0", 
-                                "text": "ounces", 
-                                "children": [], 
-                                "sortorder": "5", 
-                                "collector": "", 
-                                "id": "fda6e884-8eae-4c13-8490-1ff30b6c8246"
-                            }, 
-                            {
-                                "conceptid": "ce8628de-2c44-48ca-a2ee-40375a27c5d5", 
-                                "text": "pounds", 
-                                "children": [], 
-                                "sortorder": "6", 
-                                "collector": "", 
-                                "id": "b9214765-3e1f-4a25-a57e-dfb8af66ad6d"
-                            }, 
-                            {
-                                "conceptid": "701743e7-595b-4a8b-9576-3d46fa52b14c", 
-                                "text": "tons", 
-                                "children": [], 
-                                "sortorder": "7", 
-                                "collector": "", 
-                                "id": "ccd30536-474c-496b-a617-538750c5a714"
-                            }, 
-                            {
-                                "conceptid": "47f1dd47-99c2-4b5a-bd1d-d9cdad77e19e", 
-                                "text": "microns", 
-                                "children": [], 
-                                "sortorder": "8", 
-                                "collector": "", 
-                                "id": "33ca9ce0-1102-48a4-a1f9-dbb01da2c29f"
-                            }, 
-                            {
-                                "conceptid": "a048b03a-f279-454b-baa3-253891cf47bb", 
-                                "text": "millimeters", 
-                                "children": [], 
-                                "sortorder": "9", 
-                                "collector": "", 
-                                "id": "bd87e569-754e-4738-ad22-887be1feb92b"
-                            }
-                        ], 
-                        "label": "Resolution Unit"
+                        "width": "100%", 
+                        "placeholder": "Enter text", 
+                        "label": "Description"
                     }, 
-                    "id": "c2456fea-2c4c-11e7-9cab-0242ac140004"
+                    "id": "946cf9ae-2b56-11e7-9130-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
+                    "label": "Description Type", 
+                    "node_id": "946cf710-2b56-11e7-9130-0242ac140004", 
+                    "sortorder": 1, 
+                    "config": {
+                        "placeholder": "Select a description type", 
+                        "options": [], 
+                        "label": "Description Type"
+                    }, 
+                    "id": "946cf83c-2b56-11e7-9130-0242ac140004"
                 }, 
                 {
                     "widget_id": "10000000-0000-0000-0000-000000000001", 
