@@ -1863,7 +1863,7 @@
                     "sortorder": 1, 
                     "config": {
                         "maxFilesize": "200000", 
-                        "acceptedFiles": ".JPEG, .JPG, .GIF, .TIF, .TIFF, .PNG, .BMP, .RAW, .POD, .DP, .PTX, .LAS, .E57, .RCP, .PTS, .XYZ, .FLS, .3DS, .DAE, .IGS, .OBJ, .PLY, .SKP, .STL, .VRML, .WRP, .ZTL, .AVI, .MKV, .MOV, .MP4, .DWG, .DXF, .AAC, .MP3, .WAV, .CSV, .HTML, .MTL, .PDF, .RDF, .SVG, .TXT, .XML", 
+                        "acceptedFiles": "image/*, video/*, audio/*, .RAW, .POD, .DP, .PTX, .LAS, .E57, .RCP, .PTS, .XYZ, .FLS, .3DS, .DAE, .IGS, .OBJ, .PLY, .SKP, .STL, .VRML, .WRP, .ZTL, .DWG, .DXF, .CSV, .HTML, .MTL, .PDF, .RDF, .SVG, .TXT, .XML", 
                         "label": "Information Carrier"
                     }, 
                     "id": "db3a6bf6-2920-11e7-a99f-0242ac140004"
