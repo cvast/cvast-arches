@@ -1368,19 +1368,6 @@
             "name": "File (set)", 
             "cards_x_nodes_x_widgets": [
                 {
-                    "widget_id": "10000000-0000-0000-0000-000000000019", 
-                    "card_id": "9f210d2f-e74a-11e6-84a6-026d961c88e6", 
-                    "label": "Information Carrier", 
-                    "node_id": "9f210d2d-e74a-11e6-84a6-026d961c88e6", 
-                    "sortorder": 1, 
-                    "config": {
-                        "maxFilesize": "200000", 
-                        "acceptedFiles": "", 
-                        "label": "Information Carrier"
-                    }, 
-                    "id": "db3a6bf6-2920-11e7-a99f-0242ac140004"
-                }, 
-                {
                     "widget_id": "10000000-0000-0000-0000-000000000002", 
                     "card_id": "ccf21fb8-2933-11e7-a99f-0242ac140004", 
                     "label": "Administrative Subdivision Type", 
@@ -1869,6 +1856,19 @@
                     "id": "db3a323a-2920-11e7-a99f-0242ac140004"
                 }, 
                 {
+                    "widget_id": "10000000-0000-0000-0000-000000000019", 
+                    "card_id": "9f210d2f-e74a-11e6-84a6-026d961c88e6", 
+                    "label": "Information Carrier", 
+                    "node_id": "9f210d2d-e74a-11e6-84a6-026d961c88e6", 
+                    "sortorder": 1, 
+                    "config": {
+                        "maxFilesize": "200000", 
+                        "acceptedFiles": ".JPEG, .JPG, .GIF, .TIF, .TIFF, .PNG, .BMP, .RAW, .POD, .DP, .PTX, .LAS, .E57, .RCP, .PTS, .XYZ, .FLS, .3DS, .DAE, .IGS, .OBJ, .PLY, .SKP, .STL, .VRML, .WRP, .ZTL, .AVI, .MKV, .MOV, .MP4, .DWG, .DXF, .AAC, .MP3, .WAV, .CSV, .HTML, .MTL, .PDF, .RDF, .SVG, .TXT, .XML", 
+                        "label": "Information Carrier"
+                    }, 
+                    "id": "db3a6bf6-2920-11e7-a99f-0242ac140004"
+                }, 
+                {
                     "widget_id": "10000000-0000-0000-0000-000000000005", 
                     "card_id": "3186aaf8-29d3-11e7-abf7-0242ac140004", 
                     "label": "Description", 
@@ -2161,16 +2161,16 @@
                 {
                     "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
                     "helpenabled": false, 
-                    "description": "Generic branch for capturing free-form written descriptive information.\nIntended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n\nThis branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n\nConnects to all resources with P140i", 
+                    "description": "", 
                     "visible": true, 
-                    "nodegroup_id": "3186a5ee-29d3-11e7-abf7-0242ac140004", 
+                    "nodegroup_id": "3186975c-29d3-11e7-abf7-0242ac140004", 
                     "helptext": null, 
-                    "sortorder": 2, 
-                    "cardid": "3186aaf8-29d3-11e7-abf7-0242ac140004", 
+                    "sortorder": 1, 
+                    "cardid": "31869de2-29d3-11e7-abf7-0242ac140004", 
                     "helptitle": null, 
-                    "instructions": "Enter a description and description type for the resource.", 
+                    "instructions": "Select the date of the publication for the information resource.", 
                     "active": true, 
-                    "name": "Description"
+                    "name": "Publication Date"
                 }, 
                 {
                     "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
@@ -2203,16 +2203,16 @@
                 {
                     "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
                     "helpenabled": false, 
-                    "description": "", 
+                    "description": "Used to hold identifiers necessary to link a given resource to records in an external (perhaps legacy) system.", 
                     "visible": true, 
-                    "nodegroup_id": "3186975c-29d3-11e7-abf7-0242ac140004", 
+                    "nodegroup_id": "3186acc4-29d3-11e7-abf7-0242ac140004", 
                     "helptext": null, 
-                    "sortorder": 1, 
-                    "cardid": "31869de2-29d3-11e7-abf7-0242ac140004", 
+                    "sortorder": 0, 
+                    "cardid": "3186b14c-29d3-11e7-abf7-0242ac140004", 
                     "helptitle": null, 
-                    "instructions": "Select the date of the publication for the information resource.", 
+                    "instructions": "Where is this resource published?", 
                     "active": true, 
-                    "name": "Publication Date"
+                    "name": "Publication Identifier"
                 }, 
                 {
                     "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
@@ -2231,20 +2231,6 @@
                 {
                     "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
                     "helpenabled": false, 
-                    "description": "An object or substance used to record and accumulate data", 
-                    "visible": true, 
-                    "nodegroup_id": "9f210d2d-e74a-11e6-84a6-026d961c88e6", 
-                    "helptext": null, 
-                    "sortorder": null, 
-                    "cardid": "9f210d2f-e74a-11e6-84a6-026d961c88e6", 
-                    "helptitle": null, 
-                    "instructions": "Select the information carrier for the information resource.", 
-                    "active": true, 
-                    "name": "Information Carrier"
-                }, 
-                {
-                    "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
-                    "helpenabled": false, 
                     "description": "Used to define legal privileges associated with an Information Resource.", 
                     "visible": true, 
                     "nodegroup_id": "94d998b7-e74a-11e6-84a6-026d961c88e6", 
@@ -2255,6 +2241,20 @@
                     "instructions": "Describe the copyright for the information resource.", 
                     "active": true, 
                     "name": "Information Resource Copyright"
+                }, 
+                {
+                    "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
+                    "helpenabled": false, 
+                    "description": "An object or substance used to record and accumulate data", 
+                    "visible": true, 
+                    "nodegroup_id": "9f210d2d-e74a-11e6-84a6-026d961c88e6", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "9f210d2f-e74a-11e6-84a6-026d961c88e6", 
+                    "helptitle": null, 
+                    "instructions": "Select the information carrier for the information resource.", 
+                    "active": true, 
+                    "name": "Information Carrier"
                 }, 
                 {
                     "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
@@ -2301,16 +2301,16 @@
                 {
                     "graph_id": "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
                     "helpenabled": false, 
-                    "description": "Used to hold identifiers necessary to link a given resource to records in an external (perhaps legacy) system.", 
+                    "description": "Generic branch for capturing free-form written descriptive information.\nIntended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n\nThis branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n\nConnects to all resources with P140i", 
                     "visible": true, 
-                    "nodegroup_id": "3186acc4-29d3-11e7-abf7-0242ac140004", 
+                    "nodegroup_id": "3186a5ee-29d3-11e7-abf7-0242ac140004", 
                     "helptext": null, 
-                    "sortorder": 0, 
-                    "cardid": "3186b14c-29d3-11e7-abf7-0242ac140004", 
+                    "sortorder": 2, 
+                    "cardid": "3186aaf8-29d3-11e7-abf7-0242ac140004", 
                     "helptitle": null, 
-                    "instructions": "Where is this resource published?", 
+                    "instructions": "Enter a description and description type for the resource.", 
                     "active": true, 
-                    "name": "Publication Identifier"
+                    "name": "Description"
                 }
             ], 
             "root": {
