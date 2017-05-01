@@ -1,0 +1,11 @@
+.git
+.eggs
+.github
+.idea
+.vscode
+.editorconfig
+.gitignore
+.travis.yml
+
+docker-compose-local.yml
+Dockerfile*
