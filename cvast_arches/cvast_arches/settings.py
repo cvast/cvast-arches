@@ -86,6 +86,11 @@ PACKAGE_NAME = APP_ROOT.split(os.sep)[-1]
 
 STATICFILES_DIRS =  (os.path.join(APP_ROOT, 'media'),) + STATICFILES_DIRS
 
+# URL prefix for static files.
+# Example: "http://media.lawrence.com/static/"
+# Note: Prefix is used when Arches is accessed through a proxy using a subdirectory (e.g. example.com/arches)
+STATIC_URL = '%s/media/' % get_optional_env_variable('DJANGO_MEDIA_PREFIX')
+
 FUNCTION_TEMPLATES = os.path.join(APP_ROOT, 'functions', 'templates')
 PROJECT_TEMPLATES = os.path.join(APP_ROOT, 'templates')
 TEMPLATES[0]['DIRS'].append(FUNCTION_TEMPLATES)
@@ -95,8 +100,6 @@ SECRET_KEY = '5xp6px1(3zu@de!cyw_(&l*l!zaha#a5&$3g$xk6#&0)5eri!$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
 
 ROOT_URLCONF = 'cvast_arches.urls'
 WSGI_APPLICATION = 'cvast_arches.wsgi.application'
