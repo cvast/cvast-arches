@@ -84,12 +84,21 @@ if EC2_PUBLIC_HOSTNAME:
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 PACKAGE_NAME = APP_ROOT.split(os.sep)[-1]
 
+# Note: Prefix is used when Arches is accessed through a proxy using a subdirectory (e.g. example.com/arches)
+DJANGO_SUBPATH = get_optional_env_variable('DJANGO_SUBPATH')
+DJANGO_SUBPATH = "" if DJANGO_SUBPATH is None else DJANGO_SUBPATH
+
+FORCE_SCRIPT_NAME = DJANGO_SUBPATH
+
+# # Setup support for proxy headers
+# USE_X_FORWARDED_HOST = True
+# SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 STATICFILES_DIRS =  (os.path.join(APP_ROOT, 'media'),) + STATICFILES_DIRS
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-# Note: Prefix is used when Arches is accessed through a proxy using a subdirectory (e.g. example.com/arches)
-STATIC_URL = '%s/media/' % get_optional_env_variable('DJANGO_MEDIA_PREFIX')
+STATIC_URL = '%s/media/' % DJANGO_SUBPATH
 
 FUNCTION_TEMPLATES = os.path.join(APP_ROOT, 'functions', 'templates')
 PROJECT_TEMPLATES = os.path.join(APP_ROOT, 'templates')
