@@ -123,28 +123,30 @@ AWS_SECRET_ACCESS_KEY = get_env_variable('DJANGO_S3_AWS_SECRET_ACCESS_KEY')
 S3_URL = 'http://%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
 MEDIA_URL = S3_URL
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(ROOT_DIR, 'logs', 'arches.log'),
+        },
+    },
+    'loggers': {
+        'arches': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        }
+    }
+}
+
+
 # ROOT_DIR = ''
 # PACKAGE_NAME = ''
 # SEARCH_BACKEND = ''
 
-# DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.contrib.gis.db.backends.postgis',
-#        'NAME': 'arches',
-#        'USER': 'postgres',
-#        'PASSWORD': 'postgis',
-#        'HOST': 'localhost',
-#        'PORT': '5432',
-#        'POSTGIS_TEMPLATE': 'template_postgis_20',
-#    }
-#}
-
-# ELASTICSEARCH_HTTP_PORT = 9200 # this should be in increments of 200, eg: 9400, 9600, 9800
-# SEARCH_BACKEND = 'arches.app.search.search.SearchEngine'
-# # see http://elasticsearch-py.readthedocs.org/en/master/api.html#elasticsearch.Elasticsearch
-# ELASTICSEARCH_HOSTS = [
-#     {'host': 'localhost', 'port': ELASTICSEARCH_HTTP_PORT}
-# ]
 # ELASTICSEARCH_CONNECTION_OPTIONS = {'timeout': 30}
 
 
