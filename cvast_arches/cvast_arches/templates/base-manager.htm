@@ -372,7 +372,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                                         <!--Menu list item-->
                                         {% if request.user|has_group:"Resource Editor" %}
                                         <li{% if "views/resource" in main_script %} class="active-sub"{% endif %}>
-                                            <a href="/resource" data-bind="click: navigate.bind(this, '/resource') ">
+                                            <a href="{% url 'resource' %}" data-bind="click: navigate.bind(this, '{% url 'resource' %}') ">
                                                 <i class="fa fa-building-o"></i>
                                                 <span class="menu-title">
                                                     <strong>Add New Resource</strong>
@@ -382,10 +382,10 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                                                 <!-- ko foreach: allGraphs -->
                                                 <!-- ko if: isresource -->
                                                 <li class="link-submenu-item">
-                                                    <a class="link-submenu" href="#" data-bind="click: disable_instance_creation ? null: $parent.navigate.bind(this, '/graph/' + graphid + '/add_resource'),
+                                                    <a class="link-submenu" href="#" data-bind="click: disable_instance_creation ? null: $parent.navigate.bind(this, '{% url 'graph' '' %}' + graphid + '/add_resource'),
                                                         css: { 'arches-menu-item-disabled': disable_instance_creation },
                                                         attr: {
-                                                            href: disable_instance_creation ? '#' : ('/graph/' + graphid + '/add_resource')
+                                                            href: disable_instance_creation ? '#' : ('{% url 'graph' '' %}' + graphid + '/add_resource')
                                                         }">
                                                         <i class="fa arches-menu-icon" data-bind="css: iconclass"></i> <span data-bind="text:name"></span></a>
                                                 </li>
@@ -406,10 +406,10 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                                             </a>
                                             <ul class="collapse" aria-expanded="false">
                                                 <li class="link-submenu-item">
-                                                    <a class="link-submenu"  href="/graph" data-bind="click: navigate.bind(this, '/graph')">{% trans "Resource Models" %}</a>
+                                                    <a class="link-submenu"  href="{% url 'graph' '' %}" data-bind="click: navigate.bind(this, '{% url 'graph' '' %}')">{% trans "Resource Models" %}</a>
                                                 </li>
                                                 <li class="link-submenu-item">
-                                                    <a class="link-submenu" href="/graph#branches" data-bind="click: navigate.bind(this, '/graph#branches')">{% trans "Branches" %}</a>
+                                                    <a class="link-submenu" href="{% url 'graph' '' %}#branches" data-bind="click: navigate.bind(this, '{% url 'graph' '' %}#branches')">{% trans "Branches" %}</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -440,13 +440,13 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                                             </a>
                                             <ul class="collapse" aria-expanded="false">
                                                 <li class="link-submenu-item">
-                                                    <a class="link-submenu"  href="/graph" data-bind="click: navigate.bind(this, '/graph')">{% trans "Resource" %}</a>
+                                                    <a class="link-submenu" href="{% url 'map_layer_manager' %}" data-bind="click: navigate.bind(this, '{% url 'map_layer_manager' %}')">{% trans "Resource Layers" %}</a>
                                                 </li>
                                                 <li class="link-submenu-item">
-                                                    <a class="link-submenu" href="/graph#basemaps" data-bind="click: navigate.bind(this, '/graph#branches')">{% trans "Basemaps" %}</a>
+                                                    <a class="link-submenu" href="{% url 'map_layer_manager' %}#basemaps" data-bind="click: navigate.bind(this, '{% url 'map_layer_manager' %}#basemaps')">{% trans "Basemaps" %}</a>
                                                 </li>
                                                 <li class="link-submenu-item">
-                                                    <a class="link-submenu" href="/graph#branches" data-bind="click: navigate.bind(this, '/graph#overlays')">{% trans "Overlays" %}</a>
+                                                    <a class="link-submenu" href="{% url 'map_layer_manager' %}#overlays" data-bind="click: navigate.bind(this, '{% url 'map_layer_manager' %}#overlays')">{% trans "Overlays" %}</a>
                                                 </li>
                                             </ul>
                                         </li>
