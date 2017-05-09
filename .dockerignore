@@ -9,3 +9,5 @@
 
 docker-compose-local.yml
 Dockerfile*
+
+cvast_arches/cvast_arches/media/bower_components
