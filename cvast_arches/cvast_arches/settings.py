@@ -103,11 +103,13 @@ FUNCTION_TEMPLATES = os.path.join(APP_ROOT, 'functions', 'templates')
 PROJECT_TEMPLATES = os.path.join(APP_ROOT, 'templates')
 TEMPLATES[0]['DIRS'].append(FUNCTION_TEMPLATES)
 TEMPLATES[0]['DIRS'].insert(0, PROJECT_TEMPLATES)
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '5xp6px1(3zu@de!cyw_(&l*l!zaha#a5&$3g$xk6#&0)5eri!$'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# SECURITY WARNING: keep the secret key used in production secret!
+# Make this unique, and don't share it with anybody.
+SECRET_KEY = get_optional_env_variable('DJANGO_SECRET_KEY')
+if not SECRET_KEY:
+    # Dev key
+    SECRET_KEY = '5xp6px1(3zu@de!cyw_(&l*l!zaha#a5&$3g$xk6#&0)5eri!$'
 
 ROOT_URLCONF = 'cvast_arches.urls'
 WSGI_APPLICATION = 'cvast_arches.wsgi.application'
