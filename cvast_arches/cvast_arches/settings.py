@@ -26,7 +26,7 @@ def get_optional_env_variable(var_name):
     try:
         return os.environ[var_name]
     except KeyError:
-        return None    
+        return None
 
 
 
@@ -78,7 +78,6 @@ if EC2_PUBLIC_HOSTNAME:
 
 
 
-
 ### Regular settings
 
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
@@ -91,10 +90,10 @@ DJANGO_SUBPATH = "" if DJANGO_SUBPATH is None else DJANGO_SUBPATH
 FORCE_SCRIPT_NAME = DJANGO_SUBPATH
 
 # # Setup support for proxy headers
-# USE_X_FORWARDED_HOST = True
-# SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+USE_X_FORWARDED_HOST = True
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-STATICFILES_DIRS =  (os.path.join(APP_ROOT, 'media'),) + STATICFILES_DIRS
+STATICFILES_DIRS = (os.path.join(APP_ROOT, 'media'),) + STATICFILES_DIRS
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
