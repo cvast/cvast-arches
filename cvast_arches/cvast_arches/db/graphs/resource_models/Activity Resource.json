@@ -21,7 +21,7 @@
                             "nodegroup_id": "b9e90911-e741-11e6-84a6-026d961c88e6"
                         }
                     }, 
-                    "id": "430a81fc-29ef-11e7-9820-0242ac140004"
+                    "id": "41c479f8-46df-11e7-9eaf-0242ac130004"
                 }
             ], 
             "mapfeaturecolor": "rgba(0,255,117,1)", 
@@ -71,15 +71,15 @@
                 }
             ], 
             "relatable_resource_model_ids": [
-                "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
-                "ccbd1537-ac5e-11e6-84a5-026d961c88e6", 
                 "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                "99417385-b8fa-11e6-84a5-026d961c88e6", 
                 "f5624ce7-b66c-11e6-84a5-026d961c88e6", 
-                "fad0563b-b8f8-11e6-84a5-026d961c88e6", 
+                "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                "ccbd1537-ac5e-11e6-84a5-026d961c88e6", 
+                "99417385-b8fa-11e6-84a5-026d961c88e6", 
+                "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
                 "3854b1f2-14a9-11e7-b06e-0242ac150005", 
-                "64ae35a0-2b53-11e7-9130-0242ac140004"
+                "fad0563b-b8f8-11e6-84a5-026d961c88e6"
             ], 
             "reports": [
                 {
@@ -310,63 +310,27 @@
                     "parentnodegroup_id": null
                 }, 
                 {
-                    "cardinality": "1", 
-                    "legacygroupid": null, 
-                    "nodegroupid": "f74db64f-e741-11e6-84a6-026d961c88e6", 
-                    "parentnodegroup_id": "f74db658-e741-11e6-84a6-026d961c88e6"
-                }, 
-                {
-                    "cardinality": "n", 
-                    "legacygroupid": null, 
-                    "nodegroupid": "2b6dd397-e741-11e6-84a6-026d961c88e6", 
-                    "parentnodegroup_id": null
-                }, 
-                {
-                    "cardinality": "n", 
-                    "legacygroupid": null, 
-                    "nodegroupid": "61f1a1b9-e741-11e6-84a6-026d961c88e6", 
-                    "parentnodegroup_id": null
-                }, 
-                {
-                    "cardinality": "n", 
-                    "legacygroupid": null, 
-                    "nodegroupid": "f74db649-e741-11e6-84a6-026d961c88e6", 
-                    "parentnodegroup_id": "f74db658-e741-11e6-84a6-026d961c88e6"
-                }, 
-                {
-                    "cardinality": "1", 
-                    "legacygroupid": null, 
-                    "nodegroupid": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
-                    "parentnodegroup_id": null
-                }, 
-                {
-                    "cardinality": "n", 
-                    "legacygroupid": null, 
-                    "nodegroupid": "f74db655-e741-11e6-84a6-026d961c88e6", 
-                    "parentnodegroup_id": "f74db658-e741-11e6-84a6-026d961c88e6"
-                }, 
-                {
-                    "cardinality": "n", 
-                    "legacygroupid": null, 
-                    "nodegroupid": "b9e90911-e741-11e6-84a6-026d961c88e6", 
-                    "parentnodegroup_id": null
-                }, 
-                {
                     "cardinality": "n", 
                     "legacygroupid": null, 
                     "nodegroupid": "f74db652-e741-11e6-84a6-026d961c88e6", 
                     "parentnodegroup_id": "f74db658-e741-11e6-84a6-026d961c88e6"
                 }, 
                 {
-                    "cardinality": "1", 
+                    "cardinality": "n", 
                     "legacygroupid": null, 
-                    "nodegroupid": "85c6a1bb-e741-11e6-84a6-026d961c88e6", 
-                    "parentnodegroup_id": "85c6a1be-e741-11e6-84a6-026d961c88e6"
+                    "nodegroupid": "ab7463df-e741-11e6-84a6-026d961c88e6", 
+                    "parentnodegroup_id": null
                 }, 
                 {
                     "cardinality": "1", 
                     "legacygroupid": null, 
                     "nodegroupid": "f74db658-e741-11e6-84a6-026d961c88e6", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "2b6dd397-e741-11e6-84a6-026d961c88e6", 
                     "parentnodegroup_id": null
                 }, 
                 {
@@ -378,7 +342,43 @@
                 {
                     "cardinality": "n", 
                     "legacygroupid": null, 
-                    "nodegroupid": "ab7463df-e741-11e6-84a6-026d961c88e6", 
+                    "nodegroupid": "61f1a1b9-e741-11e6-84a6-026d961c88e6", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "b9e90911-e741-11e6-84a6-026d961c88e6", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "f74db64f-e741-11e6-84a6-026d961c88e6", 
+                    "parentnodegroup_id": "f74db658-e741-11e6-84a6-026d961c88e6"
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "f74db649-e741-11e6-84a6-026d961c88e6", 
+                    "parentnodegroup_id": "f74db658-e741-11e6-84a6-026d961c88e6"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "85c6a1bb-e741-11e6-84a6-026d961c88e6", 
+                    "parentnodegroup_id": "85c6a1be-e741-11e6-84a6-026d961c88e6"
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "f74db655-e741-11e6-84a6-026d961c88e6", 
+                    "parentnodegroup_id": "f74db658-e741-11e6-84a6-026d961c88e6"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
                     "parentnodegroup_id": null
                 }
             ], 
@@ -432,36 +432,25 @@
                     "nodeid": "0cbaba67-e742-11e6-84a6-026d961c88e6", 
                     "datatype": "semantic", 
                     "nodegroup_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
                     "parentproperty": "P4_has_time-span", 
                     "name": "Beginning of Existence Time Span"
                 }, 
                 {
-                    "is_collector": false, 
+                    "is_collector": true, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E49_Time_Appellation", 
-                    "nodeid": "0cbaba66-e742-11e6-84a6-026d961c88e6", 
-                    "datatype": "date", 
-                    "nodegroup_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
+                    "ontologyclass": "E45_Address", 
+                    "nodeid": "f74db649-e741-11e6-84a6-026d961c88e6", 
+                    "datatype": "string", 
+                    "nodegroup_id": "f74db649-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
-                    "parentproperty": "P78_is_identified_by", 
-                    "name": "End Date of Existence"
-                }, 
-                {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "E52_Time-Span", 
-                    "nodeid": "0cbaba68-e742-11e6-84a6-026d961c88e6", 
-                    "datatype": "semantic", 
-                    "nodegroup_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "config": null, 
-                    "parentproperty": "P4_has_time-span", 
-                    "name": "End of Existence Time Span"
+                    "parentproperty": "P87_is_identified_by", 
+                    "name": "Place Address"
                 }, 
                 {
                     "is_collector": false, 
@@ -471,6 +460,7 @@
                     "nodeid": "243f8688-b8f6-11e6-84a5-026d961c88e6", 
                     "datatype": "semantic", 
                     "nodegroup_id": null, 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
                     "parentproperty": "", 
@@ -484,6 +474,7 @@
                     "nodeid": "f74db65f-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "concept", 
                     "nodegroup_id": "f74db64f-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": {
                         "rdmCollection": null
@@ -495,10 +486,27 @@
                     "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "ab7463e3-e741-11e6-84a6-026d961c88e6", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "ab7463df-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "config": {
+                        "rdmCollection": null
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Description Type"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
                     "ontologyclass": "E49_Time_Appellation", 
                     "nodeid": "0cbaba69-e742-11e6-84a6-026d961c88e6", 
                     "datatype": "date", 
                     "nodegroup_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
                     "parentproperty": "P78_is_identified_by", 
@@ -512,12 +520,41 @@
                     "nodeid": "0cbaba6a-e742-11e6-84a6-026d961c88e6", 
                     "datatype": "concept", 
                     "nodegroup_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": {
                         "rdmCollection": "216ee2fb-4197-4f84-84dd-3a38d59480fb"
                     }, 
                     "parentproperty": "P2_has_type", 
                     "name": "Start Date Type"
+                }, 
+                {
+                    "is_collector": true, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E13_Attribute_Assignment", 
+                    "nodeid": "f74db64c-e741-11e6-84a6-026d961c88e6", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "f74db64c-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "config": null, 
+                    "parentproperty": "P140i_was_attributed_by", 
+                    "name": "Place Description Assignment"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "", 
+                    "istopnode": false, 
+                    "ontologyclass": "E63_Beginning_of_Existence", 
+                    "nodeid": "0cbaba6c-e742-11e6-84a6-026d961c88e6", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "config": null, 
+                    "parentproperty": "P116i_is_started_by", 
+                    "name": "Beginning of Existence"
                 }, 
                 {
                     "is_collector": false, 
@@ -527,6 +564,7 @@
                     "nodeid": "0cbaba6d-e742-11e6-84a6-026d961c88e6", 
                     "datatype": "concept", 
                     "nodegroup_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": {
                         "rdmCollection": "873866bb-d7c6-46a7-94fd-8a085d8eff57"
@@ -542,6 +580,7 @@
                     "nodeid": "f74db64f-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "geojson-feature-collection", 
                     "nodegroup_id": "f74db64f-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": {
                         "clusterMaxZoom": 5, 
@@ -578,23 +617,11 @@
                     "nodeid": "0cbaba6b-e742-11e6-84a6-026d961c88e6", 
                     "datatype": "semantic", 
                     "nodegroup_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
                     "parentproperty": "P115i_is_finished_by", 
                     "name": "End of Existence"
-                }, 
-                {
-                    "is_collector": true, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "E17_Type_Assignment", 
-                    "nodeid": "85c6a1bb-e741-11e6-84a6-026d961c88e6", 
-                    "datatype": "semantic", 
-                    "nodegroup_id": "85c6a1bb-e741-11e6-84a6-026d961c88e6", 
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "config": null, 
-                    "parentproperty": "P41i_was_classified_by", 
-                    "name": "Phase Type Assignment"
                 }, 
                 {
                     "is_collector": true, 
@@ -604,25 +631,25 @@
                     "nodeid": "b9e90911-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "string", 
                     "nodegroup_id": "b9e90911-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
                     "parentproperty": "P1_is_identified_by", 
                     "name": "Name"
                 }, 
                 {
-                    "is_collector": false, 
+                    "is_collector": true, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E55_Type", 
-                    "nodeid": "b9e90914-e741-11e6-84a6-026d961c88e6", 
-                    "datatype": "concept", 
-                    "nodegroup_id": "b9e90911-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyclass": "E44_Place_Appellation", 
+                    "nodeid": "f74db652-e741-11e6-84a6-026d961c88e6", 
+                    "datatype": "string", 
+                    "nodegroup_id": "f74db652-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "config": {
-                        "rdmCollection": "051b5950-2c1e-49ff-af0d-dfbaa971d2fa"
-                    }, 
-                    "parentproperty": "P2_has_type", 
-                    "name": "Name Type"
+                    "config": null, 
+                    "parentproperty": "P87_is_identified_by", 
+                    "name": "Cadastral Reference"
                 }, 
                 {
                     "is_collector": true, 
@@ -632,23 +659,27 @@
                     "nodeid": "61f1a1b9-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "string", 
                     "nodegroup_id": "61f1a1b9-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
                     "parentproperty": "P1_is_identified_by", 
                     "name": "External XRef"
                 }, 
                 {
-                    "is_collector": true, 
+                    "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E53_Place", 
-                    "nodeid": "f74db655-e741-11e6-84a6-026d961c88e6", 
-                    "datatype": "semantic", 
-                    "nodegroup_id": "f74db655-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "61f1a1bd-e741-11e6-84a6-026d961c88e6", 
+                    "datatype": "domain-value", 
+                    "nodegroup_id": "61f1a1b9-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "config": null, 
-                    "parentproperty": "P89_falls_within", 
-                    "name": "Administration Subdivision"
+                    "config": {
+                        "options": []
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "External Source"
                 }, 
                 {
                     "is_collector": false, 
@@ -658,6 +689,7 @@
                     "nodeid": "61f1a1bc-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "concept", 
                     "nodegroup_id": "61f1a1b9-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": {
                         "rdmCollection": "a4bfeafb-7a04-43fd-b812-331105ce78b3"
@@ -669,36 +701,11 @@
                     "is_collector": true, 
                     "description": "", 
                     "istopnode": false, 
-                    "ontologyclass": "E5_Event", 
-                    "nodeid": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
-                    "datatype": "semantic", 
-                    "nodegroup_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "config": null, 
-                    "parentproperty": "P114_is_equal_in_time_to", 
-                    "name": "Existence Event"
-                }, 
-                {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "E49_Time_Appellation", 
-                    "nodeid": "85c6a1c3-e741-11e6-84a6-026d961c88e6", 
-                    "datatype": "date", 
-                    "nodegroup_id": "85c6a1bb-e741-11e6-84a6-026d961c88e6", 
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "config": null, 
-                    "parentproperty": "P78_is_identified_by", 
-                    "name": "From Date"
-                }, 
-                {
-                    "is_collector": true, 
-                    "description": "", 
-                    "istopnode": false, 
                     "ontologyclass": "E55_Type", 
                     "nodeid": "2b6dd397-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "concept-list", 
                     "nodegroup_id": "2b6dd397-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": {
                         "rdmCollection": "4063c7c5-485b-432b-9dfb-4f81cb6b5cfd"
@@ -714,6 +721,7 @@
                     "nodeid": "f74db65e-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "string", 
                     "nodegroup_id": "f74db64c-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
                     "parentproperty": "P3_has_note", 
@@ -727,6 +735,7 @@
                     "nodeid": "ab7463e2-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "string", 
                     "nodegroup_id": "ab7463df-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
                     "parentproperty": "P3_has_note", 
@@ -736,14 +745,15 @@
                     "is_collector": true, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E45_Address", 
-                    "nodeid": "f74db649-e741-11e6-84a6-026d961c88e6", 
-                    "datatype": "string", 
-                    "nodegroup_id": "f74db649-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyclass": "E53_Place", 
+                    "nodeid": "f74db655-e741-11e6-84a6-026d961c88e6", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "f74db655-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
-                    "parentproperty": "P87_is_identified_by", 
-                    "name": "Place Address"
+                    "parentproperty": "P89_falls_within", 
+                    "name": "Administration Subdivision"
                 }, 
                 {
                     "is_collector": true, 
@@ -753,6 +763,7 @@
                     "nodeid": "f74db658-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "semantic", 
                     "nodegroup_id": "f74db658-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
                     "parentproperty": "P7_took_place_at", 
@@ -766,6 +777,7 @@
                     "nodeid": "f74db65b-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "concept", 
                     "nodegroup_id": "f74db649-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": {
                         "rdmCollection": null
@@ -774,17 +786,34 @@
                     "name": "Address Type"
                 }, 
                 {
-                    "is_collector": true, 
+                    "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E13_Attribute_Assignment", 
-                    "nodeid": "f74db64c-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "b9e90914-e741-11e6-84a6-026d961c88e6", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "b9e90911-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "config": {
+                        "rdmCollection": "051b5950-2c1e-49ff-af0d-dfbaa971d2fa"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Name Type"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E52_Time-Span", 
+                    "nodeid": "0cbaba68-e742-11e6-84a6-026d961c88e6", 
                     "datatype": "semantic", 
-                    "nodegroup_id": "f74db64c-e741-11e6-84a6-026d961c88e6", 
+                    "nodegroup_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
-                    "parentproperty": "P140i_was_attributed_by", 
-                    "name": "Place Description Assignment"
+                    "parentproperty": "P4_has_time-span", 
+                    "name": "End of Existence Time Span"
                 }, 
                 {
                     "is_collector": false, 
@@ -794,6 +823,7 @@
                     "nodeid": "f74db65c-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "string", 
                     "nodegroup_id": "f74db655-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
                     "parentproperty": "P87_is_identified_by", 
@@ -807,6 +837,7 @@
                     "nodeid": "f74db65d-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "concept", 
                     "nodegroup_id": "f74db655-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": {
                         "rdmCollection": "d5230d60-0eb9-483d-90f4-9965eaca0292"
@@ -822,25 +853,11 @@
                     "nodeid": "85c6a1be-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "semantic", 
                     "nodegroup_id": "85c6a1be-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
                     "parentproperty": "P10i_contains", 
                     "name": "Activity Phase"
-                }, 
-                {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "E55_Type", 
-                    "nodeid": "61f1a1bd-e741-11e6-84a6-026d961c88e6", 
-                    "datatype": "domain-value", 
-                    "nodegroup_id": "61f1a1b9-e741-11e6-84a6-026d961c88e6", 
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "config": {
-                        "options": []
-                    }, 
-                    "parentproperty": "P2_has_type", 
-                    "name": "External Source"
                 }, 
                 {
                     "is_collector": true, 
@@ -850,6 +867,7 @@
                     "nodeid": "ab7463df-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "semantic", 
                     "nodegroup_id": "ab7463df-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
                     "parentproperty": "P140i_was_attributed_by", 
@@ -859,14 +877,15 @@
                     "is_collector": true, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E44_Place_Appellation", 
-                    "nodeid": "f74db652-e741-11e6-84a6-026d961c88e6", 
-                    "datatype": "string", 
-                    "nodegroup_id": "f74db652-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyclass": "E17_Type_Assignment", 
+                    "nodeid": "85c6a1bb-e741-11e6-84a6-026d961c88e6", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "85c6a1bb-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
-                    "parentproperty": "P87_is_identified_by", 
-                    "name": "Cadastral Reference"
+                    "parentproperty": "P41i_was_classified_by", 
+                    "name": "Phase Type Assignment"
                 }, 
                 {
                     "is_collector": false, 
@@ -876,6 +895,7 @@
                     "nodeid": "85c6a1c1-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "date", 
                     "nodegroup_id": "85c6a1bb-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
                     "parentproperty": "P78_is_identified_by", 
@@ -889,25 +909,39 @@
                     "nodeid": "85c6a1c2-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "semantic", 
                     "nodegroup_id": "85c6a1bb-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
                     "parentproperty": "P4_has_time-span", 
                     "name": "Time Span Phase"
                 }, 
                 {
+                    "is_collector": true, 
+                    "description": "", 
+                    "istopnode": false, 
+                    "ontologyclass": "E5_Event", 
+                    "nodeid": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "config": null, 
+                    "parentproperty": "P114_is_equal_in_time_to", 
+                    "name": "Existence Event"
+                }, 
+                {
                     "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E55_Type", 
-                    "nodeid": "ab7463e3-e741-11e6-84a6-026d961c88e6", 
-                    "datatype": "concept", 
-                    "nodegroup_id": "ab7463df-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyclass": "E49_Time_Appellation", 
+                    "nodeid": "85c6a1c3-e741-11e6-84a6-026d961c88e6", 
+                    "datatype": "date", 
+                    "nodegroup_id": "85c6a1bb-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "config": {
-                        "rdmCollection": null
-                    }, 
-                    "parentproperty": "P2_has_type", 
-                    "name": "Description Type"
+                    "config": null, 
+                    "parentproperty": "P78_is_identified_by", 
+                    "name": "From Date"
                 }, 
                 {
                     "is_collector": false, 
@@ -917,6 +951,7 @@
                     "nodeid": "85c6a1c4-e741-11e6-84a6-026d961c88e6", 
                     "datatype": "concept", 
                     "nodegroup_id": "85c6a1bb-e741-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": {
                         "rdmCollection": "eaf99308-095e-424d-ac8b-51d1da78deb4"
@@ -926,16 +961,17 @@
                 }, 
                 {
                     "is_collector": false, 
-                    "description": "", 
+                    "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E63_Beginning_of_Existence", 
-                    "nodeid": "0cbaba6c-e742-11e6-84a6-026d961c88e6", 
-                    "datatype": "semantic", 
+                    "ontologyclass": "E49_Time_Appellation", 
+                    "nodeid": "0cbaba66-e742-11e6-84a6-026d961c88e6", 
+                    "datatype": "date", 
                     "nodegroup_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
+                    "issearchable": true, 
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "config": null, 
-                    "parentproperty": "P116i_is_started_by", 
-                    "name": "Beginning of Existence"
+                    "parentproperty": "P78_is_identified_by", 
+                    "name": "End Date of Existence"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
@@ -963,46 +999,46 @@
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "name": null, 
-                    "edgeid": "85c6a1c8-e741-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "85c6a1c2-e741-11e6-84a6-026d961c88e6", 
-                    "rangenode_id": "85c6a1c3-e741-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P78_is_identified_by", 
+                    "edgeid": "ab7463e8-e741-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "243f8688-b8f6-11e6-84a5-026d961c88e6", 
+                    "rangenode_id": "ab7463df-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P140i_was_attributed_by", 
                     "description": null
                 }, 
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "name": null, 
-                    "edgeid": "0cbaba72-e742-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "0cbaba67-e742-11e6-84a6-026d961c88e6", 
-                    "rangenode_id": "0cbaba69-e742-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P78_is_identified_by", 
+                    "edgeid": "0cbaba7a-e742-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "243f8688-b8f6-11e6-84a5-026d961c88e6", 
+                    "rangenode_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P114_is_equal_in_time_to", 
                     "description": null
                 }, 
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "name": null, 
-                    "edgeid": "85c6a1c9-e741-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "85c6a1c2-e741-11e6-84a6-026d961c88e6", 
-                    "rangenode_id": "85c6a1c1-e741-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P78_is_identified_by", 
+                    "edgeid": "f74db669-e741-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "f74db655-e741-11e6-84a6-026d961c88e6", 
+                    "rangenode_id": "f74db65c-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P87_is_identified_by", 
                     "description": null
                 }, 
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "name": null, 
-                    "edgeid": "0cbaba76-e742-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
-                    "rangenode_id": "0cbaba6b-e742-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P115i_is_finished_by", 
+                    "edgeid": "0cbaba78-e742-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "0cbaba6b-e742-11e6-84a6-026d961c88e6", 
+                    "rangenode_id": "0cbaba6d-e742-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P2_has_type", 
                     "description": null
                 }, 
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "name": null, 
-                    "edgeid": "85c6a1ca-e741-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "85c6a1bb-e741-11e6-84a6-026d961c88e6", 
-                    "rangenode_id": "85c6a1c2-e741-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P4_has_time-span", 
+                    "edgeid": "f74db66a-e741-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "243f8688-b8f6-11e6-84a5-026d961c88e6", 
+                    "rangenode_id": "f74db658-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P7_took_place_at", 
                     "description": null
                 }, 
                 {
@@ -1035,24 +1071,6 @@
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "name": null, 
-                    "edgeid": "0cbaba75-e742-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "0cbaba6b-e742-11e6-84a6-026d961c88e6", 
-                    "rangenode_id": "0cbaba68-e742-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P4_has_time-span", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "name": null, 
-                    "edgeid": "61f1a1c3-e741-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "243f8688-b8f6-11e6-84a5-026d961c88e6", 
-                    "rangenode_id": "61f1a1b9-e741-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P1_is_identified_by", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "name": null, 
                     "edgeid": "0cbaba74-e742-11e6-84a6-026d961c88e6", 
                     "domainnode_id": "0cbaba68-e742-11e6-84a6-026d961c88e6", 
                     "rangenode_id": "0cbaba66-e742-11e6-84a6-026d961c88e6", 
@@ -1062,28 +1080,10 @@
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "name": null, 
-                    "edgeid": "f74db668-e741-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "f74db649-e741-11e6-84a6-026d961c88e6", 
-                    "rangenode_id": "f74db65b-e741-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P2_has_type", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "name": null, 
-                    "edgeid": "0cbaba78-e742-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "0cbaba6b-e742-11e6-84a6-026d961c88e6", 
-                    "rangenode_id": "0cbaba6d-e742-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P2_has_type", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "name": null, 
-                    "edgeid": "61f1a1c1-e741-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "61f1a1b9-e741-11e6-84a6-026d961c88e6", 
-                    "rangenode_id": "61f1a1bc-e741-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P2_has_type", 
+                    "edgeid": "85c6a1c8-e741-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "85c6a1c2-e741-11e6-84a6-026d961c88e6", 
+                    "rangenode_id": "85c6a1c3-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P78_is_identified_by", 
                     "description": null
                 }, 
                 {
@@ -1107,6 +1107,78 @@
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "name": null, 
+                    "edgeid": "0cbaba75-e742-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "0cbaba6b-e742-11e6-84a6-026d961c88e6", 
+                    "rangenode_id": "0cbaba68-e742-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P4_has_time-span", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "85c6a1c9-e741-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "85c6a1c2-e741-11e6-84a6-026d961c88e6", 
+                    "rangenode_id": "85c6a1c1-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P78_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "0cbaba76-e742-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
+                    "rangenode_id": "0cbaba6b-e742-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P115i_is_finished_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "b9e90917-e741-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "b9e90911-e741-11e6-84a6-026d961c88e6", 
+                    "rangenode_id": "b9e90914-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "f74db668-e741-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "f74db649-e741-11e6-84a6-026d961c88e6", 
+                    "rangenode_id": "f74db65b-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "0cbaba77-e742-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "0cbaba6c-e742-11e6-84a6-026d961c88e6", 
+                    "rangenode_id": "0cbaba6a-e742-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "61f1a1c1-e741-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "61f1a1b9-e741-11e6-84a6-026d961c88e6", 
+                    "rangenode_id": "61f1a1bc-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "61f1a1c3-e741-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "243f8688-b8f6-11e6-84a5-026d961c88e6", 
+                    "rangenode_id": "61f1a1b9-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "name": null, 
                     "edgeid": "ab7463e6-e741-11e6-84a6-026d961c88e6", 
                     "domainnode_id": "ab7463df-e741-11e6-84a6-026d961c88e6", 
                     "rangenode_id": "ab7463e3-e741-11e6-84a6-026d961c88e6", 
@@ -1116,10 +1188,10 @@
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "name": null, 
-                    "edgeid": "ab7463e8-e741-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "243f8688-b8f6-11e6-84a5-026d961c88e6", 
-                    "rangenode_id": "ab7463df-e741-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P140i_was_attributed_by", 
+                    "edgeid": "f74db662-e741-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "f74db64c-e741-11e6-84a6-026d961c88e6", 
+                    "rangenode_id": "f74db65e-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P3_has_note", 
                     "description": null
                 }, 
                 {
@@ -1134,19 +1206,10 @@
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "name": null, 
-                    "edgeid": "b9e90918-e741-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "243f8688-b8f6-11e6-84a5-026d961c88e6", 
-                    "rangenode_id": "b9e90911-e741-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P1_is_identified_by", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "name": null, 
-                    "edgeid": "0cbaba7a-e742-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "243f8688-b8f6-11e6-84a5-026d961c88e6", 
-                    "rangenode_id": "0cbaba63-e742-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P114_is_equal_in_time_to", 
+                    "edgeid": "85c6a1ca-e741-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "85c6a1bb-e741-11e6-84a6-026d961c88e6", 
+                    "rangenode_id": "85c6a1c2-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P4_has_time-span", 
                     "description": null
                 }, 
                 {
@@ -1161,19 +1224,10 @@
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "name": null, 
-                    "edgeid": "f74db669-e741-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "f74db655-e741-11e6-84a6-026d961c88e6", 
-                    "rangenode_id": "f74db65c-e741-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P87_is_identified_by", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "name": null, 
-                    "edgeid": "f74db661-e741-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "f74db64f-e741-11e6-84a6-026d961c88e6", 
-                    "rangenode_id": "f74db65f-e741-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P2_has_type", 
+                    "edgeid": "b9e90918-e741-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "243f8688-b8f6-11e6-84a5-026d961c88e6", 
+                    "rangenode_id": "b9e90911-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P1_is_identified_by", 
                     "description": null
                 }, 
                 {
@@ -1182,15 +1236,6 @@
                     "edgeid": "2b6dd39b-e741-11e6-84a6-026d961c88e6", 
                     "domainnode_id": "243f8688-b8f6-11e6-84a5-026d961c88e6", 
                     "rangenode_id": "2b6dd397-e741-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P2_has_type", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "name": null, 
-                    "edgeid": "b9e90917-e741-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "b9e90911-e741-11e6-84a6-026d961c88e6", 
-                    "rangenode_id": "b9e90914-e741-11e6-84a6-026d961c88e6", 
                     "ontologyproperty": "P2_has_type", 
                     "description": null
                 }, 
@@ -1206,28 +1251,10 @@
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "name": null, 
-                    "edgeid": "f74db664-e741-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "f74db658-e741-11e6-84a6-026d961c88e6", 
-                    "rangenode_id": "f74db652-e741-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P87_is_identified_by", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "name": null, 
-                    "edgeid": "f74db66a-e741-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "243f8688-b8f6-11e6-84a5-026d961c88e6", 
-                    "rangenode_id": "f74db658-e741-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P7_took_place_at", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "name": null, 
-                    "edgeid": "f74db662-e741-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "f74db64c-e741-11e6-84a6-026d961c88e6", 
-                    "rangenode_id": "f74db65e-e741-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P3_has_note", 
+                    "edgeid": "f74db661-e741-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "f74db64f-e741-11e6-84a6-026d961c88e6", 
+                    "rangenode_id": "f74db65f-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P2_has_type", 
                     "description": null
                 }, 
                 {
@@ -1242,10 +1269,19 @@
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "name": null, 
-                    "edgeid": "0cbaba77-e742-11e6-84a6-026d961c88e6", 
-                    "domainnode_id": "0cbaba6c-e742-11e6-84a6-026d961c88e6", 
-                    "rangenode_id": "0cbaba6a-e742-11e6-84a6-026d961c88e6", 
-                    "ontologyproperty": "P2_has_type", 
+                    "edgeid": "f74db664-e741-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "f74db658-e741-11e6-84a6-026d961c88e6", 
+                    "rangenode_id": "f74db652-e741-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P87_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "0cbaba72-e742-11e6-84a6-026d961c88e6", 
+                    "domainnode_id": "0cbaba67-e742-11e6-84a6-026d961c88e6", 
+                    "rangenode_id": "0cbaba69-e742-11e6-84a6-026d961c88e6", 
+                    "ontologyproperty": "P78_is_identified_by", 
                     "description": null
                 }, 
                 {
@@ -1263,6 +1299,22 @@
             "graphid": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
             "name": "Project", 
             "cards_x_nodes_x_widgets": [
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000004", 
+                    "card_id": "85c6a1bd-e741-11e6-84a6-026d961c88e6", 
+                    "label": "From Date", 
+                    "node_id": "85c6a1c3-e741-11e6-84a6-026d961c88e6", 
+                    "sortorder": 2, 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "maxDate": false, 
+                        "label": "From Date", 
+                        "viewMode": "days", 
+                        "placeholder": "Enter date", 
+                        "minDate": false
+                    }, 
+                    "id": "85c6a1c7-e741-11e6-84a6-026d961c88e6"
+                }, 
                 {
                     "widget_id": "10000000-0000-0000-0000-000000000004", 
                     "card_id": "85c6a1bd-e741-11e6-84a6-026d961c88e6", 
@@ -1511,38 +1563,22 @@
                         "label": "Activity Type"
                     }, 
                     "id": "85c6a1c5-e741-11e6-84a6-026d961c88e6"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000004", 
-                    "card_id": "85c6a1bd-e741-11e6-84a6-026d961c88e6", 
-                    "label": "From Date", 
-                    "node_id": "85c6a1c3-e741-11e6-84a6-026d961c88e6", 
-                    "sortorder": 2, 
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD", 
-                        "maxDate": false, 
-                        "label": "From Date", 
-                        "viewMode": "days", 
-                        "placeholder": "Enter date", 
-                        "minDate": false
-                    }, 
-                    "id": "85c6a1c7-e741-11e6-84a6-026d961c88e6"
                 }
             ], 
             "cards": [
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "helpenabled": false, 
-                    "description": "Describes the time span and type of an Activity Resource.", 
+                    "description": "Represents a single node in a graph", 
                     "visible": true, 
-                    "nodegroup_id": "85c6a1be-e741-11e6-84a6-026d961c88e6", 
+                    "nodegroup_id": "f74db652-e741-11e6-84a6-026d961c88e6", 
                     "helptext": null, 
-                    "sortorder": null, 
-                    "cardid": "85c6a1c0-e741-11e6-84a6-026d961c88e6", 
+                    "sortorder": 4, 
+                    "cardid": "f74db654-e741-11e6-84a6-026d961c88e6", 
                     "helptitle": null, 
-                    "instructions": null, 
+                    "instructions": "Enter the cadastral reference number.", 
                     "active": true, 
-                    "name": "Activity Phase"
+                    "name": "Cadastral Reference"
                 }, 
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
@@ -1561,44 +1597,16 @@
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "helpenabled": false, 
-                    "description": "Generic branch for capturing free-form written descriptive information.\nIntended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n\nThis branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n\nConnects to all resources with P140i", 
+                    "description": "Describes the time span and type of an Activity Resource.", 
                     "visible": true, 
-                    "nodegroup_id": "ab7463df-e741-11e6-84a6-026d961c88e6", 
+                    "nodegroup_id": "85c6a1be-e741-11e6-84a6-026d961c88e6", 
                     "helptext": null, 
                     "sortorder": null, 
-                    "cardid": "ab7463e1-e741-11e6-84a6-026d961c88e6", 
+                    "cardid": "85c6a1c0-e741-11e6-84a6-026d961c88e6", 
                     "helptitle": null, 
-                    "instructions": "Enter a description and description type for the resource.", 
+                    "instructions": null, 
                     "active": true, 
-                    "name": "Description"
-                }, 
-                {
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "helpenabled": false, 
-                    "description": "Used to hold identifiers necessary to link a given resource to records in an external (perhaps legacy) system.", 
-                    "visible": true, 
-                    "nodegroup_id": "61f1a1b9-e741-11e6-84a6-026d961c88e6", 
-                    "helptext": null, 
-                    "sortorder": null, 
-                    "cardid": "61f1a1bb-e741-11e6-84a6-026d961c88e6", 
-                    "helptitle": null, 
-                    "instructions": "Enter information for identifiers of the resource from other external sources.", 
-                    "active": true, 
-                    "name": "External Identifier"
-                }, 
-                {
-                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                    "helpenabled": false, 
-                    "description": "Represents a single node in a graph", 
-                    "visible": true, 
-                    "nodegroup_id": "f74db655-e741-11e6-84a6-026d961c88e6", 
-                    "helptext": null, 
-                    "sortorder": 2, 
-                    "cardid": "f74db657-e741-11e6-84a6-026d961c88e6", 
-                    "helptitle": null, 
-                    "instructions": "Select the administrative/governmental subdivision name and type.", 
-                    "active": true, 
-                    "name": "Administration Subdivision"
+                    "name": "Activity Phase"
                 }, 
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
@@ -1619,28 +1627,56 @@
                     "helpenabled": false, 
                     "description": "Represents a single node in a graph", 
                     "visible": true, 
-                    "nodegroup_id": "f74db64f-e741-11e6-84a6-026d961c88e6", 
+                    "nodegroup_id": "f74db655-e741-11e6-84a6-026d961c88e6", 
                     "helptext": null, 
-                    "sortorder": 0, 
-                    "cardid": "f74db651-e741-11e6-84a6-026d961c88e6", 
+                    "sortorder": 2, 
+                    "cardid": "f74db657-e741-11e6-84a6-026d961c88e6", 
                     "helptitle": null, 
-                    "instructions": "Define the spatial location.", 
+                    "instructions": "Select the administrative/governmental subdivision name and type.", 
                     "active": true, 
-                    "name": "Spatial Location"
+                    "name": "Administration Subdivision"
                 }, 
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "helpenabled": false, 
-                    "description": "The name of a resource.\n\nApplies to Heritage Resource, Heritage Resource Group, Activity, and Historical Event.  Actors receive their \"names\" from the Appellation branch.", 
+                    "description": "Used to hold identifiers necessary to link a given resource to records in an external (perhaps legacy) system.", 
                     "visible": true, 
-                    "nodegroup_id": "b9e90911-e741-11e6-84a6-026d961c88e6", 
+                    "nodegroup_id": "61f1a1b9-e741-11e6-84a6-026d961c88e6", 
                     "helptext": null, 
                     "sortorder": null, 
-                    "cardid": "b9e90913-e741-11e6-84a6-026d961c88e6", 
+                    "cardid": "61f1a1bb-e741-11e6-84a6-026d961c88e6", 
                     "helptitle": null, 
-                    "instructions": "Enter the resource name and its respective type.", 
+                    "instructions": "Enter information for identifiers of the resource from other external sources.", 
                     "active": true, 
-                    "name": "Name"
+                    "name": "External Identifier"
+                }, 
+                {
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "helpenabled": false, 
+                    "description": "Generic branch for capturing free-form written descriptive information.\nIntended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n\nThis branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n\nConnects to all resources with P140i", 
+                    "visible": true, 
+                    "nodegroup_id": "ab7463df-e741-11e6-84a6-026d961c88e6", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "ab7463e1-e741-11e6-84a6-026d961c88e6", 
+                    "helptitle": null, 
+                    "instructions": "Enter a description and description type for the resource.", 
+                    "active": true, 
+                    "name": "Description"
+                }, 
+                {
+                    "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                    "helpenabled": false, 
+                    "description": "Represents a single node in a graph", 
+                    "visible": true, 
+                    "nodegroup_id": "f74db64c-e741-11e6-84a6-026d961c88e6", 
+                    "helptext": null, 
+                    "sortorder": 3, 
+                    "cardid": "f74db64e-e741-11e6-84a6-026d961c88e6", 
+                    "helptitle": null, 
+                    "instructions": "Describe the location of the resource.", 
+                    "active": true, 
+                    "name": "Description Location"
                 }, 
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
@@ -1659,16 +1695,16 @@
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "helpenabled": false, 
-                    "description": "Represents a single node in a graph", 
+                    "description": "The name of a resource.\n\nApplies to Heritage Resource, Heritage Resource Group, Activity, and Historical Event.  Actors receive their \"names\" from the Appellation branch.", 
                     "visible": true, 
-                    "nodegroup_id": "85c6a1bb-e741-11e6-84a6-026d961c88e6", 
+                    "nodegroup_id": "b9e90911-e741-11e6-84a6-026d961c88e6", 
                     "helptext": null, 
-                    "sortorder": 0, 
-                    "cardid": "85c6a1bd-e741-11e6-84a6-026d961c88e6", 
+                    "sortorder": null, 
+                    "cardid": "b9e90913-e741-11e6-84a6-026d961c88e6", 
                     "helptitle": null, 
-                    "instructions": "Select an activity type and its corresponding to and from dates.", 
+                    "instructions": "Enter the resource name and its respective type.", 
                     "active": true, 
-                    "name": "Phase Type Assignment"
+                    "name": "Name"
                 }, 
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
@@ -1689,28 +1725,28 @@
                     "helpenabled": false, 
                     "description": "Represents a single node in a graph", 
                     "visible": true, 
-                    "nodegroup_id": "f74db64c-e741-11e6-84a6-026d961c88e6", 
+                    "nodegroup_id": "85c6a1bb-e741-11e6-84a6-026d961c88e6", 
                     "helptext": null, 
-                    "sortorder": 3, 
-                    "cardid": "f74db64e-e741-11e6-84a6-026d961c88e6", 
+                    "sortorder": 0, 
+                    "cardid": "85c6a1bd-e741-11e6-84a6-026d961c88e6", 
                     "helptitle": null, 
-                    "instructions": "Describe the location of the resource.", 
+                    "instructions": "Select an activity type and its corresponding to and from dates.", 
                     "active": true, 
-                    "name": "Description Location"
+                    "name": "Phase Type Assignment"
                 }, 
                 {
                     "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                     "helpenabled": false, 
                     "description": "Represents a single node in a graph", 
                     "visible": true, 
-                    "nodegroup_id": "f74db652-e741-11e6-84a6-026d961c88e6", 
+                    "nodegroup_id": "f74db64f-e741-11e6-84a6-026d961c88e6", 
                     "helptext": null, 
-                    "sortorder": 4, 
-                    "cardid": "f74db654-e741-11e6-84a6-026d961c88e6", 
+                    "sortorder": 0, 
+                    "cardid": "f74db651-e741-11e6-84a6-026d961c88e6", 
                     "helptitle": null, 
-                    "instructions": "Enter the cadastral reference number.", 
+                    "instructions": "Define the spatial location.", 
                     "active": true, 
-                    "name": "Cadastral Reference"
+                    "name": "Spatial Location"
                 }
             ], 
             "root": {
@@ -1721,6 +1757,7 @@
                 "nodeid": "243f8688-b8f6-11e6-84a5-026d961c88e6", 
                 "datatype": "semantic", 
                 "nodegroup_id": null, 
+                "issearchable": true, 
                 "graph_id": "243f8689-b8f6-11e6-84a5-026d961c88e6", 
                 "config": null, 
                 "name": "Activity"
@@ -1731,8 +1768,8 @@
     ], 
     "metadata": {
         "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
-        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
-        "os version": "4.9.13-moby", 
+        "db": "PostgreSQL 9.6.3 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
+        "os version": "4.9.27-moby", 
         "os": "Linux"
     }
 }

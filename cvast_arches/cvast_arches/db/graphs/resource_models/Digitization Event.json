@@ -32,31 +32,19 @@
                 }
             ], 
             "relatable_resource_model_ids": [
+                "243f8689-b8f6-11e6-84a5-026d961c88e6", 
+                "64ae35a0-2b53-11e7-9130-0242ac140004", 
                 "3caf329f-b8f7-11e6-84a5-026d961c88e6", 
+                "3854b1f2-14a9-11e7-b06e-0242ac150005", 
+                "fad0563b-b8f8-11e6-84a5-026d961c88e6", 
+                "f5624ce7-b66c-11e6-84a5-026d961c88e6", 
                 "64ae35a0-2b53-11e7-9130-0242ac140004", 
                 "ccbd1537-ac5e-11e6-84a5-026d961c88e6", 
-                "243f8689-b8f6-11e6-84a5-026d961c88e6", 
-                "99417385-b8fa-11e6-84a5-026d961c88e6", 
-                "f5624ce7-b66c-11e6-84a5-026d961c88e6", 
-                "fad0563b-b8f8-11e6-84a5-026d961c88e6", 
-                "3854b1f2-14a9-11e7-b06e-0242ac150005", 
-                "64ae35a0-2b53-11e7-9130-0242ac140004"
+                "99417385-b8fa-11e6-84a5-026d961c88e6"
             ], 
             "reports": [], 
             "iconclass": "fa fa-barcode", 
             "nodegroups": [
-                {
-                    "cardinality": "n", 
-                    "legacygroupid": null, 
-                    "nodegroupid": "c24558a2-2c4c-11e7-9cab-0242ac140004", 
-                    "parentnodegroup_id": null
-                }, 
-                {
-                    "cardinality": "n", 
-                    "legacygroupid": null, 
-                    "nodegroupid": "0518a774-2c4d-11e7-9cab-0242ac140004", 
-                    "parentnodegroup_id": null
-                }, 
                 {
                     "cardinality": "n", 
                     "legacygroupid": null, 
@@ -67,6 +55,18 @@
                     "cardinality": "1", 
                     "legacygroupid": null, 
                     "nodegroupid": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "c24558a2-2c4c-11e7-9cab-0242ac140004", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "0518a774-2c4d-11e7-9cab-0242ac140004", 
                     "parentnodegroup_id": null
                 }
             ], 
@@ -104,30 +104,18 @@
             "version": "", 
             "nodes": [
                 {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "E49_Time_Appellation", 
-                    "nodeid": "5db47f46-2b55-11e7-9130-0242ac140004", 
-                    "datatype": "date", 
-                    "nodegroup_id": "5db47528-2b55-11e7-9130-0242ac140004", 
-                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "config": null, 
-                    "parentproperty": "P78_is_identified_by", 
-                    "name": "To Date"
-                }, 
-                {
                     "is_collector": true, 
                     "description": "", 
                     "istopnode": false, 
-                    "ontologyclass": "E41_Appellation", 
-                    "nodeid": "0518a774-2c4d-11e7-9cab-0242ac140004", 
-                    "datatype": "string", 
-                    "nodegroup_id": "0518a774-2c4d-11e7-9cab-0242ac140004", 
+                    "ontologyclass": "E52_Time-Span", 
+                    "nodeid": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "issearchable": true, 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "config": null, 
-                    "parentproperty": "P1_is_identified_by", 
-                    "name": "Title"
+                    "parentproperty": "P160_has_temporal_projection", 
+                    "name": "Event Time Span"
                 }, 
                 {
                     "is_collector": false, 
@@ -137,6 +125,7 @@
                     "nodeid": "c2456090-2c4c-11e7-9cab-0242ac140004", 
                     "datatype": "concept", 
                     "nodegroup_id": "c24558a2-2c4c-11e7-9cab-0242ac140004", 
+                    "issearchable": true, 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "config": {
                         "rdmCollection": "41875f2c-e130-44ce-ac41-d33c53524d18"
@@ -146,61 +135,47 @@
                 }, 
                 {
                     "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "E55_Type", 
-                    "nodeid": "c2456b3a-2c4c-11e7-9cab-0242ac140004", 
-                    "datatype": "concept", 
-                    "nodegroup_id": "c24558a2-2c4c-11e7-9cab-0242ac140004", 
-                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "config": {
-                        "rdmCollection": "97b53c65-d816-4b55-8fde-08dc24eb29cc"
-                    }, 
-                    "parentproperty": "P2_has_type", 
-                    "name": "Digital Production Technology"
-                }, 
-                {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "E58_Measurement_Unit", 
-                    "nodeid": "c2456734-2c4c-11e7-9cab-0242ac140004", 
-                    "datatype": "concept", 
-                    "nodegroup_id": "c24558a2-2c4c-11e7-9cab-0242ac140004", 
-                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "config": {
-                        "rdmCollection": "fa8a9bcc-82ee-4882-bf56-1c029c3d8a77"
-                    }, 
-                    "parentproperty": "P91_has_unit", 
-                    "name": "Resolution Unit"
-                }, 
-                {
-                    "is_collector": true, 
                     "description": "", 
-                    "istopnode": false, 
-                    "ontologyclass": "E13_Attribute_Assignment", 
-                    "nodeid": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "istopnode": true, 
+                    "ontologyclass": "E7_Activity", 
+                    "nodeid": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
                     "datatype": "semantic", 
-                    "nodegroup_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "nodegroup_id": null, 
+                    "issearchable": true, 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "config": null, 
-                    "parentproperty": "P140i_was_attributed_by", 
-                    "name": "Description Assignment"
+                    "parentproperty": "", 
+                    "name": "Digitization Event"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E49_Time_Appellation", 
+                    "nodeid": "5db47f46-2b55-11e7-9130-0242ac140004", 
+                    "datatype": "date", 
+                    "nodegroup_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "issearchable": true, 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": null, 
+                    "parentproperty": "P78_is_identified_by", 
+                    "name": "To Date"
                 }, 
                 {
                     "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
                     "ontologyclass": "E55_Type", 
-                    "nodeid": "0518ae90-2c4d-11e7-9cab-0242ac140004", 
+                    "nodeid": "946cf710-2b56-11e7-9130-0242ac140004", 
                     "datatype": "concept", 
-                    "nodegroup_id": "0518a774-2c4d-11e7-9cab-0242ac140004", 
+                    "nodegroup_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "issearchable": true, 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "config": {
-                        "rdmCollection": "a6998a7d-c618-4a49-8018-f8dcbc6b202d"
+                        "rdmCollection": "b8e04327-c132-4235-8f29-c4ba8c4f7923"
                     }, 
                     "parentproperty": "P2_has_type", 
-                    "name": "Title Type"
+                    "name": "Description Type"
                 }, 
                 {
                     "is_collector": false, 
@@ -210,6 +185,7 @@
                     "nodeid": "c2455ee2-2c4c-11e7-9cab-0242ac140004", 
                     "datatype": "semantic", 
                     "nodegroup_id": "c24558a2-2c4c-11e7-9cab-0242ac140004", 
+                    "issearchable": true, 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "config": null, 
                     "parentproperty": "O12_has_dimension", 
@@ -223,6 +199,7 @@
                     "nodeid": "946cf454-2b56-11e7-9130-0242ac140004", 
                     "datatype": "string", 
                     "nodegroup_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "issearchable": true, 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "config": null, 
                     "parentproperty": "P3_has_note", 
@@ -232,10 +209,25 @@
                     "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
+                    "ontologyclass": "E49_Time_Appellation", 
+                    "nodeid": "5db47d8e-2b55-11e7-9130-0242ac140004", 
+                    "datatype": "date", 
+                    "nodegroup_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "issearchable": true, 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": null, 
+                    "parentproperty": "P78_is_identified_by", 
+                    "name": "From Date"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
                     "ontologyclass": "E55_Type", 
                     "nodeid": "c2456892-2c4c-11e7-9cab-0242ac140004", 
                     "datatype": "concept", 
                     "nodegroup_id": "c24558a2-2c4c-11e7-9cab-0242ac140004", 
+                    "issearchable": true, 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "config": {
                         "rdmCollection": "9a01b79e-e109-41b7-843f-963335998418"
@@ -251,6 +243,7 @@
                     "nodeid": "c24558a2-2c4c-11e7-9cab-0242ac140004", 
                     "datatype": "semantic", 
                     "nodegroup_id": "c24558a2-2c4c-11e7-9cab-0242ac140004", 
+                    "issearchable": true, 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "config": null, 
                     "parentproperty": "P134_continued", 
@@ -260,14 +253,33 @@
                     "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E49_Time_Appellation", 
-                    "nodeid": "5db47d8e-2b55-11e7-9130-0242ac140004", 
-                    "datatype": "date", 
-                    "nodegroup_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "c2456b3a-2c4c-11e7-9cab-0242ac140004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "c24558a2-2c4c-11e7-9cab-0242ac140004", 
+                    "issearchable": true, 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "config": null, 
-                    "parentproperty": "P78_is_identified_by", 
-                    "name": "From Date"
+                    "config": {
+                        "rdmCollection": "97b53c65-d816-4b55-8fde-08dc24eb29cc"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Digital Production Technology"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E58_Measurement_Unit", 
+                    "nodeid": "c2456734-2c4c-11e7-9cab-0242ac140004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "c24558a2-2c4c-11e7-9cab-0242ac140004", 
+                    "issearchable": true, 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": {
+                        "rdmCollection": "fa8a9bcc-82ee-4882-bf56-1c029c3d8a77"
+                    }, 
+                    "parentproperty": "P91_has_unit", 
+                    "name": "Resolution Unit"
                 }, 
                 {
                     "is_collector": false, 
@@ -277,23 +289,27 @@
                     "nodeid": "c24569e6-2c4c-11e7-9cab-0242ac140004", 
                     "datatype": "number", 
                     "nodegroup_id": "c24558a2-2c4c-11e7-9cab-0242ac140004", 
+                    "issearchable": true, 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "config": null, 
                     "parentproperty": "P90_has_value", 
                     "name": "Resolution Value"
                 }, 
                 {
-                    "is_collector": true, 
-                    "description": "", 
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E52_Time-Span", 
-                    "nodeid": "5db47528-2b55-11e7-9130-0242ac140004", 
-                    "datatype": "semantic", 
-                    "nodegroup_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "0518ae90-2c4d-11e7-9cab-0242ac140004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "0518a774-2c4d-11e7-9cab-0242ac140004", 
+                    "issearchable": true, 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "config": null, 
-                    "parentproperty": "P160_has_temporal_projection", 
-                    "name": "Event Time Span"
+                    "config": {
+                        "rdmCollection": "a6998a7d-c618-4a49-8018-f8dcbc6b202d"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Title Type"
                 }, 
                 {
                     "is_collector": false, 
@@ -303,38 +319,39 @@
                     "nodeid": "c2456540-2c4c-11e7-9cab-0242ac140004", 
                     "datatype": "semantic", 
                     "nodegroup_id": "c24558a2-2c4c-11e7-9cab-0242ac140004", 
+                    "issearchable": true, 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "config": null, 
                     "parentproperty": "P140i_was_attributed_by", 
                     "name": "Color Capture Assignment"
                 }, 
                 {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "E55_Type", 
-                    "nodeid": "946cf710-2b56-11e7-9130-0242ac140004", 
-                    "datatype": "concept", 
-                    "nodegroup_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
-                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "config": {
-                        "rdmCollection": "b8e04327-c132-4235-8f29-c4ba8c4f7923"
-                    }, 
-                    "parentproperty": "P2_has_type", 
-                    "name": "Description Type"
-                }, 
-                {
-                    "is_collector": false, 
+                    "is_collector": true, 
                     "description": "", 
-                    "istopnode": true, 
-                    "ontologyclass": "E7_Activity", 
-                    "nodeid": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
+                    "istopnode": false, 
+                    "ontologyclass": "E13_Attribute_Assignment", 
+                    "nodeid": "946ceb44-2b56-11e7-9130-0242ac140004", 
                     "datatype": "semantic", 
-                    "nodegroup_id": null, 
+                    "nodegroup_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "issearchable": true, 
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "config": null, 
-                    "parentproperty": "", 
-                    "name": "Digitization Event"
+                    "parentproperty": "P140i_was_attributed_by", 
+                    "name": "Description Assignment"
+                }, 
+                {
+                    "is_collector": true, 
+                    "description": "", 
+                    "istopnode": false, 
+                    "ontologyclass": "E41_Appellation", 
+                    "nodeid": "0518a774-2c4d-11e7-9cab-0242ac140004", 
+                    "datatype": "string", 
+                    "nodegroup_id": "0518a774-2c4d-11e7-9cab-0242ac140004", 
+                    "issearchable": true, 
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Title"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
@@ -344,19 +361,19 @@
                 {
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "name": null, 
-                    "edgeid": "5db48676-2b55-11e7-9130-0242ac140004", 
-                    "domainnode_id": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
-                    "rangenode_id": "5db47528-2b55-11e7-9130-0242ac140004", 
-                    "ontologyproperty": "P160_has_temporal_projection", 
+                    "edgeid": "5db484c8-2b55-11e7-9130-0242ac140004", 
+                    "domainnode_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "rangenode_id": "5db47f46-2b55-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P78_is_identified_by", 
                     "description": null
                 }, 
                 {
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "name": null, 
-                    "edgeid": "0518b67e-2c4d-11e7-9cab-0242ac140004", 
-                    "domainnode_id": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
-                    "rangenode_id": "0518a774-2c4d-11e7-9cab-0242ac140004", 
-                    "ontologyproperty": "P1_is_identified_by", 
+                    "edgeid": "0518b494-2c4d-11e7-9cab-0242ac140004", 
+                    "domainnode_id": "0518a774-2c4d-11e7-9cab-0242ac140004", 
+                    "rangenode_id": "0518ae90-2c4d-11e7-9cab-0242ac140004", 
+                    "ontologyproperty": "P2_has_type", 
                     "description": null
                 }, 
                 {
@@ -366,15 +383,6 @@
                     "domainnode_id": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
                     "rangenode_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
                     "ontologyproperty": "P140i_was_attributed_by", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "name": null, 
-                    "edgeid": "946cfd28-2b56-11e7-9130-0242ac140004", 
-                    "domainnode_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
-                    "rangenode_id": "946cf710-2b56-11e7-9130-0242ac140004", 
-                    "ontologyproperty": "P2_has_type", 
                     "description": null
                 }, 
                 {
@@ -398,19 +406,19 @@
                 {
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "name": null, 
-                    "edgeid": "946cfe5e-2b56-11e7-9130-0242ac140004", 
-                    "domainnode_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
-                    "rangenode_id": "946cf454-2b56-11e7-9130-0242ac140004", 
-                    "ontologyproperty": "P3_has_note", 
+                    "edgeid": "5db48310-2b55-11e7-9130-0242ac140004", 
+                    "domainnode_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "rangenode_id": "5db47d8e-2b55-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P78_is_identified_by", 
                     "description": null
                 }, 
                 {
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "name": null, 
-                    "edgeid": "c2457eb8-2c4c-11e7-9cab-0242ac140004", 
-                    "domainnode_id": "c2455ee2-2c4c-11e7-9cab-0242ac140004", 
-                    "rangenode_id": "c2456734-2c4c-11e7-9cab-0242ac140004", 
-                    "ontologyproperty": "P91_has_unit", 
+                    "edgeid": "946cfe5e-2b56-11e7-9130-0242ac140004", 
+                    "domainnode_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "rangenode_id": "946cf454-2b56-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P3_has_note", 
                     "description": null
                 }, 
                 {
@@ -434,6 +442,24 @@
                 {
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "name": null, 
+                    "edgeid": "c2457eb8-2c4c-11e7-9cab-0242ac140004", 
+                    "domainnode_id": "c2455ee2-2c4c-11e7-9cab-0242ac140004", 
+                    "rangenode_id": "c2456734-2c4c-11e7-9cab-0242ac140004", 
+                    "ontologyproperty": "P91_has_unit", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
+                    "edgeid": "946cfd28-2b56-11e7-9130-0242ac140004", 
+                    "domainnode_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "rangenode_id": "946cf710-2b56-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "name": null, 
                     "edgeid": "c2457bca-2c4c-11e7-9cab-0242ac140004", 
                     "domainnode_id": "c24558a2-2c4c-11e7-9cab-0242ac140004", 
                     "rangenode_id": "c2456540-2c4c-11e7-9cab-0242ac140004", 
@@ -443,10 +469,10 @@
                 {
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "name": null, 
-                    "edgeid": "5db484c8-2b55-11e7-9130-0242ac140004", 
-                    "domainnode_id": "5db47528-2b55-11e7-9130-0242ac140004", 
-                    "rangenode_id": "5db47f46-2b55-11e7-9130-0242ac140004", 
-                    "ontologyproperty": "P78_is_identified_by", 
+                    "edgeid": "0518b67e-2c4d-11e7-9cab-0242ac140004", 
+                    "domainnode_id": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
+                    "rangenode_id": "0518a774-2c4d-11e7-9cab-0242ac140004", 
+                    "ontologyproperty": "P1_is_identified_by", 
                     "description": null
                 }, 
                 {
@@ -461,15 +487,6 @@
                 {
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "name": null, 
-                    "edgeid": "5db48310-2b55-11e7-9130-0242ac140004", 
-                    "domainnode_id": "5db47528-2b55-11e7-9130-0242ac140004", 
-                    "rangenode_id": "5db47d8e-2b55-11e7-9130-0242ac140004", 
-                    "ontologyproperty": "P78_is_identified_by", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "name": null, 
                     "edgeid": "c2457cce-2c4c-11e7-9cab-0242ac140004", 
                     "domainnode_id": "c2456540-2c4c-11e7-9cab-0242ac140004", 
                     "rangenode_id": "c2456090-2c4c-11e7-9cab-0242ac140004", 
@@ -479,10 +496,10 @@
                 {
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "name": null, 
-                    "edgeid": "0518b494-2c4d-11e7-9cab-0242ac140004", 
-                    "domainnode_id": "0518a774-2c4d-11e7-9cab-0242ac140004", 
-                    "rangenode_id": "0518ae90-2c4d-11e7-9cab-0242ac140004", 
-                    "ontologyproperty": "P2_has_type", 
+                    "edgeid": "5db48676-2b55-11e7-9130-0242ac140004", 
+                    "domainnode_id": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
+                    "rangenode_id": "5db47528-2b55-11e7-9130-0242ac140004", 
+                    "ontologyproperty": "P160_has_temporal_projection", 
                     "description": null
                 }
             ], 
@@ -491,6 +508,347 @@
             "graphid": "64ae35a0-2b53-11e7-9130-0242ac140004", 
             "name": "Digitization Event", 
             "cards_x_nodes_x_widgets": [
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "0518ac92-2c4d-11e7-9cab-0242ac140004", 
+                    "label": "Title Type", 
+                    "node_id": "0518ae90-2c4d-11e7-9cab-0242ac140004", 
+                    "sortorder": 1, 
+                    "config": {
+                        "placeholder": "Select type", 
+                        "options": [
+                            {
+                                "conceptid": "b4f8da51-9611-4191-b302-a8deb8cf7bbf", 
+                                "text": "Alternative", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "29a6442f-7a31-4b20-b74e-a80828582e41"
+                            }, 
+                            {
+                                "conceptid": "7cf094a2-e699-4a25-8880-71a6d28fdc54", 
+                                "text": "Primary", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "78e71e70-8009-40e2-a078-9a2ebf7a0e6f"
+                            }
+                        ], 
+                        "label": "Title Type"
+                    }, 
+                    "id": "0518b002-2c4d-11e7-9cab-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000008", 
+                    "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
+                    "label": "Resolution Value", 
+                    "node_id": "c24569e6-2c4c-11e7-9cab-0242ac140004", 
+                    "sortorder": 3, 
+                    "config": {
+                        "max": "", 
+                        "label": "Resolution Value", 
+                        "placeholder": "Enter resolution value", 
+                        "width": "100%", 
+                        "min": ""
+                    }, 
+                    "id": "c2456c48-2c4c-11e7-9cab-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
+                    "label": "Color Capture", 
+                    "node_id": "c2456540-2c4c-11e7-9cab-0242ac140004", 
+                    "sortorder": 3, 
+                    "config": {
+                        "placeholder": "Was color captured during the digitization?", 
+                        "options": [
+                            {
+                                "conceptid": "b0a84a07-bc82-4145-bc51-0a77b35510da", 
+                                "text": "Yes", 
+                                "children": [], 
+                                "sortorder": "1", 
+                                "collector": "", 
+                                "id": "b49da410-f436-4844-b987-2ade6700fe0f"
+                            }, 
+                            {
+                                "conceptid": "46faca3c-c018-49c7-bf26-d05363ead35a", 
+                                "text": "No", 
+                                "children": [], 
+                                "sortorder": "2", 
+                                "collector": "", 
+                                "id": "5bb758dd-5318-4399-b763-581947bbe76d"
+                            }, 
+                            {
+                                "conceptid": "165651af-7c60-41c2-9bed-bd6d2e7bd359", 
+                                "text": "External photos", 
+                                "children": [], 
+                                "sortorder": "3", 
+                                "collector": "", 
+                                "id": "68eda7ed-f167-4b5c-9837-c6b669cc0ead"
+                            }
+                        ], 
+                        "label": "Color Capture"
+                    }, 
+                    "id": "c245717a-2c4c-11e7-9cab-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
+                    "label": "Resolution Unit", 
+                    "node_id": "c2456734-2c4c-11e7-9cab-0242ac140004", 
+                    "sortorder": 4, 
+                    "config": {
+                        "placeholder": "Select resolution unit", 
+                        "options": [
+                            {
+                                "conceptid": "0e492db2-a026-4d6b-81f5-e409775be21f", 
+                                "text": "inches", 
+                                "children": [], 
+                                "sortorder": "1", 
+                                "collector": "", 
+                                "id": "5509b823-7ace-4253-a3e5-0ebb5b976392"
+                            }, 
+                            {
+                                "conceptid": "5884d60d-1b8c-40fc-99c8-055bca602fa7", 
+                                "text": "centimeters", 
+                                "children": [], 
+                                "sortorder": "10", 
+                                "collector": "", 
+                                "id": "41722438-4e84-45ed-a3b5-f12e04dcfd5c"
+                            }, 
+                            {
+                                "conceptid": "14923c78-a07a-478f-9d5b-d054de6d98e4", 
+                                "text": "meters", 
+                                "children": [], 
+                                "sortorder": "11", 
+                                "collector": "", 
+                                "id": "b7611b55-55e2-4889-b923-687a89765c02"
+                            }, 
+                            {
+                                "conceptid": "ef64d304-a3c8-450a-a4cd-4462bbd00262", 
+                                "text": "kilometers", 
+                                "children": [], 
+                                "sortorder": "12", 
+                                "collector": "", 
+                                "id": "928219af-a567-40c0-a9ad-8640c8afc800"
+                            }, 
+                            {
+                                "conceptid": "5a2383f4-10d8-41d8-8a2b-c66b4919b955", 
+                                "text": "grams", 
+                                "children": [], 
+                                "sortorder": "13", 
+                                "collector": "", 
+                                "id": "d7a48024-8240-40b9-b8db-dce1067721fa"
+                            }, 
+                            {
+                                "conceptid": "67ffe1c8-3399-481c-87c8-65a0b61bf868", 
+                                "text": "kilograms", 
+                                "children": [], 
+                                "sortorder": "14", 
+                                "collector": "", 
+                                "id": "1064db18-7c59-4e02-9080-d1664bb3742e"
+                            }, 
+                            {
+                                "conceptid": "493af13d-09a2-4e46-9461-d8d6697ae334", 
+                                "text": "degrees", 
+                                "children": [], 
+                                "sortorder": "15", 
+                                "collector": "", 
+                                "id": "46a165fe-5272-4940-b1bc-b74c77afd44a"
+                            }, 
+                            {
+                                "conceptid": "73f04aea-6da6-4b06-aa2e-332126f3a240", 
+                                "text": "feet", 
+                                "children": [], 
+                                "sortorder": "2", 
+                                "collector": "", 
+                                "id": "04705f94-7f76-4021-8490-12546cd323f9"
+                            }, 
+                            {
+                                "conceptid": "00d2586d-0739-45f5-8812-993ae25a540e", 
+                                "text": "yards", 
+                                "children": [], 
+                                "sortorder": "3", 
+                                "collector": "", 
+                                "id": "9eb07bbd-70d6-4929-8d0f-fdd2ffdbf616"
+                            }, 
+                            {
+                                "conceptid": "bf2c2b08-9a80-4a01-b063-2cac9fb16eac", 
+                                "text": "miles", 
+                                "children": [], 
+                                "sortorder": "4", 
+                                "collector": "", 
+                                "id": "b555a5f5-4ac5-43c9-b6f0-8582e06bd2b1"
+                            }, 
+                            {
+                                "conceptid": "a65d1d4a-04b9-4ae5-9ee6-be8cba3da3f0", 
+                                "text": "ounces", 
+                                "children": [], 
+                                "sortorder": "5", 
+                                "collector": "", 
+                                "id": "fda6e884-8eae-4c13-8490-1ff30b6c8246"
+                            }, 
+                            {
+                                "conceptid": "ce8628de-2c44-48ca-a2ee-40375a27c5d5", 
+                                "text": "pounds", 
+                                "children": [], 
+                                "sortorder": "6", 
+                                "collector": "", 
+                                "id": "b9214765-3e1f-4a25-a57e-dfb8af66ad6d"
+                            }, 
+                            {
+                                "conceptid": "701743e7-595b-4a8b-9576-3d46fa52b14c", 
+                                "text": "tons", 
+                                "children": [], 
+                                "sortorder": "7", 
+                                "collector": "", 
+                                "id": "ccd30536-474c-496b-a617-538750c5a714"
+                            }, 
+                            {
+                                "conceptid": "47f1dd47-99c2-4b5a-bd1d-d9cdad77e19e", 
+                                "text": "microns", 
+                                "children": [], 
+                                "sortorder": "8", 
+                                "collector": "", 
+                                "id": "33ca9ce0-1102-48a4-a1f9-dbb01da2c29f"
+                            }, 
+                            {
+                                "conceptid": "a048b03a-f279-454b-baa3-253891cf47bb", 
+                                "text": "millimeters", 
+                                "children": [], 
+                                "sortorder": "9", 
+                                "collector": "", 
+                                "id": "bd87e569-754e-4738-ad22-887be1feb92b"
+                            }
+                        ], 
+                        "label": "Resolution Unit"
+                    }, 
+                    "id": "c2456fea-2c4c-11e7-9cab-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000001", 
+                    "card_id": "0518ac92-2c4d-11e7-9cab-0242ac140004", 
+                    "label": "Title", 
+                    "node_id": "0518a774-2c4d-11e7-9cab-0242ac140004", 
+                    "sortorder": 0, 
+                    "config": {
+                        "width": "100%", 
+                        "maxLength": null, 
+                        "placeholder": "Enter title", 
+                        "label": "Title"
+                    }, 
+                    "id": "0518b0fc-2c4d-11e7-9cab-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000009", 
+                    "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
+                    "label": "Color Capture", 
+                    "node_id": "c2456090-2c4c-11e7-9cab-0242ac140004", 
+                    "sortorder": 1, 
+                    "config": {
+                        "placeholder": "Select an option", 
+                        "options": [
+                            {
+                                "conceptid": "b0a84a07-bc82-4145-bc51-0a77b35510da", 
+                                "text": "Yes", 
+                                "children": [], 
+                                "sortorder": "1", 
+                                "collector": "", 
+                                "id": "b49da410-f436-4844-b987-2ade6700fe0f"
+                            }, 
+                            {
+                                "conceptid": "46faca3c-c018-49c7-bf26-d05363ead35a", 
+                                "text": "No", 
+                                "children": [], 
+                                "sortorder": "2", 
+                                "collector": "", 
+                                "id": "5bb758dd-5318-4399-b763-581947bbe76d"
+                            }, 
+                            {
+                                "conceptid": "165651af-7c60-41c2-9bed-bd6d2e7bd359", 
+                                "text": "External photos", 
+                                "children": [], 
+                                "sortorder": "3", 
+                                "collector": "", 
+                                "id": "68eda7ed-f167-4b5c-9837-c6b669cc0ead"
+                            }
+                        ], 
+                        "label": "Color Capture"
+                    }, 
+                    "id": "c2456e6e-2c4c-11e7-9cab-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000005", 
+                    "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
+                    "label": "Description", 
+                    "node_id": "946cf454-2b56-11e7-9130-0242ac140004", 
+                    "sortorder": 0, 
+                    "config": {
+                        "width": "100%", 
+                        "placeholder": "Enter text", 
+                        "label": "Description"
+                    }, 
+                    "id": "946cf9ae-2b56-11e7-9130-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
+                    "label": "Description Type", 
+                    "node_id": "946cf710-2b56-11e7-9130-0242ac140004", 
+                    "sortorder": 1, 
+                    "config": {
+                        "placeholder": "Select a description type", 
+                        "options": [], 
+                        "label": "Description Type"
+                    }, 
+                    "id": "946cf83c-2b56-11e7-9130-0242ac140004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000009", 
+                    "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
+                    "label": "Color Configuration", 
+                    "node_id": "c2456892-2c4c-11e7-9cab-0242ac140004", 
+                    "sortorder": 2, 
+                    "config": {
+                        "placeholder": "Select an option", 
+                        "options": [
+                            {
+                                "text": "Faro Focus3D", 
+                                "conceptid": "43ae976a-aafc-4699-bf16-20d5ea630cb3", 
+                                "collector": "collector", 
+                                "children": [
+                                    {
+                                        "conceptid": "971f42f1-acb6-4102-8af3-cee4854e36bd", 
+                                        "text": "Even weighted", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "37e13d67-7519-430f-8acd-e912142938ad"
+                                    }, 
+                                    {
+                                        "conceptid": "4966c2da-ba22-4932-91ea-1452870f6aee", 
+                                        "text": "Horizon", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "9a920f4b-f1b4-457a-9ed2-987d78dd6dd4"
+                                    }, 
+                                    {
+                                        "conceptid": "d62a62af-14c3-43ea-ac06-c51e9514a48a", 
+                                        "text": "Zenith", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "4c5d0cb9-911c-4ad3-8b35-4f828e2c0e6b"
+                                    }
+                                ], 
+                                "sortorder": ""
+                            }
+                        ], 
+                        "label": "Color Configuration"
+                    }, 
+                    "id": "c24570b2-2c4c-11e7-9cab-0242ac140004"
+                }, 
                 {
                     "widget_id": "10000000-0000-0000-0000-000000000002", 
                     "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
@@ -632,378 +990,9 @@
                         "label": "Digital Production Technology"
                     }, 
                     "id": "c2457238-2c4c-11e7-9cab-0242ac140004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000002", 
-                    "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
-                    "label": "Resolution Unit", 
-                    "node_id": "c2456734-2c4c-11e7-9cab-0242ac140004", 
-                    "sortorder": 4, 
-                    "config": {
-                        "placeholder": "Select resolution unit", 
-                        "options": [
-                            {
-                                "conceptid": "0e492db2-a026-4d6b-81f5-e409775be21f", 
-                                "text": "inches", 
-                                "children": [], 
-                                "sortorder": "1", 
-                                "collector": "", 
-                                "id": "5509b823-7ace-4253-a3e5-0ebb5b976392"
-                            }, 
-                            {
-                                "conceptid": "5884d60d-1b8c-40fc-99c8-055bca602fa7", 
-                                "text": "centimeters", 
-                                "children": [], 
-                                "sortorder": "10", 
-                                "collector": "", 
-                                "id": "41722438-4e84-45ed-a3b5-f12e04dcfd5c"
-                            }, 
-                            {
-                                "conceptid": "14923c78-a07a-478f-9d5b-d054de6d98e4", 
-                                "text": "meters", 
-                                "children": [], 
-                                "sortorder": "11", 
-                                "collector": "", 
-                                "id": "b7611b55-55e2-4889-b923-687a89765c02"
-                            }, 
-                            {
-                                "conceptid": "ef64d304-a3c8-450a-a4cd-4462bbd00262", 
-                                "text": "kilometers", 
-                                "children": [], 
-                                "sortorder": "12", 
-                                "collector": "", 
-                                "id": "928219af-a567-40c0-a9ad-8640c8afc800"
-                            }, 
-                            {
-                                "conceptid": "5a2383f4-10d8-41d8-8a2b-c66b4919b955", 
-                                "text": "grams", 
-                                "children": [], 
-                                "sortorder": "13", 
-                                "collector": "", 
-                                "id": "d7a48024-8240-40b9-b8db-dce1067721fa"
-                            }, 
-                            {
-                                "conceptid": "67ffe1c8-3399-481c-87c8-65a0b61bf868", 
-                                "text": "kilograms", 
-                                "children": [], 
-                                "sortorder": "14", 
-                                "collector": "", 
-                                "id": "1064db18-7c59-4e02-9080-d1664bb3742e"
-                            }, 
-                            {
-                                "conceptid": "493af13d-09a2-4e46-9461-d8d6697ae334", 
-                                "text": "degrees", 
-                                "children": [], 
-                                "sortorder": "15", 
-                                "collector": "", 
-                                "id": "46a165fe-5272-4940-b1bc-b74c77afd44a"
-                            }, 
-                            {
-                                "conceptid": "73f04aea-6da6-4b06-aa2e-332126f3a240", 
-                                "text": "feet", 
-                                "children": [], 
-                                "sortorder": "2", 
-                                "collector": "", 
-                                "id": "04705f94-7f76-4021-8490-12546cd323f9"
-                            }, 
-                            {
-                                "conceptid": "00d2586d-0739-45f5-8812-993ae25a540e", 
-                                "text": "yards", 
-                                "children": [], 
-                                "sortorder": "3", 
-                                "collector": "", 
-                                "id": "9eb07bbd-70d6-4929-8d0f-fdd2ffdbf616"
-                            }, 
-                            {
-                                "conceptid": "bf2c2b08-9a80-4a01-b063-2cac9fb16eac", 
-                                "text": "miles", 
-                                "children": [], 
-                                "sortorder": "4", 
-                                "collector": "", 
-                                "id": "b555a5f5-4ac5-43c9-b6f0-8582e06bd2b1"
-                            }, 
-                            {
-                                "conceptid": "a65d1d4a-04b9-4ae5-9ee6-be8cba3da3f0", 
-                                "text": "ounces", 
-                                "children": [], 
-                                "sortorder": "5", 
-                                "collector": "", 
-                                "id": "fda6e884-8eae-4c13-8490-1ff30b6c8246"
-                            }, 
-                            {
-                                "conceptid": "ce8628de-2c44-48ca-a2ee-40375a27c5d5", 
-                                "text": "pounds", 
-                                "children": [], 
-                                "sortorder": "6", 
-                                "collector": "", 
-                                "id": "b9214765-3e1f-4a25-a57e-dfb8af66ad6d"
-                            }, 
-                            {
-                                "conceptid": "701743e7-595b-4a8b-9576-3d46fa52b14c", 
-                                "text": "tons", 
-                                "children": [], 
-                                "sortorder": "7", 
-                                "collector": "", 
-                                "id": "ccd30536-474c-496b-a617-538750c5a714"
-                            }, 
-                            {
-                                "conceptid": "47f1dd47-99c2-4b5a-bd1d-d9cdad77e19e", 
-                                "text": "microns", 
-                                "children": [], 
-                                "sortorder": "8", 
-                                "collector": "", 
-                                "id": "33ca9ce0-1102-48a4-a1f9-dbb01da2c29f"
-                            }, 
-                            {
-                                "conceptid": "a048b03a-f279-454b-baa3-253891cf47bb", 
-                                "text": "millimeters", 
-                                "children": [], 
-                                "sortorder": "9", 
-                                "collector": "", 
-                                "id": "bd87e569-754e-4738-ad22-887be1feb92b"
-                            }
-                        ], 
-                        "label": "Resolution Unit"
-                    }, 
-                    "id": "c2456fea-2c4c-11e7-9cab-0242ac140004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000008", 
-                    "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
-                    "label": "Resolution Value", 
-                    "node_id": "c24569e6-2c4c-11e7-9cab-0242ac140004", 
-                    "sortorder": 3, 
-                    "config": {
-                        "max": "", 
-                        "label": "Resolution Value", 
-                        "placeholder": "Enter resolution value", 
-                        "width": "100%", 
-                        "min": ""
-                    }, 
-                    "id": "c2456c48-2c4c-11e7-9cab-0242ac140004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000002", 
-                    "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
-                    "label": "Color Capture", 
-                    "node_id": "c2456540-2c4c-11e7-9cab-0242ac140004", 
-                    "sortorder": 3, 
-                    "config": {
-                        "placeholder": "Was color captured during the digitization?", 
-                        "options": [
-                            {
-                                "conceptid": "b0a84a07-bc82-4145-bc51-0a77b35510da", 
-                                "text": "Yes", 
-                                "children": [], 
-                                "sortorder": "1", 
-                                "collector": "", 
-                                "id": "b49da410-f436-4844-b987-2ade6700fe0f"
-                            }, 
-                            {
-                                "conceptid": "46faca3c-c018-49c7-bf26-d05363ead35a", 
-                                "text": "No", 
-                                "children": [], 
-                                "sortorder": "2", 
-                                "collector": "", 
-                                "id": "5bb758dd-5318-4399-b763-581947bbe76d"
-                            }, 
-                            {
-                                "conceptid": "165651af-7c60-41c2-9bed-bd6d2e7bd359", 
-                                "text": "External photos", 
-                                "children": [], 
-                                "sortorder": "3", 
-                                "collector": "", 
-                                "id": "68eda7ed-f167-4b5c-9837-c6b669cc0ead"
-                            }
-                        ], 
-                        "label": "Color Capture"
-                    }, 
-                    "id": "c245717a-2c4c-11e7-9cab-0242ac140004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000002", 
-                    "card_id": "0518ac92-2c4d-11e7-9cab-0242ac140004", 
-                    "label": "Title Type", 
-                    "node_id": "0518ae90-2c4d-11e7-9cab-0242ac140004", 
-                    "sortorder": 1, 
-                    "config": {
-                        "placeholder": "Select type", 
-                        "options": [
-                            {
-                                "conceptid": "b4f8da51-9611-4191-b302-a8deb8cf7bbf", 
-                                "text": "Alternative", 
-                                "children": [], 
-                                "sortorder": "", 
-                                "collector": "", 
-                                "id": "29a6442f-7a31-4b20-b74e-a80828582e41"
-                            }, 
-                            {
-                                "conceptid": "7cf094a2-e699-4a25-8880-71a6d28fdc54", 
-                                "text": "Primary", 
-                                "children": [], 
-                                "sortorder": "", 
-                                "collector": "", 
-                                "id": "78e71e70-8009-40e2-a078-9a2ebf7a0e6f"
-                            }
-                        ], 
-                        "label": "Title Type"
-                    }, 
-                    "id": "0518b002-2c4d-11e7-9cab-0242ac140004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000009", 
-                    "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
-                    "label": "Color Capture", 
-                    "node_id": "c2456090-2c4c-11e7-9cab-0242ac140004", 
-                    "sortorder": 1, 
-                    "config": {
-                        "placeholder": "Select an option", 
-                        "options": [
-                            {
-                                "conceptid": "b0a84a07-bc82-4145-bc51-0a77b35510da", 
-                                "text": "Yes", 
-                                "children": [], 
-                                "sortorder": "1", 
-                                "collector": "", 
-                                "id": "b49da410-f436-4844-b987-2ade6700fe0f"
-                            }, 
-                            {
-                                "conceptid": "46faca3c-c018-49c7-bf26-d05363ead35a", 
-                                "text": "No", 
-                                "children": [], 
-                                "sortorder": "2", 
-                                "collector": "", 
-                                "id": "5bb758dd-5318-4399-b763-581947bbe76d"
-                            }, 
-                            {
-                                "conceptid": "165651af-7c60-41c2-9bed-bd6d2e7bd359", 
-                                "text": "External photos", 
-                                "children": [], 
-                                "sortorder": "3", 
-                                "collector": "", 
-                                "id": "68eda7ed-f167-4b5c-9837-c6b669cc0ead"
-                            }
-                        ], 
-                        "label": "Color Capture"
-                    }, 
-                    "id": "c2456e6e-2c4c-11e7-9cab-0242ac140004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000009", 
-                    "card_id": "c2455d0c-2c4c-11e7-9cab-0242ac140004", 
-                    "label": "Color Configuration", 
-                    "node_id": "c2456892-2c4c-11e7-9cab-0242ac140004", 
-                    "sortorder": 2, 
-                    "config": {
-                        "placeholder": "Select an option", 
-                        "options": [
-                            {
-                                "text": "Faro Focus3D", 
-                                "conceptid": "43ae976a-aafc-4699-bf16-20d5ea630cb3", 
-                                "collector": "collector", 
-                                "children": [
-                                    {
-                                        "conceptid": "971f42f1-acb6-4102-8af3-cee4854e36bd", 
-                                        "text": "Even weighted", 
-                                        "children": [], 
-                                        "sortorder": "", 
-                                        "collector": "", 
-                                        "id": "37e13d67-7519-430f-8acd-e912142938ad"
-                                    }, 
-                                    {
-                                        "conceptid": "4966c2da-ba22-4932-91ea-1452870f6aee", 
-                                        "text": "Horizon", 
-                                        "children": [], 
-                                        "sortorder": "", 
-                                        "collector": "", 
-                                        "id": "9a920f4b-f1b4-457a-9ed2-987d78dd6dd4"
-                                    }, 
-                                    {
-                                        "conceptid": "d62a62af-14c3-43ea-ac06-c51e9514a48a", 
-                                        "text": "Zenith", 
-                                        "children": [], 
-                                        "sortorder": "", 
-                                        "collector": "", 
-                                        "id": "4c5d0cb9-911c-4ad3-8b35-4f828e2c0e6b"
-                                    }
-                                ], 
-                                "sortorder": ""
-                            }
-                        ], 
-                        "label": "Color Configuration"
-                    }, 
-                    "id": "c24570b2-2c4c-11e7-9cab-0242ac140004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000005", 
-                    "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
-                    "label": "Description", 
-                    "node_id": "946cf454-2b56-11e7-9130-0242ac140004", 
-                    "sortorder": 0, 
-                    "config": {
-                        "width": "100%", 
-                        "placeholder": "Enter text", 
-                        "label": "Description"
-                    }, 
-                    "id": "946cf9ae-2b56-11e7-9130-0242ac140004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000002", 
-                    "card_id": "946cf18e-2b56-11e7-9130-0242ac140004", 
-                    "label": "Description Type", 
-                    "node_id": "946cf710-2b56-11e7-9130-0242ac140004", 
-                    "sortorder": 1, 
-                    "config": {
-                        "placeholder": "Select a description type", 
-                        "options": [], 
-                        "label": "Description Type"
-                    }, 
-                    "id": "946cf83c-2b56-11e7-9130-0242ac140004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000001", 
-                    "card_id": "0518ac92-2c4d-11e7-9cab-0242ac140004", 
-                    "label": "Title", 
-                    "node_id": "0518a774-2c4d-11e7-9cab-0242ac140004", 
-                    "sortorder": 0, 
-                    "config": {
-                        "width": "100%", 
-                        "maxLength": null, 
-                        "placeholder": "Enter title", 
-                        "label": "Title"
-                    }, 
-                    "id": "0518b0fc-2c4d-11e7-9cab-0242ac140004"
                 }
             ], 
             "cards": [
-                {
-                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "helpenabled": false, 
-                    "description": "Generic branch for capturing free-form written descriptive information.\nIntended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n\nThis branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n\nConnects to all resources with P140i", 
-                    "visible": true, 
-                    "nodegroup_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
-                    "helptext": null, 
-                    "sortorder": null, 
-                    "cardid": "946cf18e-2b56-11e7-9130-0242ac140004", 
-                    "helptitle": null, 
-                    "instructions": "Enter a description and description type for the resource.", 
-                    "active": true, 
-                    "name": "Description"
-                }, 
-                {
-                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
-                    "helpenabled": false, 
-                    "description": "Describes the title of an Information Resource.", 
-                    "visible": true, 
-                    "nodegroup_id": "0518a774-2c4d-11e7-9cab-0242ac140004", 
-                    "helptext": null, 
-                    "sortorder": null, 
-                    "cardid": "0518ac92-2c4d-11e7-9cab-0242ac140004", 
-                    "helptitle": null, 
-                    "instructions": "Enter the information resource's title and the type of that title. ", 
-                    "active": true, 
-                    "name": "Title"
-                }, 
                 {
                     "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                     "helpenabled": false, 
@@ -1031,6 +1020,34 @@
                     "instructions": null, 
                     "active": true, 
                     "name": "Time Span"
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "helpenabled": false, 
+                    "description": "Generic branch for capturing free-form written descriptive information.\nIntended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n\nThis branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n\nConnects to all resources with P140i", 
+                    "visible": true, 
+                    "nodegroup_id": "946ceb44-2b56-11e7-9130-0242ac140004", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "946cf18e-2b56-11e7-9130-0242ac140004", 
+                    "helptitle": null, 
+                    "instructions": "Enter a description and description type for the resource.", 
+                    "active": true, 
+                    "name": "Description"
+                }, 
+                {
+                    "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
+                    "helpenabled": false, 
+                    "description": "Describes the title of an Information Resource.", 
+                    "visible": true, 
+                    "nodegroup_id": "0518a774-2c4d-11e7-9cab-0242ac140004", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "0518ac92-2c4d-11e7-9cab-0242ac140004", 
+                    "helptitle": null, 
+                    "instructions": "Enter the information resource's title and the type of that title. ", 
+                    "active": true, 
+                    "name": "Title"
                 }
             ], 
             "root": {
@@ -1041,6 +1058,7 @@
                 "nodeid": "64ae2eb6-2b53-11e7-9130-0242ac140004", 
                 "datatype": "semantic", 
                 "nodegroup_id": null, 
+                "issearchable": true, 
                 "graph_id": "64ae35a0-2b53-11e7-9130-0242ac140004", 
                 "config": null, 
                 "name": "Digitization Event"
@@ -1051,8 +1069,8 @@
     ], 
     "metadata": {
         "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
-        "db": "PostgreSQL 9.6.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
-        "os version": "4.9.13-moby", 
+        "db": "PostgreSQL 9.6.3 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
+        "os version": "4.9.27-moby", 
         "os": "Linux"
     }
 }

@@ -1,167 +1,642 @@
 {
-  "graph": [
-    {
-      "subtitle": "Describes the type and time span of the beginning of a resource's existence",
-      "mapfeaturecolor": null,
-      "isresource": false,
-      "forms_x_cards": [],
-      "reports": [],
-      "iconclass": "fa fa-long-arrow-up",
-      "functions": [],
-      "nodegroups": [
+    "graph": [
         {
-          "cardinality": "1",
-          "legacygroupid": null,
-          "nodegroupid": "da8cf542-957e-11e6-b664-024f9e178154",
-          "parentnodegroup_id": null
+            "subtitle": "Describes the type and time span of the beginning of a resource's existence", 
+            "functions_x_graphs": [], 
+            "mapfeaturecolor": null, 
+            "isresource": false, 
+            "forms_x_cards": [], 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "iconclass": "fa fa-long-arrow-up", 
+            "nodegroups": [
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "author": " GCI", 
+            "deploymentfile": null, 
+            "forms": [], 
+            "version": "", 
+            "nodes": [
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "S5_Inference_Making", 
+                    "nodeid": "6ef06916-484f-11e7-81df-0242ac130004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "issearchable": true, 
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "config": null, 
+                    "parentproperty": "P140_assigned_attribute_to", 
+                    "name": "Inference Making"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "9a6d321a-4848-11e7-9e1e-0242ac130004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "issearchable": true, 
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "config": {
+                        "rdmCollection": "ab646eb6-0dd5-4b32-801d-96f99fcfcc64"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Fuzzy Start Date BC/AD"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E52_Time-Span", 
+                    "nodeid": "0e422656-4848-11e7-8130-0242ac130004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "issearchable": true, 
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "config": null, 
+                    "parentproperty": "P4_has_time-span", 
+                    "name": "Beginning of Existence Time Span"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "7b1c428e-4848-11e7-9443-0242ac130004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "issearchable": true, 
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "config": {
+                        "rdmCollection": "e7ec0760-0db9-4336-b25c-61c2d84dacd0"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Fuzzy Start Date Specification"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E4_Period", 
+                    "nodeid": "c97a4dea-4848-11e7-b9d6-0242ac130004", 
+                    "datatype": "string", 
+                    "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "issearchable": true, 
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "config": null, 
+                    "parentproperty": "P4i_is_time-span_of", 
+                    "name": "Fuzzy Start Date Value"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E13_Attribute_Assignment", 
+                    "nodeid": "5c5eede8-4847-11e7-884e-0242ac130004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "issearchable": true, 
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "config": null, 
+                    "parentproperty": "P140i_was_attributed_by", 
+                    "name": "Start Date Assignment"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E42_Identifier", 
+                    "nodeid": "ac8793f8-484f-11e7-9031-0242ac130004", 
+                    "datatype": "string", 
+                    "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "issearchable": false, 
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Page Number"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E42_Identifier", 
+                    "nodeid": "907ad378-484f-11e7-9e79-0242ac130004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "issearchable": true, 
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "config": {
+                        "rdmCollection": "aae46cf5-c73c-4af2-af8c-9d8e1b6908bf"
+                    }, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Bibliographical Reference"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E52_Time-Span", 
+                    "nodeid": "673ceeee-4848-11e7-bcc1-0242ac130004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "issearchable": true, 
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "config": null, 
+                    "parentproperty": "P4_has_time-span", 
+                    "name": "Beginning of Existence Fuzzy Date"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "36229b3d-957f-11e6-b664-024f9e178154", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "issearchable": true, 
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "config": {
+                        "rdmCollection": "216ee2fb-4197-4f84-84dd-3a38d59480fb"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Beginning of Existence Type"
+                }, 
+                {
+                    "is_collector": true, 
+                    "description": "", 
+                    "istopnode": true, 
+                    "ontologyclass": "E63_Beginning_of_Existence", 
+                    "nodeid": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "issearchable": true, 
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "config": null, 
+                    "parentproperty": "", 
+                    "name": "Beginning of Existence"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "f6867066-4848-11e7-a77f-0242ac130004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "issearchable": true, 
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "config": {
+                        "rdmCollection": "f7014b6d-55ce-4f65-85ed-22bfa43c0026"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Fuzzy Start Date Unit"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E49_Time_Appellation", 
+                    "nodeid": "432d062e-4848-11e7-b715-0242ac130004", 
+                    "datatype": "date", 
+                    "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "issearchable": true, 
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "config": null, 
+                    "parentproperty": "P78_is_identified_by", 
+                    "name": "Start Date of Existence"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "description": "Describes the type and time span of the beginning of a resource's existence.\n\nRelates to the Actor resource model E39 via P92i.\nRelates to Historic Event E5 and Activity E7 via p116i.", 
+            "resource_2_resource_constraints": [], 
+            "edges": [
+                {
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "name": null, 
+                    "edgeid": "6ef06c22-484f-11e7-81df-0242ac130004", 
+                    "domainnode_id": "5c5eede8-4847-11e7-884e-0242ac130004", 
+                    "rangenode_id": "6ef06916-484f-11e7-81df-0242ac130004", 
+                    "ontologyproperty": "P140_assigned_attribute_to", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "name": null, 
+                    "edgeid": "5c5ef04a-4847-11e7-884e-0242ac130004", 
+                    "domainnode_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "rangenode_id": "5c5eede8-4847-11e7-884e-0242ac130004", 
+                    "ontologyproperty": "P140i_was_attributed_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "name": null, 
+                    "edgeid": "c97a5164-4848-11e7-b9d6-0242ac130004", 
+                    "domainnode_id": "673ceeee-4848-11e7-bcc1-0242ac130004", 
+                    "rangenode_id": "c97a4dea-4848-11e7-b9d6-0242ac130004", 
+                    "ontologyproperty": "P4i_is_time-span_of", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "name": null, 
+                    "edgeid": "ac879614-484f-11e7-9031-0242ac130004", 
+                    "domainnode_id": "907ad378-484f-11e7-9e79-0242ac130004", 
+                    "rangenode_id": "ac8793f8-484f-11e7-9031-0242ac130004", 
+                    "ontologyproperty": "P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "name": null, 
+                    "edgeid": "432d087c-4848-11e7-b715-0242ac130004", 
+                    "domainnode_id": "0e422656-4848-11e7-8130-0242ac130004", 
+                    "rangenode_id": "432d062e-4848-11e7-b715-0242ac130004", 
+                    "ontologyproperty": "P78_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "name": null, 
+                    "edgeid": "673cf286-4848-11e7-bcc1-0242ac130004", 
+                    "domainnode_id": "5c5eede8-4847-11e7-884e-0242ac130004", 
+                    "rangenode_id": "673ceeee-4848-11e7-bcc1-0242ac130004", 
+                    "ontologyproperty": "P4_has_time-span", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "name": null, 
+                    "edgeid": "f686735e-4848-11e7-a77f-0242ac130004", 
+                    "domainnode_id": "673ceeee-4848-11e7-bcc1-0242ac130004", 
+                    "rangenode_id": "f6867066-4848-11e7-a77f-0242ac130004", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "name": null, 
+                    "edgeid": "907ad60c-484f-11e7-9e79-0242ac130004", 
+                    "domainnode_id": "6ef06916-484f-11e7-81df-0242ac130004", 
+                    "rangenode_id": "907ad378-484f-11e7-9e79-0242ac130004", 
+                    "ontologyproperty": "P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "name": null, 
+                    "edgeid": "9a6d3454-4848-11e7-9e1e-0242ac130004", 
+                    "domainnode_id": "673ceeee-4848-11e7-bcc1-0242ac130004", 
+                    "rangenode_id": "9a6d321a-4848-11e7-9e1e-0242ac130004", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "name": null, 
+                    "edgeid": "36229b3e-957f-11e6-b664-024f9e178154", 
+                    "domainnode_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "rangenode_id": "36229b3d-957f-11e6-b664-024f9e178154", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "name": null, 
+                    "edgeid": "7b1c44dc-4848-11e7-9443-0242ac130004", 
+                    "domainnode_id": "673ceeee-4848-11e7-bcc1-0242ac130004", 
+                    "rangenode_id": "7b1c428e-4848-11e7-9443-0242ac130004", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "name": null, 
+                    "edgeid": "0e4228ae-4848-11e7-8130-0242ac130004", 
+                    "domainnode_id": "5c5eede8-4847-11e7-884e-0242ac130004", 
+                    "rangenode_id": "0e422656-4848-11e7-8130-0242ac130004", 
+                    "ontologyproperty": "P4_has_time-span", 
+                    "description": null
+                }
+            ], 
+            "maplinewidth": null, 
+            "mappointsize": null, 
+            "graphid": "da8cf543-957e-11e6-b664-024f9e178154", 
+            "name": "Beginning of Existence", 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "4ff978bb-9bd4-11e6-84a5-026d961c80e6", 
+                    "label": "Bibliographical Reference", 
+                    "node_id": "907ad378-484f-11e7-9e79-0242ac130004", 
+                    "sortorder": 6, 
+                    "config": {
+                        "placeholder": "Select an option", 
+                        "options": [
+                            {
+                                "conceptid": "c60970ef-cdb2-4cac-a8b0-bb1d804e4e52", 
+                                "text": "Stone, S.C., 2014: The Hellenistic and Roman Fine Potter. In: Bell, M. and C. Moss: Morgantina Studies, Volume VI. Department of Art and Archaeology, Princeton University Princeton, New Jersey", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "6e95a3fa-3728-4643-a3ae-ca42161c48bb"
+                            }
+                        ], 
+                        "label": "Bibliographical Reference"
+                    }, 
+                    "id": "e18902b2-484f-11e7-9c8a-0242ac130004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000001", 
+                    "card_id": "4ff978bb-9bd4-11e6-84a5-026d961c80e6", 
+                    "label": "Page Number", 
+                    "node_id": "ac8793f8-484f-11e7-9031-0242ac130004", 
+                    "sortorder": 7, 
+                    "config": {
+                        "width": "100%", 
+                        "maxLength": null, 
+                        "placeholder": "Only digits or Roman numbers, e.g. '181' or 'VI'", 
+                        "label": "Page Number"
+                    }, 
+                    "id": "e1884796-484f-11e7-9c8a-0242ac130004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000001", 
+                    "card_id": "4ff978bb-9bd4-11e6-84a5-026d961c80e6", 
+                    "label": "Fuzzy Start Date Value", 
+                    "node_id": "c97a4dea-4848-11e7-b9d6-0242ac130004", 
+                    "sortorder": 3, 
+                    "config": {
+                        "width": "100%", 
+                        "maxLength": null, 
+                        "placeholder": "Only digits, e.g. 1 or 21", 
+                        "label": "Fuzzy Start Date Value"
+                    }, 
+                    "id": "ac153dea-4849-11e7-bf75-0242ac130004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "4ff978bb-9bd4-11e6-84a5-026d961c80e6", 
+                    "label": "Fuzzy Start Date BC/AD", 
+                    "node_id": "9a6d321a-4848-11e7-9e1e-0242ac130004", 
+                    "sortorder": 5, 
+                    "config": {
+                        "placeholder": "B.C. or A.D.", 
+                        "options": [
+                            {
+                                "conceptid": "322db083-14c4-40ba-9f95-859cdf512b1f", 
+                                "text": "A.D.", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "f9175f83-0756-4600-a28e-db65c1ffdb16"
+                            }, 
+                            {
+                                "conceptid": "eed6662a-08f1-46ee-912b-346250936840", 
+                                "text": "B.C.", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "e0044ce5-4be7-44b3-a2a8-74e765af8066"
+                            }
+                        ], 
+                        "label": "Fuzzy Start Date BC/AD"
+                    }, 
+                    "id": "ac16ef14-4849-11e7-bf75-0242ac130004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000004", 
+                    "card_id": "4ff978bb-9bd4-11e6-84a5-026d961c80e6", 
+                    "label": "Precise Start Date of Existence", 
+                    "node_id": "432d062e-4848-11e7-b715-0242ac130004", 
+                    "sortorder": 1, 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "maxDate": false, 
+                        "label": "Precise Start Date of Existence", 
+                        "viewMode": "days", 
+                        "placeholder": "Enter date", 
+                        "minDate": false
+                    }, 
+                    "id": "ac160518-4849-11e7-bf75-0242ac130004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000009", 
+                    "card_id": "4ff978bb-9bd4-11e6-84a5-026d961c80e6", 
+                    "label": "Beginning of Existence Type", 
+                    "node_id": "36229b3d-957f-11e6-b664-024f9e178154", 
+                    "sortorder": 0, 
+                    "config": {
+                        "placeholder": "Select type ", 
+                        "options": [
+                            {
+                                "conceptid": "226bb292-4def-484f-8c6b-6eab8dd48c03", 
+                                "text": "Birth Date", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "73e5204c-0635-478b-a369-91d5cde5c68f"
+                            }, 
+                            {
+                                "conceptid": "cf3683e1-6969-47b4-8cda-c61753819ec7", 
+                                "text": "Built Date", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "29adbea8-891a-44bf-b0c5-8912d118f629"
+                            }, 
+                            {
+                                "conceptid": "11303e6e-9ea1-4b4c-8e2d-c0fa7c9db390", 
+                                "text": "Creation Date", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "cf4d3fee-1c66-499c-a087-13eb3a069807"
+                            }, 
+                            {
+                                "conceptid": "0560b41b-123e-413b-ac75-eeb09d7b9de7", 
+                                "text": "Formation Date", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "af52d238-b9ce-47bd-ba71-585d007d090b"
+                            }, 
+                            {
+                                "conceptid": "9963003a-f6ae-4792-ad5d-44e4b04da1ea", 
+                                "text": "Start Date", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "af8e248f-28c9-4c97-b57b-add942b8e009"
+                            }
+                        ], 
+                        "label": "Beginning of Existence Type"
+                    }, 
+                    "id": "cf8eb3e3-ad20-11e6-84a5-026d961c88e6"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "4ff978bb-9bd4-11e6-84a5-026d961c80e6", 
+                    "label": "Fuzzy Start Date Specification", 
+                    "node_id": "7b1c428e-4848-11e7-9443-0242ac130004", 
+                    "sortorder": 2, 
+                    "config": {
+                        "placeholder": "Early, Middle, Late", 
+                        "options": [
+                            {
+                                "conceptid": "24145d83-af34-494f-bba8-a4918f59cb80", 
+                                "text": "Early", 
+                                "children": [], 
+                                "sortorder": "1", 
+                                "collector": "", 
+                                "id": "8d31391d-b726-4078-9452-adbe5663cbd6"
+                            }, 
+                            {
+                                "conceptid": "83f58dff-ecbc-4edb-b6cf-bb4e9cd1a739", 
+                                "text": "Middle", 
+                                "children": [], 
+                                "sortorder": "2", 
+                                "collector": "", 
+                                "id": "6bb55316-5952-454c-8232-7cace31e95b6"
+                            }, 
+                            {
+                                "conceptid": "823a272b-b56c-408f-8fc7-2968c7297b11", 
+                                "text": "Late", 
+                                "children": [], 
+                                "sortorder": "3", 
+                                "collector": "", 
+                                "id": "a06a6e07-f428-49f1-aad5-ea4eee5193cb"
+                            }, 
+                            {
+                                "conceptid": "97554bdc-0c93-479d-8eef-fb1f8480a6e5", 
+                                "text": "First half", 
+                                "children": [], 
+                                "sortorder": "4", 
+                                "collector": "", 
+                                "id": "62d5f795-9f71-4d33-aac6-828100f8c5d3"
+                            }, 
+                            {
+                                "conceptid": "fc5a16b8-8ba6-430e-afe9-608c56f9bbf9", 
+                                "text": "Second half", 
+                                "children": [], 
+                                "sortorder": "5", 
+                                "collector": "", 
+                                "id": "01f1f655-9864-4306-92fc-b030935580f7"
+                            }, 
+                            {
+                                "conceptid": "9c8d8b78-7524-4dd4-b2d9-8cbffa83a7ec", 
+                                "text": "First quarter", 
+                                "children": [], 
+                                "sortorder": "6", 
+                                "collector": "", 
+                                "id": "fa23777f-d8bc-42b3-a476-d760a9c98af2"
+                            }, 
+                            {
+                                "conceptid": "97b4e1a0-20b2-4213-8564-a8769d07db26", 
+                                "text": "Second quarter", 
+                                "children": [], 
+                                "sortorder": "7", 
+                                "collector": "", 
+                                "id": "895d409c-4922-4bbf-ac80-b06a80f4ffa2"
+                            }, 
+                            {
+                                "conceptid": "b5fcbdd9-c6e3-4c6e-a239-98fa5e4a1eed", 
+                                "text": "Third quarter", 
+                                "children": [], 
+                                "sortorder": "8", 
+                                "collector": "", 
+                                "id": "111cbd4a-3f3d-47c9-ab22-4ad121630f17"
+                            }, 
+                            {
+                                "conceptid": "ce100a01-15a8-4219-8b60-71352f33737b", 
+                                "text": "Fourth quarter", 
+                                "children": [], 
+                                "sortorder": "9", 
+                                "collector": "", 
+                                "id": "4d913d41-20fe-4193-847b-2838f00c7842"
+                            }
+                        ], 
+                        "label": "Fuzzy Start Date Specification"
+                    }, 
+                    "id": "ac16a464-4849-11e7-bf75-0242ac130004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "4ff978bb-9bd4-11e6-84a5-026d961c80e6", 
+                    "label": "Fuzzy Start Date Unit", 
+                    "node_id": "f6867066-4848-11e7-a77f-0242ac130004", 
+                    "sortorder": 4, 
+                    "config": {
+                        "placeholder": "Century, Milenium", 
+                        "options": [
+                            {
+                                "conceptid": "34771212-74ab-4d59-9caa-83b6ef829bd6", 
+                                "text": "Century", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "525b65d4-7fa1-41e4-a28a-34622a20d57f"
+                            }, 
+                            {
+                                "conceptid": "e78a0949-5ec8-416f-a97d-e3e259fae50b", 
+                                "text": "Millennium", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "29073c21-da17-4bd9-9f3c-a221329523df"
+                            }
+                        ], 
+                        "label": "Fuzzy Start Date Unit"
+                    }, 
+                    "id": "ac157f26-4849-11e7-bf75-0242ac130004"
+                }
+            ], 
+            "cards": [
+                {
+                    "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                    "helpenabled": false, 
+                    "description": "Describes the type and time span of the beginning of a resource's existence.\n\nRelates to the Actor resource model E39 via P92i.\nRelates to Historic Event E5 and Activity E7 via p116i.", 
+                    "visible": true, 
+                    "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "4ff978bb-9bd4-11e6-84a5-026d961c80e6", 
+                    "helptitle": null, 
+                    "instructions": "", 
+                    "active": true, 
+                    "name": "Beginning of Existence"
+                }
+            ], 
+            "root": {
+                "is_collector": true, 
+                "description": "", 
+                "istopnode": true, 
+                "ontologyclass": "E63_Beginning_of_Existence", 
+                "nodeid": "da8cf542-957e-11e6-b664-024f9e178154", 
+                "datatype": "semantic", 
+                "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154", 
+                "issearchable": true, 
+                "graph_id": "da8cf543-957e-11e6-b664-024f9e178154", 
+                "config": null, 
+                "name": "Beginning of Existence"
+            }, 
+            "isactive": true, 
+            "deploymentdate": null
         }
-      ],
-      "author": " GCI",
-      "deploymentfile": null,
-      "forms": [],
-      "version": "",
-      "nodes": [
-        {
-          "graph_id": "da8cf543-957e-11e6-b664-024f9e178154",
-          "description": "Represents a single node in a graph",
-          "istopnode": false,
-          "ontologyclass": "E52_Time-Span",
-          "nodeid": "741f5d77-957f-11e6-b664-024f9e178154",
-          "datatype": "semantic",
-          "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154",
-          "config": null,
-          "parentproperty": "P4_has_time-span",
-          "name": "Beginning of Existence Time Span"
-        },
-        {
-          "graph_id": "da8cf543-957e-11e6-b664-024f9e178154",
-          "description": "Represents a single node in a graph",
-          "istopnode": false,
-          "ontologyclass": "E55_Type",
-          "nodeid": "36229b3d-957f-11e6-b664-024f9e178154",
-          "datatype": "concept",
-          "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154",
-          "config": {
-            "rdmCollection": "216ee2fb-4197-4f84-84dd-3a38d59480fb"
-          },
-          "parentproperty": "P2_has_type",
-          "name": "Beginning of Existence Type"
-        },
-        {
-          "graph_id": "da8cf543-957e-11e6-b664-024f9e178154",
-          "description": "Represents a single node in a graph",
-          "istopnode": false,
-          "ontologyclass": "E49_Time_Appellation",
-          "nodeid": "860c246b-957f-11e6-b664-024f9e178154",
-          "datatype": "date",
-          "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154",
-          "config": null,
-          "parentproperty": "P78_is_identified_by",
-          "name": "Start Date of Existence"
-        },
-        {
-          "graph_id": "da8cf543-957e-11e6-b664-024f9e178154",
-          "description": "",
-          "istopnode": true,
-          "ontologyclass": "E63_Beginning_of_Existence",
-          "nodeid": "da8cf542-957e-11e6-b664-024f9e178154",
-          "datatype": "semantic",
-          "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154",
-          "config": null,
-          "parentproperty": "",
-          "name": "Beginning of Existence"
-        }
-      ],
-      "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-      "description": "Describes the type and time span of the beginning of a resource's existence.\n\nRelates to the Actor resource model E39 via P92i.\nRelates to Historic Event E5 and Activity E7 via p116i.",
-      "edges": [
-        {
-          "graph_id": "da8cf543-957e-11e6-b664-024f9e178154",
-          "name": null,
-          "edgeid": "860c246c-957f-11e6-b664-024f9e178154",
-          "domainnode_id": "741f5d77-957f-11e6-b664-024f9e178154",
-          "rangenode_id": "860c246b-957f-11e6-b664-024f9e178154",
-          "ontologyproperty": "P78_is_identified_by",
-          "description": null
-        },
-        {
-          "graph_id": "da8cf543-957e-11e6-b664-024f9e178154",
-          "name": null,
-          "edgeid": "36229b3e-957f-11e6-b664-024f9e178154",
-          "domainnode_id": "da8cf542-957e-11e6-b664-024f9e178154",
-          "rangenode_id": "36229b3d-957f-11e6-b664-024f9e178154",
-          "ontologyproperty": "P2_has_type",
-          "description": null
-        },
-        {
-          "graph_id": "da8cf543-957e-11e6-b664-024f9e178154",
-          "name": null,
-          "edgeid": "741f5d78-957f-11e6-b664-024f9e178154",
-          "domainnode_id": "da8cf542-957e-11e6-b664-024f9e178154",
-          "rangenode_id": "741f5d77-957f-11e6-b664-024f9e178154",
-          "ontologyproperty": "P4_has_time-span",
-          "description": null
-        }
-      ],
-      "maplinewidth": null,
-      "mappointsize": null,
-      "graphid": "da8cf543-957e-11e6-b664-024f9e178154",
-      "name": "Beginning of Existence",
-      "cards_x_nodes_x_widgets": [
-        {
-          "widget_id": "10000000-0000-0000-0000-000000000004",
-          "card_id": "4ff978bb-9bd4-11e6-84a5-026d961c80e6",
-          "label": "Start Date of Existence",
-          "node_id": "860c246b-957f-11e6-b664-024f9e178154",
-          "sortorder": 0,
-          "config": "{\"maxDate\":false,\"viewMode\":\"days\",\"dateFormat\":\"YYYY-MM-DD\",\"placeholder\":\"Enter date\",\"minDate\":false,\"label\":\"Start Date of Existence\"}",
-          "id": "cf8eb3e2-ad20-11e6-84a5-026d961c88e6"
-        },
-        {
-          "widget_id": "10000000-0000-0000-0000-000000000009",
-          "card_id": "4ff978bb-9bd4-11e6-84a5-026d961c80e6",
-          "label": "Beginning of Existence Type",
-          "node_id": "36229b3d-957f-11e6-b664-024f9e178154",
-          "sortorder": 1,
-          "config": "{\"placeholder\":\"Select type \",\"options\":[{\"conceptid\":\"226bb292-4def-484f-8c6b-6eab8dd48c03\",\"text\":\"Birth Date\",\"id\":\"73e5204c-0635-478b-a369-91d5cde5c68f\",\"sortorder\":\"\",\"collector\":\"\",\"children\":[]},{\"conceptid\":\"cf3683e1-6969-47b4-8cda-c61753819ec7\",\"text\":\"Built Date\",\"id\":\"29adbea8-891a-44bf-b0c5-8912d118f629\",\"sortorder\":\"\",\"collector\":\"\",\"children\":[]},{\"conceptid\":\"11303e6e-9ea1-4b4c-8e2d-c0fa7c9db390\",\"text\":\"Creation Date\",\"id\":\"cf4d3fee-1c66-499c-a087-13eb3a069807\",\"sortorder\":\"\",\"collector\":\"\",\"children\":[]},{\"conceptid\":\"0560b41b-123e-413b-ac75-eeb09d7b9de7\",\"text\":\"Formation Date\",\"id\":\"af52d238-b9ce-47bd-ba71-585d007d090b\",\"sortorder\":\"\",\"collector\":\"\",\"children\":[]},{\"conceptid\":\"9963003a-f6ae-4792-ad5d-44e4b04da1ea\",\"text\":\"Start Date\",\"id\":\"af8e248f-28c9-4c97-b57b-add942b8e009\",\"sortorder\":\"\",\"collector\":\"\",\"children\":[]}],\"label\":\"Beginning of Existence Type\"}",
-          "id": "cf8eb3e3-ad20-11e6-84a5-026d961c88e6"
-        }
-      ],
-      "cards": [
-        {
-          "helpenabled": false,
-          "graph_id": "da8cf543-957e-11e6-b664-024f9e178154",
-          "description": "Describes the type and time span of the beginning of a resource's existence.\n\nRelates to the Actor resource model E39 via P92i.\nRelates to Historic Event E5 and Activity E7 via p116i.",
-          "visible": true,
-          "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154",
-          "helptext": null,
-          "sortorder": null,
-          "cardid": "4ff978bb-9bd4-11e6-84a5-026d961c80e6",
-          "helptitle": null,
-          "instructions": "Please enter the date of the beginning of existence for the resource.",
-          "active": true,
-          "name": "Beginning of Existence"
-        }
-      ],
-      "root": {
-        "graph_id": "da8cf543-957e-11e6-b664-024f9e178154",
-        "description": "",
-        "istopnode": true,
-        "ontologyclass": "E63_Beginning_of_Existence",
-        "nodeid": "da8cf542-957e-11e6-b664-024f9e178154",
-        "datatype": "semantic",
-        "nodegroup_id": "da8cf542-957e-11e6-b664-024f9e178154",
-        "config": null,
-        "name": "Beginning of Existence"
-      },
-      "isactive": true,
-      "deploymentdate": null
+    ], 
+    "metadata": {
+        "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
+        "db": "PostgreSQL 9.6.3 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
+        "os version": "4.9.27-moby", 
+        "os": "Linux"
     }
-  ],
-  "metadata": {
-    "git hash": "67a5208 2016-12-07 11:12:11 -0800",
-    "db": "PostgreSQL 9.6.0 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit",
-    "os version": "4.4.0-45-generic",
-    "os": "Linux"
-  }
 }
