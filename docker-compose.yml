@@ -5,10 +5,9 @@ services:
       container_name: arches
       restart: always
       image: cvast/cvast-arches:latest
-      build: 
+      build:
         context: .
         dockerfile: ./Dockerfile
-      command: bash -c  "sleep 15 && /docker/entrypoint.sh"
       volumes:
         - arches-log:/arches/arches/logs
         - arches-static:/static_root
@@ -16,6 +15,8 @@ services:
       environment:
         - ARCHES_PROJECT=cvast_arches
         - FORCE_DB_INIT=False
+        - INSTALL_DEFAULT_GRAPHS=False
+        - INSTALL_DEFAULT_CONCEPTS=False
         - PGPASSWORD=
         - PGDBNAME=arches
         - PGHOST=db
@@ -32,7 +33,7 @@ services:
       depends_on:
         - db
         - elasticsearch
-        
+
     db:
       container_name: db
       restart: always
@@ -45,7 +46,7 @@ services:
       environment:
         - POSTGRES_PASSWORD=
         - TZ=EST
-        
+
     elasticsearch:
       container_name: elasticsearch
       restart: always
@@ -59,7 +60,7 @@ services:
       environment:
         - TZ=EST
 
-        
+
 volumes:
     arches-log:
     arches-static:
