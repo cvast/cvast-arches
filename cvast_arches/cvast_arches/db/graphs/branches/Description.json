@@ -1,150 +1,279 @@
 {
     "graph": [
         {
-            "subtitle": "Generic branch for capturing free-form written descriptive information",
-            "mapfeaturecolor": "#FF0000",
-            "isresource": false,
-            "forms_x_cards": [],
-            "reports": [],
-            "iconclass": "fa fa-wrench",
-            "functions": [],
+            "subtitle": "Generic branch for capturing free-form written descriptive information", 
+            "functions_x_graphs": [], 
+            "mapfeaturecolor": "#FF0000", 
+            "isresource": false, 
+            "forms_x_cards": [], 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "iconclass": "fa fa-wrench", 
             "nodegroups": [
                 {
-                    "cardinality": "n",
-                    "legacygroupid": null,
-                    "nodegroupid": "3d532c7a-a063-11e6-84a5-026d961c88e6",
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "3d532c7a-a063-11e6-84a5-026d961c88e6", 
                     "parentnodegroup_id": null
                 }
-            ],
-            "author": "GCI ",
-            "deploymentfile": null,
-            "forms": [],
-            "version": "",
+            ], 
+            "author": "GCI ", 
+            "deploymentfile": null, 
+            "forms": [], 
+            "version": "", 
             "nodes": [
                 {
-                    "is_collector": true,
-                    "description": "",
-                    "istopnode": true,
-                    "ontologyclass": "E13_Attribute_Assignment",
-                    "nodeid": "3d532c7a-a063-11e6-84a5-026d961c88e6",
-                    "datatype": "semantic",
-                    "nodegroup_id": "3d532c7a-a063-11e6-84a5-026d961c88e6",
-                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6",
-                    "config": null,
-                    "parentproperty": "",
-                    "name": "Description Assignment"
-                },
-                {
-                    "is_collector": false,
-                    "description": "Represents a single node in a graph",
-                    "istopnode": false,
-                    "ontologyclass": "E62_String",
-                    "nodeid": "80171c07-a063-11e6-84a5-026d961c88e6",
-                    "datatype": "string",
-                    "nodegroup_id": "3d532c7a-a063-11e6-84a5-026d961c88e6",
-                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6",
-                    "config": null,
-                    "parentproperty": "P3_has_note",
-                    "name": "Description"
-                },
-                {
-                    "is_collector": false,
-                    "description": "Represents a single node in a graph",
-                    "istopnode": false,
-                    "ontologyclass": "E55_Type",
-                    "nodeid": "d309bcd5-a063-11e6-84a5-026d961c88e6",
-                    "datatype": "concept",
-                    "nodegroup_id": "3d532c7a-a063-11e6-84a5-026d961c88e6",
-                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6",
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E42_Identifier", 
+                    "nodeid": "0f901f0e-4bb3-11e7-b6c3-0242ac130004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "3d532c7a-a063-11e6-84a5-026d961c88e6", 
+                    "issearchable": true, 
+                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
                     "config": {
-                        "rdmCollection": null
-                    },
-                    "parentproperty": "P2_has_type",
+                        "rdmCollection": "aae46cf5-c73c-4af2-af8c-9d8e1b6908bf"
+                    }, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Bibliographical Reference"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "S5_Inference_Making", 
+                    "nodeid": "ed11a0b0-4bb2-11e7-b342-0242ac130004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "3d532c7a-a063-11e6-84a5-026d961c88e6", 
+                    "issearchable": true, 
+                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
+                    "config": null, 
+                    "parentproperty": "P141i_was_assigned_by", 
+                    "name": "Inference Making"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E42_Identifier", 
+                    "nodeid": "2fd4d070-4bb3-11e7-9c72-0242ac130004", 
+                    "datatype": "string", 
+                    "nodegroup_id": "3d532c7a-a063-11e6-84a5-026d961c88e6", 
+                    "issearchable": true, 
+                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Page Number"
+                }, 
+                {
+                    "is_collector": true, 
+                    "description": "", 
+                    "istopnode": true, 
+                    "ontologyclass": "E13_Attribute_Assignment", 
+                    "nodeid": "3d532c7a-a063-11e6-84a5-026d961c88e6", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "3d532c7a-a063-11e6-84a5-026d961c88e6", 
+                    "issearchable": true, 
+                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
+                    "config": null, 
+                    "parentproperty": "", 
+                    "name": "Description Assignment"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E62_String", 
+                    "nodeid": "80171c07-a063-11e6-84a5-026d961c88e6", 
+                    "datatype": "string", 
+                    "nodegroup_id": "3d532c7a-a063-11e6-84a5-026d961c88e6", 
+                    "issearchable": true, 
+                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
+                    "config": null, 
+                    "parentproperty": "P3_has_note", 
+                    "name": "Description"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "d309bcd5-a063-11e6-84a5-026d961c88e6", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "3d532c7a-a063-11e6-84a5-026d961c88e6", 
+                    "issearchable": true, 
+                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
+                    "config": {
+                        "rdmCollection": "b8e04327-c132-4235-8f29-c4ba8c4f7923"
+                    }, 
+                    "parentproperty": "P2_has_type", 
                     "name": "Description Type"
                 }
-            ],
-            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "description": "Generic branch for capturing free-form written descriptive information.\nIntended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n\nThis branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n\nConnects to all resources with P140i",
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "description": "Generic branch for capturing free-form written descriptive information.\nIntended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n\nThis branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n\nConnects to all resources with P140i", 
+            "resource_2_resource_constraints": [], 
             "edges": [
                 {
-                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6",
-                    "name": null,
-                    "edgeid": "d309bcd6-a063-11e6-84a5-026d961c88e6",
-                    "domainnode_id": "3d532c7a-a063-11e6-84a5-026d961c88e6",
-                    "rangenode_id": "d309bcd5-a063-11e6-84a5-026d961c88e6",
-                    "ontologyproperty": "P2_has_type",
+                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "2fd4d28c-4bb3-11e7-9c72-0242ac130004", 
+                    "domainnode_id": "0f901f0e-4bb3-11e7-b6c3-0242ac130004", 
+                    "rangenode_id": "2fd4d070-4bb3-11e7-9c72-0242ac130004", 
+                    "ontologyproperty": "P1_is_identified_by", 
                     "description": null
-                },
+                }, 
                 {
-                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6",
-                    "name": null,
-                    "edgeid": "80171c08-a063-11e6-84a5-026d961c88e6",
-                    "domainnode_id": "3d532c7a-a063-11e6-84a5-026d961c88e6",
-                    "rangenode_id": "80171c07-a063-11e6-84a5-026d961c88e6",
-                    "ontologyproperty": "P3_has_note",
+                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "0f902166-4bb3-11e7-b6c3-0242ac130004", 
+                    "domainnode_id": "ed11a0b0-4bb2-11e7-b342-0242ac130004", 
+                    "rangenode_id": "0f901f0e-4bb3-11e7-b6c3-0242ac130004", 
+                    "ontologyproperty": "P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "ed11a9f2-4bb2-11e7-b342-0242ac130004", 
+                    "domainnode_id": "3d532c7a-a063-11e6-84a5-026d961c88e6", 
+                    "rangenode_id": "ed11a0b0-4bb2-11e7-b342-0242ac130004", 
+                    "ontologyproperty": "P141i_was_assigned_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "d309bcd6-a063-11e6-84a5-026d961c88e6", 
+                    "domainnode_id": "3d532c7a-a063-11e6-84a5-026d961c88e6", 
+                    "rangenode_id": "d309bcd5-a063-11e6-84a5-026d961c88e6", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "80171c08-a063-11e6-84a5-026d961c88e6", 
+                    "domainnode_id": "3d532c7a-a063-11e6-84a5-026d961c88e6", 
+                    "rangenode_id": "80171c07-a063-11e6-84a5-026d961c88e6", 
+                    "ontologyproperty": "P3_has_note", 
                     "description": null
                 }
-            ],
-            "maplinewidth": 1,
-            "mappointsize": 3,
-            "graphid": "3d532c7b-a063-11e6-84a5-026d961c88e6",
-            "name": "Description",
+            ], 
+            "maplinewidth": 1, 
+            "mappointsize": 3, 
+            "graphid": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
+            "name": "Description", 
             "cards_x_nodes_x_widgets": [
                 {
-                    "widget_id": "10000000-0000-0000-0000-000000000002",
-                    "card_id": "3d532c7d-a063-11e6-84a5-026d961c88e6",
-                    "label": "Description Type",
-                    "node_id": "d309bcd5-a063-11e6-84a5-026d961c88e6",
-                    "sortorder": 1,
-                    "config": "{\"placeholder\":\"Select a description type\",\"options\":[],\"label\":\"Description Type\"}",
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "3d532c7d-a063-11e6-84a5-026d961c88e6", 
+                    "label": "Description Type", 
+                    "node_id": "d309bcd5-a063-11e6-84a5-026d961c88e6", 
+                    "sortorder": 1, 
+                    "config": {
+                        "placeholder": "Select a description type", 
+                        "options": [], 
+                        "label": "Description Type"
+                    }, 
                     "id": "97db581b-ad25-11e6-84a5-026d961c88e6"
-                },
+                }, 
                 {
-                    "widget_id": "10000000-0000-0000-0000-000000000005",
-                    "card_id": "3d532c7d-a063-11e6-84a5-026d961c88e6",
-                    "label": "Description",
-                    "node_id": "80171c07-a063-11e6-84a5-026d961c88e6",
-                    "sortorder": 0,
-                    "config": "{\"width\":\"100%\",\"placeholder\":\"Enter text\",\"label\":\"Description\"}",
+                    "widget_id": "10000000-0000-0000-0000-000000000005", 
+                    "card_id": "3d532c7d-a063-11e6-84a5-026d961c88e6", 
+                    "label": "Description", 
+                    "node_id": "80171c07-a063-11e6-84a5-026d961c88e6", 
+                    "sortorder": 0, 
+                    "config": {
+                        "width": "100%", 
+                        "placeholder": "Enter text", 
+                        "label": "Description"
+                    }, 
                     "id": "97db581a-ad25-11e6-84a5-026d961c88e6"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "3d532c7d-a063-11e6-84a5-026d961c88e6", 
+                    "label": "Bibliographical Reference", 
+                    "node_id": "0f901f0e-4bb3-11e7-b6c3-0242ac130004", 
+                    "sortorder": 2, 
+                    "config": {
+                        "placeholder": "Select an option", 
+                        "options": [
+                            {
+                                "conceptid": "1cb9b830-112f-4dd7-8043-eb970a230219", 
+                                "text": "Bell, M., III, 1981: The Terracottas. In: Bell, M. and C. Moss: Morgantina Studies, Volume I. Department of Art and Archaeology, Princeton University Princeton, New Jersey", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "b912a5c1-d6db-4ed3-81e1-1b3fc936955b"
+                            }, 
+                            {
+                                "conceptid": "c60970ef-cdb2-4cac-a8b0-bb1d804e4e52", 
+                                "text": "Stone, S.C., 2014: The Hellenistic and Roman Fine Potter. In: Bell, M. and C. Moss: Morgantina Studies, Volume VI. Department of Art and Archaeology, Princeton University Princeton, New Jersey", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "6e95a3fa-3728-4643-a3ae-ca42161c48bb"
+                            }
+                        ], 
+                        "label": "Bibliographical Reference"
+                    }, 
+                    "id": "a704fe4a-4bb3-11e7-bef4-0242ac130004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000001", 
+                    "card_id": "3d532c7d-a063-11e6-84a5-026d961c88e6", 
+                    "label": "Page Number", 
+                    "node_id": "2fd4d070-4bb3-11e7-9c72-0242ac130004", 
+                    "sortorder": 3, 
+                    "config": {
+                        "width": "100%", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "label": "Page Number"
+                    }, 
+                    "id": "a7056d26-4bb3-11e7-bef4-0242ac130004"
                 }
-            ],
+            ], 
             "cards": [
                 {
-                    "helpenabled": false,
-                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6",
-                    "description": "Generic branch for capturing free-form written descriptive information.\nIntended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n\nThis branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n\nConnects to all resources with P140i",
-                    "visible": true,
-                    "nodegroup_id": "3d532c7a-a063-11e6-84a5-026d961c88e6",
-                    "helptext": null,
-                    "sortorder": null,
-                    "cardid": "3d532c7d-a063-11e6-84a5-026d961c88e6",
-                    "helptitle": null,
-                    "instructions": "Enter a description and description type for the resource.",
-                    "active": true,
+                    "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
+                    "helpenabled": false, 
+                    "description": "Generic branch for capturing free-form written descriptive information.\nIntended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n\nThis branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n\nConnects to all resources with P140i", 
+                    "visible": true, 
+                    "nodegroup_id": "3d532c7a-a063-11e6-84a5-026d961c88e6", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "3d532c7d-a063-11e6-84a5-026d961c88e6", 
+                    "helptitle": null, 
+                    "instructions": "Enter a description and description type for the resource.", 
+                    "active": true, 
                     "name": "Description"
                 }
-            ],
+            ], 
             "root": {
-                "is_collector": true,
-                "description": "",
-                "istopnode": true,
-                "ontologyclass": "E13_Attribute_Assignment",
-                "nodeid": "3d532c7a-a063-11e6-84a5-026d961c88e6",
-                "datatype": "semantic",
-                "nodegroup_id": "3d532c7a-a063-11e6-84a5-026d961c88e6",
-                "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6",
-                "config": null,
+                "is_collector": true, 
+                "description": "", 
+                "istopnode": true, 
+                "ontologyclass": "E13_Attribute_Assignment", 
+                "nodeid": "3d532c7a-a063-11e6-84a5-026d961c88e6", 
+                "datatype": "semantic", 
+                "nodegroup_id": "3d532c7a-a063-11e6-84a5-026d961c88e6", 
+                "issearchable": true, 
+                "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
+                "config": null, 
                 "name": "Description Assignment"
-            },
-            "isactive": true,
+            }, 
+            "isactive": true, 
             "deploymentdate": null
         }
-    ],
+    ], 
     "metadata": {
-        "git hash": "ff93bd9 2017-01-24 10:17:51 -0800",
-        "db": "PostgreSQL 9.6.0 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit",
-        "os version": "4.4.0-45-generic",
+        "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
+        "db": "PostgreSQL 9.6.3 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
+        "os version": "4.9.27-moby", 
         "os": "Linux"
     }
 }
