@@ -46,24 +46,6 @@
                     "id": "11631006-e755-11e6-84a6-026d961c88e6"
                 }, 
                 {
-                    "card_id": "1539a6c5-e746-11e6-84a6-026d961c88e6", 
-                    "sortorder": 0, 
-                    "form_id": "13404614-e755-11e6-84a6-026d961c88e6", 
-                    "id": "1fee3af6-e755-11e6-84a6-026d961c88e6"
-                }, 
-                {
-                    "card_id": "657abe18-e746-11e6-84a6-026d961c88e6", 
-                    "sortorder": 0, 
-                    "form_id": "f52aca6e-e754-11e6-84a6-026d961c88e6", 
-                    "id": "06a76a0e-e755-11e6-84a6-026d961c88e6"
-                }, 
-                {
-                    "card_id": "5279477f-e746-11e6-84a6-026d961c88e6", 
-                    "sortorder": 0, 
-                    "form_id": "8f16c308-e755-11e6-84a6-026d961c88e6", 
-                    "id": "dd125cfc-e755-11e6-84a6-026d961c88e6"
-                }, 
-                {
                     "card_id": "a40bcea6-4f75-11e7-b9e4-0242ac120004", 
                     "sortorder": 0, 
                     "form_id": "e63ea1aa-e755-11e6-84a6-026d961c88e6", 
@@ -92,6 +74,24 @@
                     "sortorder": 3, 
                     "form_id": "ce1da810-e754-11e6-84a6-026d961c88e6", 
                     "id": "1903dd9e-55c4-11e7-aae7-0242ac120004"
+                }, 
+                {
+                    "card_id": "1539a6c5-e746-11e6-84a6-026d961c88e6", 
+                    "sortorder": 0, 
+                    "form_id": "13404614-e755-11e6-84a6-026d961c88e6", 
+                    "id": "33fa636c-5785-11e7-9b6e-0242ac120004"
+                }, 
+                {
+                    "card_id": "5279477f-e746-11e6-84a6-026d961c88e6", 
+                    "sortorder": 0, 
+                    "form_id": "8f16c308-e755-11e6-84a6-026d961c88e6", 
+                    "id": "42ee5248-5785-11e7-8276-0242ac120004"
+                }, 
+                {
+                    "card_id": "657abe18-e746-11e6-84a6-026d961c88e6", 
+                    "sortorder": 0, 
+                    "form_id": "f52aca6e-e754-11e6-84a6-026d961c88e6", 
+                    "id": "503b50cc-5785-11e7-8e58-0242ac120004"
                 }
             ], 
             "relatable_resource_model_ids": [], 
@@ -746,33 +746,6 @@
                     "graph_id": "fad0563b-b8f8-11e6-84a5-026d961c88e6"
                 }, 
                 {
-                    "iconclass": null, 
-                    "subtitle": "Condition assessment of Heritage Resource Group", 
-                    "title": "Heritage Resource Group Condition", 
-                    "formid": "13404614-e755-11e6-84a6-026d961c88e6", 
-                    "visible": true, 
-                    "sortorder": 3, 
-                    "graph_id": "fad0563b-b8f8-11e6-84a5-026d961c88e6"
-                }, 
-                {
-                    "iconclass": null, 
-                    "subtitle": "Evaluation of Heritage Resource Group Significance", 
-                    "title": "Heritage Resource Group Evaluation", 
-                    "formid": "f52aca6e-e754-11e6-84a6-026d961c88e6", 
-                    "visible": true, 
-                    "sortorder": 5, 
-                    "graph_id": "fad0563b-b8f8-11e6-84a5-026d961c88e6"
-                }, 
-                {
-                    "iconclass": null, 
-                    "subtitle": "Designations and protections assigned to the Heritage Resource Group", 
-                    "title": "Heritage Resource Group Designation ", 
-                    "formid": "8f16c308-e755-11e6-84a6-026d961c88e6", 
-                    "visible": true, 
-                    "sortorder": 6, 
-                    "graph_id": "fad0563b-b8f8-11e6-84a5-026d961c88e6"
-                }, 
-                {
                     "iconclass": "fa fa-tag", 
                     "subtitle": "Measurements associated with the Heritage Resource Group", 
                     "title": "Heritage Resource Group Measurement", 
@@ -788,6 +761,33 @@
                     "formid": "ce1da810-e754-11e6-84a6-026d961c88e6", 
                     "visible": true, 
                     "sortorder": 0, 
+                    "graph_id": "fad0563b-b8f8-11e6-84a5-026d961c88e6"
+                }, 
+                {
+                    "iconclass": null, 
+                    "subtitle": "Condition assessment of Heritage Resource Group", 
+                    "title": "Heritage Resource Group Condition", 
+                    "formid": "13404614-e755-11e6-84a6-026d961c88e6", 
+                    "visible": false, 
+                    "sortorder": 3, 
+                    "graph_id": "fad0563b-b8f8-11e6-84a5-026d961c88e6"
+                }, 
+                {
+                    "iconclass": null, 
+                    "subtitle": "Designations and protections assigned to the Heritage Resource Group", 
+                    "title": "Heritage Resource Group Designation ", 
+                    "formid": "8f16c308-e755-11e6-84a6-026d961c88e6", 
+                    "visible": false, 
+                    "sortorder": 6, 
+                    "graph_id": "fad0563b-b8f8-11e6-84a5-026d961c88e6"
+                }, 
+                {
+                    "iconclass": null, 
+                    "subtitle": "Evaluation of Heritage Resource Group Significance", 
+                    "title": "Heritage Resource Group Evaluation", 
+                    "formid": "f52aca6e-e754-11e6-84a6-026d961c88e6", 
+                    "visible": false, 
+                    "sortorder": 5, 
                     "graph_id": "fad0563b-b8f8-11e6-84a5-026d961c88e6"
                 }
             ], 

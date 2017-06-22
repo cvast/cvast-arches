@@ -58,34 +58,34 @@
                     "id": "c55cc5f2-55c3-11e7-9e7b-0242ac120004"
                 }, 
                 {
+                    "card_id": "90aa6ebf-e747-11e6-84a6-026d961c88e6", 
+                    "sortorder": 0, 
+                    "form_id": "829f0568-e764-11e6-84a6-026d961c88e6", 
+                    "id": "94fc16a6-e764-11e6-84a6-026d961c88e6"
+                }, 
+                {
                     "card_id": "f70f1b79-e747-11e6-84a6-026d961c88e6", 
                     "sortorder": 0, 
                     "form_id": "2d3e349e-e765-11e6-84a6-026d961c88e6", 
-                    "id": "455a1b9c-e765-11e6-84a6-026d961c88e6"
+                    "id": "15dc601a-5785-11e7-8401-0242ac120004"
                 }, 
                 {
                     "card_id": "46d9dd25-e747-11e6-84a6-026d961c88e6", 
                     "sortorder": 0, 
                     "form_id": "1c56684a-e765-11e6-84a6-026d961c88e6", 
-                    "id": "2be24bd0-e765-11e6-84a6-026d961c88e6"
+                    "id": "19cae7c8-5785-11e7-afa5-0242ac120004"
                 }, 
                 {
                     "card_id": "d5d66576-e747-11e6-84a6-026d961c88e6", 
                     "sortorder": 0, 
                     "form_id": "d32b2728-e764-11e6-84a6-026d961c88e6", 
-                    "id": "e9ae3bca-e764-11e6-84a6-026d961c88e6"
+                    "id": "1d689ec0-5785-11e7-a2d7-0242ac120004"
                 }, 
                 {
                     "card_id": "9bfe416f-e747-11e6-84a6-026d961c88e6", 
                     "sortorder": 0, 
                     "form_id": "eae1a6da-e764-11e6-84a6-026d961c88e6", 
-                    "id": "045eb36e-e765-11e6-84a6-026d961c88e6"
-                }, 
-                {
-                    "card_id": "90aa6ebf-e747-11e6-84a6-026d961c88e6", 
-                    "sortorder": 0, 
-                    "form_id": "829f0568-e764-11e6-84a6-026d961c88e6", 
-                    "id": "94fc16a6-e764-11e6-84a6-026d961c88e6"
+                    "id": "220e4722-5785-11e7-8e4c-0242ac120004"
                 }, 
                 {
                     "card_id": "6fa8d7be-e747-11e6-84a6-026d961c88e6", 
@@ -819,10 +819,19 @@
                 }, 
                 {
                     "iconclass": null, 
+                    "subtitle": "External references or identifiers of the Heritage Resource", 
+                    "title": "External References", 
+                    "formid": "829f0568-e764-11e6-84a6-026d961c88e6", 
+                    "visible": true, 
+                    "sortorder": 9, 
+                    "graph_id": "99417385-b8fa-11e6-84a5-026d961c88e6"
+                }, 
+                {
+                    "iconclass": null, 
                     "subtitle": "Alterations or modifications that impact the integrity of a Heritage Resource", 
                     "title": "Heritage Resource Alterations", 
                     "formid": "2d3e349e-e765-11e6-84a6-026d961c88e6", 
-                    "visible": true, 
+                    "visible": false, 
                     "sortorder": 5, 
                     "graph_id": "99417385-b8fa-11e6-84a5-026d961c88e6"
                 }, 
@@ -831,7 +840,7 @@
                     "subtitle": "Assessment of a Heritage Resource's condition", 
                     "title": "Heritage Resource Condition Assessment", 
                     "formid": "1c56684a-e765-11e6-84a6-026d961c88e6", 
-                    "visible": true, 
+                    "visible": false, 
                     "sortorder": 6, 
                     "graph_id": "99417385-b8fa-11e6-84a5-026d961c88e6"
                 }, 
@@ -840,7 +849,7 @@
                     "subtitle": "Evaluation of the Heritage Resource for significance", 
                     "title": "Heritage Resource Evaluation", 
                     "formid": "d32b2728-e764-11e6-84a6-026d961c88e6", 
-                    "visible": true, 
+                    "visible": false, 
                     "sortorder": 7, 
                     "graph_id": "99417385-b8fa-11e6-84a5-026d961c88e6"
                 }, 
@@ -849,17 +858,8 @@
                     "subtitle": "Designations and protections that are assigned to the heritage resource", 
                     "title": "Heritage Resource Designation", 
                     "formid": "eae1a6da-e764-11e6-84a6-026d961c88e6", 
-                    "visible": true, 
+                    "visible": false, 
                     "sortorder": 8, 
-                    "graph_id": "99417385-b8fa-11e6-84a5-026d961c88e6"
-                }, 
-                {
-                    "iconclass": null, 
-                    "subtitle": "External references or identifiers of the Heritage Resource", 
-                    "title": "External References", 
-                    "formid": "829f0568-e764-11e6-84a6-026d961c88e6", 
-                    "visible": true, 
-                    "sortorder": 9, 
                     "graph_id": "99417385-b8fa-11e6-84a5-026d961c88e6"
                 }, 
                 {
