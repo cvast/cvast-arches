@@ -13,14 +13,26 @@
                 {
                     "cardinality": "n", 
                     "legacygroupid": null, 
-                    "nodegroupid": "1f3797fe-569c-11e7-af15-0242ac120004", 
-                    "parentnodegroup_id": null
+                    "nodegroupid": "9ba0a732-56a5-11e7-955e-0242ac120004", 
+                    "parentnodegroup_id": "1f3797fe-569c-11e7-af15-0242ac120004"
                 }, 
                 {
                     "cardinality": "n", 
                     "legacygroupid": null, 
-                    "nodegroupid": "9ba0a732-56a5-11e7-955e-0242ac120004", 
+                    "nodegroupid": "54cf5276-5845-11e7-884e-0242ac120004", 
                     "parentnodegroup_id": "1f3797fe-569c-11e7-af15-0242ac120004"
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "fbe3b0f0-5847-11e7-8a98-0242ac120004", 
+                    "parentnodegroup_id": "1f3797fe-569c-11e7-af15-0242ac120004"
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "1f3797fe-569c-11e7-af15-0242ac120004", 
+                    "parentnodegroup_id": null
                 }
             ], 
             "author": " CVAST", 
@@ -29,13 +41,27 @@
             "version": "", 
             "nodes": [
                 {
+                    "is_collector": true, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "S5_Inference_Making", 
+                    "nodeid": "54cf5276-5845-11e7-884e-0242ac120004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "54cf5276-5845-11e7-884e-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "1f379b5a-569c-11e7-af15-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P141i_was_assigned_by", 
+                    "name": "Inference Making From Bibliography"
+                }, 
+                {
                     "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
                     "ontologyclass": "E31_Document", 
-                    "nodeid": "0bc2fb9e-56b2-11e7-a8a1-0242ac120004", 
+                    "nodeid": "ae9ab4da-5845-11e7-9cb3-0242ac120004", 
                     "datatype": "concept", 
-                    "nodegroup_id": "9ba0a732-56a5-11e7-955e-0242ac120004", 
+                    "nodegroup_id": "54cf5276-5845-11e7-884e-0242ac120004", 
                     "issearchable": true, 
                     "graph_id": "1f379b5a-569c-11e7-af15-0242ac120004", 
                     "config": {
@@ -43,20 +69,6 @@
                     }, 
                     "parentproperty": "P70i_is_documented_in", 
                     "name": "Bibliographical Reference"
-                }, 
-                {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "S5_Inference_Making", 
-                    "nodeid": "90994db0-56b1-11e7-b72b-0242ac120004", 
-                    "datatype": "semantic", 
-                    "nodegroup_id": "9ba0a732-56a5-11e7-955e-0242ac120004", 
-                    "issearchable": true, 
-                    "graph_id": "1f379b5a-569c-11e7-af15-0242ac120004", 
-                    "config": null, 
-                    "parentproperty": "P141i_was_assigned_by", 
-                    "name": "Inference Making"
                 }, 
                 {
                     "is_collector": true, 
@@ -76,17 +88,29 @@
                     "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E39_Actor", 
-                    "nodeid": "c6a7c990-56b1-11e7-8b15-0242ac120004", 
-                    "datatype": "concept-list", 
-                    "nodegroup_id": "9ba0a732-56a5-11e7-955e-0242ac120004", 
+                    "ontologyclass": "E42_Identifier", 
+                    "nodeid": "e0dadcfe-5845-11e7-92c6-0242ac120004", 
+                    "datatype": "string", 
+                    "nodegroup_id": "54cf5276-5845-11e7-884e-0242ac120004", 
+                    "issearchable": false, 
+                    "graph_id": "1f379b5a-569c-11e7-af15-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Page Number"
+                }, 
+                {
+                    "is_collector": true, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "S5_Inference_Making", 
+                    "nodeid": "fbe3b0f0-5847-11e7-8a98-0242ac120004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "fbe3b0f0-5847-11e7-8a98-0242ac120004", 
                     "issearchable": true, 
                     "graph_id": "1f379b5a-569c-11e7-af15-0242ac120004", 
-                    "config": {
-                        "rdmCollection": "1500b540-765c-4d50-82a5-36888127974d"
-                    }, 
-                    "parentproperty": "P14_carried_out_by", 
-                    "name": "Actor Authority"
+                    "config": null, 
+                    "parentproperty": "P141i_was_assigned_by", 
+                    "name": "Inference Making By Actor"
                 }, 
                 {
                     "is_collector": true, 
@@ -106,15 +130,17 @@
                     "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E42_Identifier", 
-                    "nodeid": "5986f7d6-56b2-11e7-8080-0242ac120004", 
-                    "datatype": "string", 
-                    "nodegroup_id": "9ba0a732-56a5-11e7-955e-0242ac120004", 
-                    "issearchable": false, 
+                    "ontologyclass": "E39_Actor", 
+                    "nodeid": "4e2de5ce-5848-11e7-965c-0242ac120004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "fbe3b0f0-5847-11e7-8a98-0242ac120004", 
+                    "issearchable": true, 
                     "graph_id": "1f379b5a-569c-11e7-af15-0242ac120004", 
-                    "config": null, 
-                    "parentproperty": "P1_is_identified_by", 
-                    "name": "Page Number"
+                    "config": {
+                        "rdmCollection": "1500b540-765c-4d50-82a5-36888127974d"
+                    }, 
+                    "parentproperty": "P14_carried_out_by", 
+                    "name": "Actor Authority"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
@@ -124,28 +150,46 @@
                 {
                     "graph_id": "1f379b5a-569c-11e7-af15-0242ac120004", 
                     "name": null, 
-                    "edgeid": "c6a7cbd4-56b1-11e7-8b15-0242ac120004", 
-                    "domainnode_id": "90994db0-56b1-11e7-b72b-0242ac120004", 
-                    "rangenode_id": "c6a7c990-56b1-11e7-8b15-0242ac120004", 
+                    "edgeid": "4e2de858-5848-11e7-965c-0242ac120004", 
+                    "domainnode_id": "fbe3b0f0-5847-11e7-8a98-0242ac120004", 
+                    "rangenode_id": "4e2de5ce-5848-11e7-965c-0242ac120004", 
                     "ontologyproperty": "P14_carried_out_by", 
                     "description": null
                 }, 
                 {
                     "graph_id": "1f379b5a-569c-11e7-af15-0242ac120004", 
                     "name": null, 
-                    "edgeid": "0bc2fe00-56b2-11e7-a8a1-0242ac120004", 
-                    "domainnode_id": "90994db0-56b1-11e7-b72b-0242ac120004", 
-                    "rangenode_id": "0bc2fb9e-56b2-11e7-a8a1-0242ac120004", 
+                    "edgeid": "ae9ab912-5845-11e7-9cb3-0242ac120004", 
+                    "domainnode_id": "54cf5276-5845-11e7-884e-0242ac120004", 
+                    "rangenode_id": "ae9ab4da-5845-11e7-9cb3-0242ac120004", 
                     "ontologyproperty": "P70i_is_documented_in", 
                     "description": null
                 }, 
                 {
                     "graph_id": "1f379b5a-569c-11e7-af15-0242ac120004", 
                     "name": null, 
-                    "edgeid": "90995116-56b1-11e7-b72b-0242ac120004", 
-                    "domainnode_id": "9ba0a732-56a5-11e7-955e-0242ac120004", 
-                    "rangenode_id": "90994db0-56b1-11e7-b72b-0242ac120004", 
+                    "edgeid": "54cf54d8-5845-11e7-884e-0242ac120004", 
+                    "domainnode_id": "1f3797fe-569c-11e7-af15-0242ac120004", 
+                    "rangenode_id": "54cf5276-5845-11e7-884e-0242ac120004", 
                     "ontologyproperty": "P141i_was_assigned_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "1f379b5a-569c-11e7-af15-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "fbe3b32a-5847-11e7-8a98-0242ac120004", 
+                    "domainnode_id": "1f3797fe-569c-11e7-af15-0242ac120004", 
+                    "rangenode_id": "fbe3b0f0-5847-11e7-8a98-0242ac120004", 
+                    "ontologyproperty": "P141i_was_assigned_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "1f379b5a-569c-11e7-af15-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "e0dadf38-5845-11e7-92c6-0242ac120004", 
+                    "domainnode_id": "ae9ab4da-5845-11e7-9cb3-0242ac120004", 
+                    "rangenode_id": "e0dadcfe-5845-11e7-92c6-0242ac120004", 
+                    "ontologyproperty": "P1_is_identified_by", 
                     "description": null
                 }, 
                 {
@@ -156,15 +200,6 @@
                     "rangenode_id": "9ba0a732-56a5-11e7-955e-0242ac120004", 
                     "ontologyproperty": "P140_assigned_attribute_to", 
                     "description": null
-                }, 
-                {
-                    "graph_id": "1f379b5a-569c-11e7-af15-0242ac120004", 
-                    "name": null, 
-                    "edgeid": "5986fb28-56b2-11e7-8080-0242ac120004", 
-                    "domainnode_id": "0bc2fb9e-56b2-11e7-a8a1-0242ac120004", 
-                    "rangenode_id": "5986f7d6-56b2-11e7-8080-0242ac120004", 
-                    "ontologyproperty": "P1_is_identified_by", 
-                    "description": null
                 }
             ], 
             "maplinewidth": 1, 
@@ -174,56 +209,42 @@
             "cards_x_nodes_x_widgets": [
                 {
                     "widget_id": "10000000-0000-0000-0000-000000000002", 
-                    "card_id": "bf19adc6-56a5-11e7-ad15-0242ac120004", 
+                    "card_id": "8317c870-5845-11e7-934f-0242ac120004", 
                     "label": "Bibliographical Reference", 
-                    "node_id": "0bc2fb9e-56b2-11e7-a8a1-0242ac120004", 
-                    "sortorder": 1, 
+                    "node_id": "ae9ab4da-5845-11e7-9cb3-0242ac120004", 
+                    "sortorder": 0, 
                     "config": {
                         "placeholder": "Select a reference", 
                         "options": [
                             {
                                 "conceptid": "1cb9b830-112f-4dd7-8043-eb970a230219", 
-                                "text": "Bell, M., III, 1981: The Terracottas. In: Bell, M. and C. Moss: Morgantina Studies, Volume I. Department of Art and Archaeology, Princeton University Princeton, New Jersey", 
+                                "text": "Bell, M., III, 1981", 
                                 "children": [], 
                                 "sortorder": "", 
                                 "collector": "", 
-                                "id": "b912a5c1-d6db-4ed3-81e1-1b3fc936955b"
+                                "id": "cbcb60aa-dbba-4f8c-8ff8-70a70bd47f5a"
                             }, 
                             {
                                 "conceptid": "c60970ef-cdb2-4cac-a8b0-bb1d804e4e52", 
-                                "text": "Stone, S.C., 2014: The Hellenistic and Roman Fine Potter. In: Bell, M. and C. Moss: Morgantina Studies, Volume VI. Department of Art and Archaeology, Princeton University Princeton, New Jersey", 
+                                "text": "Stone, S.C., 2014", 
                                 "children": [], 
                                 "sortorder": "", 
                                 "collector": "", 
-                                "id": "6e95a3fa-3728-4643-a3ae-ca42161c48bb"
+                                "id": "10283adb-060d-4586-9df6-a8df8abac946"
                             }
                         ], 
                         "label": "Bibliographical Reference"
                     }, 
-                    "id": "93168a7a-56b2-11e7-853b-0242ac120004"
+                    "id": "37c48f50-5847-11e7-b699-0242ac120004"
                 }, 
                 {
-                    "widget_id": "10000000-0000-0000-0000-000000000001", 
-                    "card_id": "bf19adc6-56a5-11e7-ad15-0242ac120004", 
-                    "label": "Page Number", 
-                    "node_id": "5986f7d6-56b2-11e7-8080-0242ac120004", 
-                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "20c7334c-5848-11e7-8a07-0242ac120004", 
+                    "label": "Non-Bibliographical Authority", 
+                    "node_id": "4e2de5ce-5848-11e7-965c-0242ac120004", 
+                    "sortorder": 0, 
                     "config": {
-                        "width": "100%", 
-                        "maxLength": null, 
-                        "placeholder": "Enter page number", 
-                        "label": "Page Number"
-                    }, 
-                    "id": "9316cfee-56b2-11e7-853b-0242ac120004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000012", 
-                    "card_id": "bf19adc6-56a5-11e7-ad15-0242ac120004", 
-                    "label": "Additional Authority", 
-                    "node_id": "c6a7c990-56b1-11e7-8b15-0242ac120004", 
-                    "sortorder": 3, 
-                    "config": {
-                        "placeholder": "Authority behind a decision or conclusion, e.g. a person or institute", 
+                        "placeholder": "Select a person or institute", 
                         "options": [
                             {
                                 "conceptid": "581bbe66-a119-4d50-92e6-a7d9d465d535", 
@@ -250,9 +271,9 @@
                                 "id": "b54945f3-704c-46ce-87ad-a779a499585e"
                             }
                         ], 
-                        "label": "Additional Authority"
+                        "label": "Non-Bibliographical Authority"
                     }, 
-                    "id": "93164af6-56b2-11e7-853b-0242ac120004"
+                    "id": "960adbc2-5848-11e7-b2f1-0242ac120004"
                 }, 
                 {
                     "widget_id": "10000000-0000-0000-0000-000000000001", 
@@ -267,9 +288,51 @@
                         "label": "Iconographic Element"
                     }, 
                     "id": "e3bf8ae2-56a5-11e7-90bf-0242ac120004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000001", 
+                    "card_id": "8317c870-5845-11e7-934f-0242ac120004", 
+                    "label": "Page Number", 
+                    "node_id": "e0dadcfe-5845-11e7-92c6-0242ac120004", 
+                    "sortorder": 1, 
+                    "config": {
+                        "width": "100%", 
+                        "maxLength": null, 
+                        "placeholder": "Enter page number", 
+                        "label": "Page Number"
+                    }, 
+                    "id": "37c50dae-5847-11e7-b699-0242ac120004"
                 }
             ], 
             "cards": [
+                {
+                    "graph_id": "1f379b5a-569c-11e7-af15-0242ac120004", 
+                    "helpenabled": false, 
+                    "description": "Represents a single node in a graph", 
+                    "visible": true, 
+                    "nodegroup_id": "9ba0a732-56a5-11e7-955e-0242ac120004", 
+                    "helptext": null, 
+                    "sortorder": 0, 
+                    "cardid": "bf19adc6-56a5-11e7-ad15-0242ac120004", 
+                    "helptitle": null, 
+                    "instructions": "*Be sure to be consistent in naming iconographical elements*", 
+                    "active": true, 
+                    "name": "Iconographic Element"
+                }, 
+                {
+                    "graph_id": "1f379b5a-569c-11e7-af15-0242ac120004", 
+                    "helpenabled": false, 
+                    "description": "Represents a single node in a graph", 
+                    "visible": true, 
+                    "nodegroup_id": "fbe3b0f0-5847-11e7-8a98-0242ac120004", 
+                    "helptext": null, 
+                    "sortorder": 2, 
+                    "cardid": "20c7334c-5848-11e7-8a07-0242ac120004", 
+                    "helptitle": null, 
+                    "instructions": "Personal communication & common knowledge", 
+                    "active": true, 
+                    "name": "Person or Institute Reference"
+                }, 
                 {
                     "graph_id": "1f379b5a-569c-11e7-af15-0242ac120004", 
                     "helpenabled": false, 
@@ -289,14 +352,14 @@
                     "helpenabled": false, 
                     "description": "Represents a single node in a graph", 
                     "visible": true, 
-                    "nodegroup_id": "9ba0a732-56a5-11e7-955e-0242ac120004", 
+                    "nodegroup_id": "54cf5276-5845-11e7-884e-0242ac120004", 
                     "helptext": null, 
-                    "sortorder": 0, 
-                    "cardid": "bf19adc6-56a5-11e7-ad15-0242ac120004", 
+                    "sortorder": 1, 
+                    "cardid": "8317c870-5845-11e7-934f-0242ac120004", 
                     "helptitle": null, 
-                    "instructions": "*Be sure to be consistent in naming iconographical elements*", 
+                    "instructions": "Specify the literature that supports this iconographic identification.", 
                     "active": true, 
-                    "name": "Iconographic Element"
+                    "name": "Bibliographical Reference"
                 }
             ], 
             "root": {
