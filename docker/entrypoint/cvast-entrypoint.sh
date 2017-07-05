@@ -69,9 +69,7 @@ import_reference_data() {
 	python manage.py packages -o import_reference_data -s "${rdf_file}"
 }
 
-if [[ "${DJANGO_MODE}" == "DEV" ]]; then
-	init_custom_db
-fi
+init_custom_db
 
 
 
