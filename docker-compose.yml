@@ -14,7 +14,6 @@ services:
         - arches-uploadedfiles:/web_root/arches/arches/uploadedfiles
       environment:
         - ARCHES_PROJECT=cvast_arches
-        - FORCE_DB_INIT=False
         - INSTALL_DEFAULT_GRAPHS=False
         - INSTALL_DEFAULT_CONCEPTS=False
         - PGPASSWORD=
