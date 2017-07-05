@@ -12,3 +12,6 @@ WORKDIR ${PROJECT_ROOT}
 RUN bower --allow-root install
 
 RUN dos2unix /docker/entrypoint/*
+
+# Set default workdir
+WORKDIR ${ARCHES_ROOT}
