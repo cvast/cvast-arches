@@ -54,8 +54,6 @@ ELASTICSEARCH_HOSTS = [
     { 'host': get_env_variable('ESHOST'), 'port': ELASTICSEARCH_HTTP_PORT }
 ]
 
-MAPBOX_API_KEY = get_env_variable('MAPBOX_API_KEY')
-
 
 ALLOWED_HOSTS = get_env_variable('DOMAIN_NAMES').split()
 
@@ -219,8 +217,6 @@ RESOURCE_GRAPH_LOCATIONS = (
     #  "access": "<access key>",
     #  "secret": "<secret key>"
 #}
-
-# MAPBOX_API_KEY = '' # Put your Mapbox key here!
 
 # links to sprites and glyphs for use on map
 # MAPBOX_SPRITES = "mapbox://sprites/mapbox/basic-v9"
