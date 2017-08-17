@@ -54,7 +54,8 @@
     "leaflet-iiif": "^1.1.1",
     "leaflet-draw": "^0.4.9",
     "ckeditor": "~4.6.2",
-    "mathjs": "^3.11.4"
+    "mathjs": "^3.11.4",
+    "cvast-3dhop": "https://github.com/cvast/cvast-3dhop.git#ddbca3c8d92e202fb12cd6acd136de8bb96b4639"
   },
   "resolutions": {
     "bootstrap": "3.3.2",
