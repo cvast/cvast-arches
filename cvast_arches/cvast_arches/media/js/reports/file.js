@@ -1,11 +1,74 @@
+require.config({
+    paths: {
+        'spidergl': '../bower_components/cvast-3dhop/3DHOP_4.1/minimal/js/spidergl',
+        'jquery': '../bower_components/cvast-3dhop/3DHOP_4.1/minimal/js/jquery',
+        'presenterCVAST': '../bower_components/cvast-3dhop/CVAST/js/presenterCVAST',
+        'nexus': '../bower_components/cvast-3dhop/3DHOP_4.1/minimal/js/nexus',
+        'ply': '../bower_components/cvast-3dhop/3DHOP_4.1/minimal/js/ply',
+        'trackball_sphere': '../bower_components/cvast-3dhop/3DHOP_4.1/minimal/js/trackball_sphere',
+        'trackball_turntable': '../bower_components/cvast-3dhop/3DHOP_4.1/minimal/js/trackball_turntable',
+        'trackball_turntable_pan': '../bower_components/cvast-3dhop/3DHOP_4.1/minimal/js/trackball_turntable_pan',
+        'trackball_pantilt': '../bower_components/cvast-3dhop/3DHOP_4.1/minimal/js/trackball_pantilt',
+        'initCVAST': '../bower_components/cvast-3dhop/CVAST/js/initCVAST',
+        'setupCVAST': '../bower_components/cvast-3dhop/CVAST/js/setupCVAST'
+    },
+    shim: {
+        'spidergl': {
+            exports: 'SpiderGL'
+        },
+        'presenterCVAST': {
+            deps: ['spidergl'],
+            exports: 'Presenter'
+        },
+        'nexus': {
+            deps: ['spidergl'],
+            exports: 'Nexus'
+        },
+        'ply': {
+            deps: ['spidergl'],
+        },
+        'trackball_sphere': {
+            deps: ['presenterCVAST'],
+            exports: 'PanTiltTrackball'
+        },
+        'trackball_sphere': {
+            deps: ['presenterCVAST'],
+            exports: 'PanTiltTrackball'
+        },
+        'trackball_turntable': {
+            deps: ['presenterCVAST'],
+            exports: 'TurnTableTrackball'
+        },
+        'trackball_turntable_pan': {
+            deps: ['presenterCVAST'],
+            exports: 'TurntablePanTrackball'
+        },
+        'trackball_pantilt': {
+            deps: ['presenterCVAST'],
+            exports: 'PanTiltTrackball'
+        },
+    }
+});
+
 define([
     'underscore',
     'knockout',
     'viewmodels/report',
     'arches',
+    'spidergl',
+    'jquery',
+    'presenterCVAST',
+    'nexus',
+    'trackball_sphere',
+    'trackball_turntable',
+    'trackball_turntable_pan',
+    'trackball_pantilt',
+    'initCVAST',
+    'setupCVAST',
+    'ply',
     'plugins/knockstrap',
-    'bindings/chosen'
-], function (_, ko, ReportViewModel, arches) {
+    'bindings/chosen',
+], function (_, ko, ReportViewModel, arches, spidergl, $, presenterCVAST, nexus, trackball_sphere, trackball_turntable, trackball_turntable_pan, trackball_pantilt, initCVAST, setupCVAST) {
     return ko.components.register('file-report', {
         viewModel: function (params) {
             var self = this;
@@ -15,7 +78,7 @@ define([
                 src: arches.urls.media + 'img/photo_missing.png',
                 alt: ''
             }]);
-            self.threedhopFiles = []
+            self.threedhopFiles = ko.observableArray([]);
 
             if (self.report.get('tiles')) {
                 var imgs = [];
@@ -39,10 +102,8 @@ define([
                                 }
 
                                 if (item.status &&
-                                    item.type &&
                                     item.status === 'uploaded' &&
-                                    item.name.split('.').pop() == '.ply' &&
-                                    _.contains(nodes, key)
+                                    item.name.split('.').pop() == 'ply'
                                 ) {
                                     threedhopFiles.push({
                                         src: item.url,
@@ -62,6 +123,11 @@ define([
                     self.threedhopFiles(threedhopFiles);
                 }
             }
+
+            var filepath = threedhopFiles[0].src;
+            init3dhop();
+            setupURL(filepath);
+            // sectiontoolInit();
 
             var widgets = [];
             self.report.forms().forEach(function (form) {
