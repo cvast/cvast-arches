@@ -35,31 +35,6 @@ def get_optional_env_variable(var_name):
 MODE = get_env_variable('DJANGO_MODE') #options are either "PROD" or "DEV" (installing with Dev mode set, get's you extra dependencies)
 DEBUG = ast.literal_eval(get_env_variable('DJANGO_DEBUG'))
 
-TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'widgets', 'templates'))
-DATATYPE_LOCATIONS.append('cvast_arches.datatypes')
-RESOURCE_IMPORT_LOG = os.path.join(APP_ROOT, 'logs', 'resource_import.log')
-
-LOGGING = {   'disable_existing_loggers': False,
-    'handlers': {   'file': {   'class': 'logging.FileHandler',
-                                'filename': os.path.join(APP_ROOT, 'arches.log'),
-                                'level': 'DEBUG'}},
-    'loggers': {   'arches': {   'handlers': [   'file'],
-                                 'level': 'DEBUG',
-                                 'propagate': True}},
-    'version': 1}
-
-TILE_CACHE_CONFIG = {
-    "name": "Disk",
-    "path": os.path.join(APP_ROOT, 'tileserver', 'cache')
-
-    # to reconfigure to use S3 (recommended for production), use the following
-    # template:
-
-    # "name": "S3",
-    # "bucket": "<bucket name>",
-    # "access": "<access key>",
-    # "secret": "<secret key>"
-}
 REMOTE_DEBUG = get_optional_env_variable('DJANGO_REMOTE_DEBUG')
 REMOTE_DEBUG = ast.literal_eval(REMOTE_DEBUG) if REMOTE_DEBUG != None else False
 
@@ -107,6 +82,38 @@ if EC2_PUBLIC_HOSTNAME:
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 PACKAGE_NAME = APP_ROOT.split(os.sep)[-1]
 
+TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'widgets', 'templates'))
+DATATYPE_LOCATIONS.append('cvast_arches.datatypes')
+RESOURCE_IMPORT_LOG = os.path.join(APP_ROOT, 'logs', 'resource_import.log')
+
+LOGGING = {   'disable_existing_loggers': False,
+    'handlers': {   
+        'file': {   
+            'class': 
+            'logging.FileHandler',
+                'filename': os.path.join(APP_ROOT, 'arches.log'),
+                'level': 'DEBUG'}
+                },
+    'loggers': {   
+        'arches': {   
+            'handlers': ['file'],
+                    'level': 'DEBUG',
+                    'propagate': True}},
+    'version': 1}
+
+TILE_CACHE_CONFIG = {
+    "name": "Disk",
+    "path": os.path.join(APP_ROOT, 'tileserver', 'cache')
+
+    # to reconfigure to use S3 (recommended for production), use the following
+    # template:
+
+    # "name": "S3",
+    # "bucket": "<bucket name>",
+    # "access": "<access key>",
+    # "secret": "<secret key>"
+}
+
 # Note: Prefix is used when Arches is accessed through a proxy using a subdirectory (e.g. example.com/arches)
 DJANGO_SUBPATH = get_optional_env_variable('DJANGO_SUBPATH')
 DJANGO_SUBPATH = "" if DJANGO_SUBPATH is None else DJANGO_SUBPATH
@@ -148,24 +155,6 @@ AWS_SECRET_ACCESS_KEY = get_env_variable('DJANGO_S3_AWS_SECRET_ACCESS_KEY')
 S3_URL = 'http://%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
 MEDIA_URL = S3_URL
 
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'file': {
-            'level': 'DEBUG',
-            'class': 'logging.FileHandler',
-            'filename': os.path.join(ROOT_DIR, 'logs', 'arches.log'),
-        },
-    },
-    'loggers': {
-        'arches': {
-            'handlers': ['file'],
-            'level': 'DEBUG',
-            'propagate': True,
-        }
-    }
-}
 
 
 # ROOT_DIR = ''
