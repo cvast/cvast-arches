@@ -1,4 +1,4 @@
-{% load i18n %} {% load staticfiles %} 
+{% load i18n %} {% load staticfiles %}
 
 <!-- 3D HOP window and side buttons -->
 <div id="3dhop" class="tdhop" style="width: 100% !important;" onMouseDown="if (event.preventDefault) event.preventDefault()">
@@ -13,10 +13,10 @@
             style="position:absolute; visibility:hidden;" />
         <img id="light" title="Enable Light Control" src="{{ STATIC_URL }}bower_components/cvast-3dhop/3DHOP_4.1/minimal/skins/dark/light.png"
         /><br/>
-        <img id="sections_on" title="Disable Plane Sections" src="{{ STATIC_URL }}bower_components/cvast-3dhop/3DHOP_4.1/minimal/skins/dark/sections_on.png"
+        {% comment %} <img id="sections_on" title="Disable Plane Sections" src="{{ STATIC_URL }}bower_components/cvast-3dhop/3DHOP_4.1/minimal/skins/dark/sections_on.png"
             style="position:absolute; visibility:hidden;" />
         <img id="sections" title="Enable Plane Sections" src="{{ STATIC_URL }}bower_components/cvast-3dhop/3DHOP_4.1/minimal/skins/dark/sections.png"
-        /><br/>
+        /><br/> {% endcomment %}
         <img id="pick_on" title="Disable PickPoint Mode" src="{{ STATIC_URL }}bower_components/cvast-3dhop/3DHOP_4.1/minimal/skins/dark/pick_on.png"
             style="position:absolute; visibility:hidden;" />
         <img id="pick" title="Enable PickPoint Mode" src="{{ STATIC_URL }}bower_components/cvast-3dhop/3DHOP_4.1/minimal/skins/dark/pick.png"
@@ -27,7 +27,9 @@
         />
     </div>
     <div id="pickpoint-box" class="output-box">XYZ picked point
-        <hr/><span id="pickpoint-output" class="output-text" onMouseDown="event.stopPropagation()">[ 0 , 0 , 0 ]</span></div>
-    <canvas id="draw-canvas"/>
+        <hr/><span id="pickpoint-output" class="output-text" onMouseDown="event.stopPropagation()">[ 0 , 0 , 0 ]</span>
+    </div>
+    {% include 'views/components/three-d-hop/three-d-hop-sections-panel.htm' %}
+    <canvas id="draw-canvas" />
 </div>
 <!-- End 3D HOP window and side buttons -->

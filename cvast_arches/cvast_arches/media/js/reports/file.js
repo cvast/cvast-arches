@@ -74,21 +74,19 @@ define([
             var self = this;
             params.configKeys = ['nodes'];
             ReportViewModel.apply(this, [params]);
-            self.imgs = ko.observableArray([{
-                src: arches.urls.media + 'img/photo_missing.png',
-                alt: ''
-            }]);
-            self.threedhopFiles = ko.observableArray([]);
+
+            self.imgs = ko.observableArray([]);
+            self.threeDHopFiles = ko.observableArray([]);
 
             if (self.report.get('tiles')) {
                 var imgs = [];
-                var threedhopFiles = [];
+                var threeDHopFiles = [];
                 var nodes = self.nodes();
                 self.report.get('tiles').forEach(function (tile) {
                     _.each(tile.data, function (val, key) {
                         if (Array.isArray(val)) {
                             val.forEach(function (item) {
-
+                                
                                 if (item.status &&
                                     item.type &&
                                     item.status === 'uploaded' &&
@@ -105,7 +103,7 @@ define([
                                     item.status === 'uploaded' &&
                                     item.name.split('.').pop() == 'ply'
                                 ) {
-                                    threedhopFiles.push({
+                                    threeDHopFiles.push({
                                         src: item.url,
                                         alt: item.name
                                     });
@@ -119,15 +117,14 @@ define([
                     self.imgs(imgs);
                 }
 
-                if (threedhopFiles.length > 0) {
-                    self.threedhopFiles(threedhopFiles);
+                if (threeDHopFiles.length > 0) {
+                    self.threeDHopFiles(threeDHopFiles);
+                    var filepath = threeDHopFiles[0].src;
+                    init3dhop();
+                    setupURL(filepath);
                 }
             }
 
-            var filepath = threedhopFiles[0].src;
-            init3dhop();
-            setupURL(filepath);
-            // sectiontoolInit();
 
             var widgets = [];
             self.report.forms().forEach(function (form) {
