@@ -99,11 +99,9 @@ define([
                                     });
                                 }
 
-                                var fileFormat = item.name.split('.').pop()
-
                                 if (item.status &&
                                     item.status === 'uploaded' &&
-                                    (fileFormat == 'ply' || fileFormat == 'nxs')
+                                    (item.name.split('.').pop() == 'ply' || item.name.split('.').pop() == 'nxs')
                                 ) {
                                     threeDHopFiles.push({
                                         src: item.url,
