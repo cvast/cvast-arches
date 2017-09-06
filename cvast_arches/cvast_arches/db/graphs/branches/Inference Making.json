@@ -11,16 +11,16 @@
             "iconclass": "fa fa-user-md", 
             "nodegroups": [
                 {
-                    "cardinality": "n", 
-                    "legacygroupid": null, 
-                    "nodegroupid": "b565f45e-569d-11e7-8742-0242ac120004", 
-                    "parentnodegroup_id": "682dba9c-5511-11e7-b378-0242ac120004"
-                }, 
-                {
                     "cardinality": "1", 
                     "legacygroupid": null, 
                     "nodegroupid": "682dba9c-5511-11e7-b378-0242ac120004", 
                     "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "b565f45e-569d-11e7-8742-0242ac120004", 
+                    "parentnodegroup_id": "682dba9c-5511-11e7-b378-0242ac120004"
                 }, 
                 {
                     "cardinality": "1", 
@@ -35,18 +35,20 @@
             "version": "", 
             "nodes": [
                 {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
+                    "is_collector": true, 
+                    "description": "", 
                     "istopnode": false, 
-                    "ontologyclass": "E42_Identifier", 
-                    "nodeid": "b565fbca-569d-11e7-8742-0242ac120004", 
-                    "datatype": "string", 
+                    "ontologyclass": "E31_Document", 
+                    "nodeid": "b565f45e-569d-11e7-8742-0242ac120004", 
+                    "datatype": "concept", 
                     "nodegroup_id": "b565f45e-569d-11e7-8742-0242ac120004", 
-                    "issearchable": false, 
+                    "issearchable": true, 
                     "graph_id": "682dc0f0-5511-11e7-b378-0242ac120004", 
-                    "config": null, 
-                    "parentproperty": "P1_is_identified_by", 
-                    "name": "Page Number"
+                    "config": {
+                        "rdmCollection": "aae46cf5-c73c-4af2-af8c-9d8e1b6908bf"
+                    }, 
+                    "parentproperty": "P70i_is_documented_in", 
+                    "name": "Bibliographical Reference"
                 }, 
                 {
                     "is_collector": true, 
@@ -63,20 +65,18 @@
                     "name": "Inference Making"
                 }, 
                 {
-                    "is_collector": true, 
-                    "description": "", 
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E31_Document", 
-                    "nodeid": "b565f45e-569d-11e7-8742-0242ac120004", 
-                    "datatype": "concept", 
+                    "ontologyclass": "E42_Identifier", 
+                    "nodeid": "b565fbca-569d-11e7-8742-0242ac120004", 
+                    "datatype": "string", 
                     "nodegroup_id": "b565f45e-569d-11e7-8742-0242ac120004", 
-                    "issearchable": true, 
+                    "issearchable": false, 
                     "graph_id": "682dc0f0-5511-11e7-b378-0242ac120004", 
-                    "config": {
-                        "rdmCollection": "aae46cf5-c73c-4af2-af8c-9d8e1b6908bf"
-                    }, 
-                    "parentproperty": "P70i_is_documented_in", 
-                    "name": "Bibliographical Reference"
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Page Number"
                 }, 
                 {
                     "is_collector": true, 
@@ -102,6 +102,15 @@
                 {
                     "graph_id": "682dc0f0-5511-11e7-b378-0242ac120004", 
                     "name": null, 
+                    "edgeid": "b5660408-569d-11e7-8742-0242ac120004", 
+                    "domainnode_id": "682dba9c-5511-11e7-b378-0242ac120004", 
+                    "rangenode_id": "b565f45e-569d-11e7-8742-0242ac120004", 
+                    "ontologyproperty": "P70i_is_documented_in", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "682dc0f0-5511-11e7-b378-0242ac120004", 
+                    "name": null, 
                     "edgeid": "b56601d8-569d-11e7-8742-0242ac120004", 
                     "domainnode_id": "b565f45e-569d-11e7-8742-0242ac120004", 
                     "rangenode_id": "b565fbca-569d-11e7-8742-0242ac120004", 
@@ -116,15 +125,6 @@
                     "rangenode_id": "732347e6-56a6-11e7-8e25-0242ac120004", 
                     "ontologyproperty": "P14_carried_out_by", 
                     "description": null
-                }, 
-                {
-                    "graph_id": "682dc0f0-5511-11e7-b378-0242ac120004", 
-                    "name": null, 
-                    "edgeid": "b5660408-569d-11e7-8742-0242ac120004", 
-                    "domainnode_id": "682dba9c-5511-11e7-b378-0242ac120004", 
-                    "rangenode_id": "b565f45e-569d-11e7-8742-0242ac120004", 
-                    "ontologyproperty": "P70i_is_documented_in", 
-                    "description": null
                 }
             ], 
             "maplinewidth": 1, 
@@ -132,36 +132,6 @@
             "graphid": "682dc0f0-5511-11e7-b378-0242ac120004", 
             "name": "Inference Making", 
             "cards_x_nodes_x_widgets": [
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000002", 
-                    "card_id": "b565f99a-569d-11e7-8742-0242ac120004", 
-                    "label": "Bibliographical Reference", 
-                    "node_id": "b565f45e-569d-11e7-8742-0242ac120004", 
-                    "sortorder": 0, 
-                    "config": {
-                        "placeholder": "Select a reference", 
-                        "options": [
-                            {
-                                "conceptid": "1cb9b830-112f-4dd7-8043-eb970a230219", 
-                                "text": "Bell, M., III, 1981: The Terracottas. In: Bell, M. and C. Moss: Morgantina Studies, Volume I. Department of Art and Archaeology, Princeton University Princeton, New Jersey", 
-                                "children": [], 
-                                "sortorder": "", 
-                                "collector": "", 
-                                "id": "b912a5c1-d6db-4ed3-81e1-1b3fc936955b"
-                            }, 
-                            {
-                                "conceptid": "c60970ef-cdb2-4cac-a8b0-bb1d804e4e52", 
-                                "text": "Stone, S.C., 2014: The Hellenistic and Roman Fine Potter. In: Bell, M. and C. Moss: Morgantina Studies, Volume VI. Department of Art and Archaeology, Princeton University Princeton, New Jersey", 
-                                "children": [], 
-                                "sortorder": "", 
-                                "collector": "", 
-                                "id": "6e95a3fa-3728-4643-a3ae-ca42161c48bb"
-                            }
-                        ], 
-                        "label": "Bibliographical Reference"
-                    }, 
-                    "id": "b565fd5a-569d-11e7-8742-0242ac120004"
-                }, 
                 {
                     "widget_id": "10000000-0000-0000-0000-000000000001", 
                     "card_id": "b565f99a-569d-11e7-8742-0242ac120004", 
@@ -177,13 +147,68 @@
                     "id": "b565fe72-569d-11e7-8742-0242ac120004"
                 }, 
                 {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "b565f99a-569d-11e7-8742-0242ac120004", 
+                    "label": "Bibliographical Reference", 
+                    "node_id": "b565f45e-569d-11e7-8742-0242ac120004", 
+                    "sortorder": 0, 
+                    "config": {
+                        "placeholder": "Select a reference", 
+                        "options": [
+                            {
+                                "text": "Academic Publications", 
+                                "conceptid": "8d299aa6-2eae-4df8-8e5e-c3974a5394eb", 
+                                "collector": "collector", 
+                                "children": [
+                                    {
+                                        "conceptid": "1cb9b830-112f-4dd7-8043-eb970a230219", 
+                                        "text": "Bell, M., III, 1981", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "cbcb60aa-dbba-4f8c-8ff8-70a70bd47f5a"
+                                    }, 
+                                    {
+                                        "conceptid": "c60970ef-cdb2-4cac-a8b0-bb1d804e4e52", 
+                                        "text": "Stone, S.C., 2014", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "10283adb-060d-4586-9df6-a8df8abac946"
+                                    }
+                                ], 
+                                "sortorder": ""
+                            }, 
+                            {
+                                "conceptid": "eace6ca4-08a8-42d8-a21d-9312c42dacd3", 
+                                "text": "Institute Inventories", 
+                                "children": [
+                                    {
+                                        "conceptid": "f84022fe-199f-4542-b436-1918c08e13c4", 
+                                        "text": "Museo Archeologico di Aidone Inventory", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "bbf3d4e2-567c-40f7-b3d7-b428f7fc5ada"
+                                    }
+                                ], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "85511db5-9361-4f41-9f86-5fb840d05f61"
+                            }
+                        ], 
+                        "label": "Bibliographical Reference"
+                    }, 
+                    "id": "b565fd5a-569d-11e7-8742-0242ac120004"
+                }, 
+                {
                     "widget_id": "10000000-0000-0000-0000-000000000012", 
                     "card_id": "b77178f0-56a6-11e7-8af5-0242ac120004", 
                     "label": "Authority", 
                     "node_id": "732347e6-56a6-11e7-8e25-0242ac120004", 
                     "sortorder": 0, 
                     "config": {
-                        "placeholder": "Select multiple", 
+                        "placeholder": "Select one or more authorities", 
                         "options": [
                             {
                                 "conceptid": "581bbe66-a119-4d50-92e6-a7d9d465d535", 
@@ -219,20 +244,6 @@
                 {
                     "graph_id": "682dc0f0-5511-11e7-b378-0242ac120004", 
                     "helpenabled": false, 
-                    "description": "Represents a single node in a graph", 
-                    "visible": true, 
-                    "nodegroup_id": "732347e6-56a6-11e7-8e25-0242ac120004", 
-                    "helptext": null, 
-                    "sortorder": 1, 
-                    "cardid": "b77178f0-56a6-11e7-8af5-0242ac120004", 
-                    "helptitle": null, 
-                    "instructions": "Authority behind a decision or conclusion, e.g. a person or institute", 
-                    "active": true, 
-                    "name": "Other Authority"
-                }, 
-                {
-                    "graph_id": "682dc0f0-5511-11e7-b378-0242ac120004", 
-                    "helpenabled": false, 
                     "description": "", 
                     "visible": true, 
                     "nodegroup_id": "b565f45e-569d-11e7-8742-0242ac120004", 
@@ -257,6 +268,20 @@
                     "instructions": null, 
                     "active": true, 
                     "name": "Inference Making"
+                }, 
+                {
+                    "graph_id": "682dc0f0-5511-11e7-b378-0242ac120004", 
+                    "helpenabled": false, 
+                    "description": "Represents a single node in a graph", 
+                    "visible": true, 
+                    "nodegroup_id": "732347e6-56a6-11e7-8e25-0242ac120004", 
+                    "helptext": null, 
+                    "sortorder": 1, 
+                    "cardid": "b77178f0-56a6-11e7-8af5-0242ac120004", 
+                    "helptitle": null, 
+                    "instructions": "Authority behind a decision or conclusion, e.g. a person or institute", 
+                    "active": true, 
+                    "name": "Other Authority"
                 }
             ], 
             "root": {
@@ -279,7 +304,7 @@
     "metadata": {
         "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
         "db": "PostgreSQL 9.6.3 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
-        "os version": "4.9.27-moby", 
+        "os version": "4.9.36-moby", 
         "os": "Linux"
     }
 }

@@ -1,29 +1,23 @@
 {
     "graph": [
         {
-            "subtitle": "123Describes the type and time span of the end of a resource's existence", 
+            "subtitle": "An extended date branch to either specify a specific date or a fuzzy date", 
             "functions_x_graphs": [], 
             "mapfeaturecolor": null, 
             "isresource": false, 
             "forms_x_cards": [], 
             "relatable_resource_model_ids": [], 
             "reports": [], 
-            "iconclass": "fa fa-long-arrow-down", 
+            "iconclass": "fa fa-calendar", 
             "nodegroups": [
                 {
                     "cardinality": "n", 
                     "legacygroupid": null, 
-                    "nodegroupid": "5b52f51c-485a-11e7-a4d6-0242ac130004", 
+                    "nodegroupid": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
                     "parentnodegroup_id": null
-                }, 
-                {
-                    "cardinality": "1", 
-                    "legacygroupid": null, 
-                    "nodegroupid": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
-                    "parentnodegroup_id": "5b52f51c-485a-11e7-a4d6-0242ac130004"
                 }
             ], 
-            "author": " GCI", 
+            "author": "CVAST", 
             "deploymentfile": null, 
             "forms": [], 
             "version": "", 
@@ -32,12 +26,26 @@
                     "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E55_Type", 
-                    "nodeid": "f6a5e674-6bdb-11e7-9393-0242ac120004", 
-                    "datatype": "concept", 
-                    "nodegroup_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
+                    "ontologyclass": "E62_String", 
+                    "nodeid": "8c2d2a5e-6bd2-11e7-b072-0242ac120004", 
+                    "datatype": "string", 
+                    "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
                     "issearchable": true, 
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P3_has_note", 
+                    "name": "Justification"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "8c2d2f5e-6bd2-11e7-b072-0242ac120004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                     "config": {
                         "rdmCollection": "61fedbc5-748f-4786-9a77-1f50f513fdd6"
                     }, 
@@ -48,98 +56,12 @@
                     "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E50_Date", 
-                    "nodeid": "f6a5e2a0-6bdb-11e7-9393-0242ac120004", 
-                    "datatype": "date", 
-                    "nodegroup_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
-                    "issearchable": true, 
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
-                    "config": null, 
-                    "parentproperty": "P1_is_identified_by", 
-                    "name": "Exact Date From"
-                }, 
-                {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "E50_Date", 
-                    "nodeid": "f6a5d76a-6bdb-11e7-9393-0242ac120004", 
-                    "datatype": "date", 
-                    "nodegroup_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
-                    "issearchable": true, 
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
-                    "config": null, 
-                    "parentproperty": "P1_is_identified_by", 
-                    "name": "Exact Date To"
-                }, 
-                {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
                     "ontologyclass": "E42_Identifier", 
-                    "nodeid": "f6a5e14c-6bdb-11e7-9393-0242ac120004", 
-                    "datatype": "string", 
-                    "nodegroup_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
-                    "issearchable": false, 
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
-                    "config": null, 
-                    "parentproperty": "P1_is_identified_by", 
-                    "name": "Page Number"
-                }, 
-                {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "E62_String", 
-                    "nodeid": "f6a5d5c6-6bdb-11e7-9393-0242ac120004", 
-                    "datatype": "string", 
-                    "nodegroup_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
-                    "issearchable": true, 
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
-                    "config": null, 
-                    "parentproperty": "P3_has_note", 
-                    "name": "Justification"
-                }, 
-                {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "E55_Type", 
-                    "nodeid": "f6a5deae-6bdb-11e7-9393-0242ac120004", 
+                    "nodeid": "8c2d2ce8-6bd2-11e7-b072-0242ac120004", 
                     "datatype": "concept", 
-                    "nodegroup_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
+                    "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
                     "issearchable": true, 
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
-                    "config": {
-                        "rdmCollection": "873866bb-d7c6-46a7-94fd-8a085d8eff57"
-                    }, 
-                    "parentproperty": "P2_has_type", 
-                    "name": "Event Type"
-                }, 
-                {
-                    "is_collector": true, 
-                    "description": "", 
-                    "istopnode": false, 
-                    "ontologyclass": "E13_Attribute_Assignment", 
-                    "nodeid": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
-                    "datatype": "semantic", 
-                    "nodegroup_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
-                    "issearchable": true, 
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
-                    "config": null, 
-                    "parentproperty": "P140i_was_attributed_by", 
-                    "name": "Date Assignment"
-                }, 
-                {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "E42_Identifier", 
-                    "nodeid": "f6a5dff8-6bdb-11e7-9393-0242ac120004", 
-                    "datatype": "concept", 
-                    "nodegroup_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
-                    "issearchable": true, 
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                     "config": {
                         "rdmCollection": "aae46cf5-c73c-4af2-af8c-9d8e1b6908bf"
                     }, 
@@ -151,25 +73,125 @@
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
                     "ontologyclass": "E52_Time-Span", 
-                    "nodeid": "f6a5da8a-6bdb-11e7-9393-0242ac120004", 
+                    "nodeid": "8c2d2338-6bd2-11e7-b072-0242ac120004", 
                     "datatype": "semantic", 
-                    "nodegroup_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
+                    "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
                     "issearchable": true, 
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                     "config": null, 
                     "parentproperty": "P4_has_time-span", 
-                    "name": "Exact Date Time Span"
+                    "name": "Fuzzy Date Time Span"
+                }, 
+                {
+                    "is_collector": true, 
+                    "description": "", 
+                    "istopnode": true, 
+                    "ontologyclass": "E50_Date", 
+                    "nodeid": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "", 
+                    "name": "Date"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "8c2d2e28-6bd2-11e7-b072-0242ac120004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
+                    "config": {
+                        "rdmCollection": "007c2910-7f77-4440-bd29-0d8632f00701"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Event Type"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E49_Time_Appellation", 
+                    "nodeid": "8c2d24a0-6bd2-11e7-b072-0242ac120004", 
+                    "datatype": "string", 
+                    "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Fuzzy Date To"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E49_Time_Appellation", 
+                    "nodeid": "8c2d275c-6bd2-11e7-b072-0242ac120004", 
+                    "datatype": "string", 
+                    "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Fuzzy Date From"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E50_Date", 
+                    "nodeid": "8c2d2ba8-6bd2-11e7-b072-0242ac120004", 
+                    "datatype": "date", 
+                    "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Exact Date From"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E42_Identifier", 
+                    "nodeid": "8c2d30a8-6bd2-11e7-b072-0242ac120004", 
+                    "datatype": "string", 
+                    "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
+                    "issearchable": false, 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Page Number"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E50_Date", 
+                    "nodeid": "8c2d31e8-6bd2-11e7-b072-0242ac120004", 
+                    "datatype": "date", 
+                    "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Exact Date To"
                 }, 
                 {
                     "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
                     "ontologyclass": "S5_Inference_Making", 
-                    "nodeid": "f6a5e3ea-6bdb-11e7-9393-0242ac120004", 
+                    "nodeid": "8c2d25fe-6bd2-11e7-b072-0242ac120004", 
                     "datatype": "semantic", 
-                    "nodegroup_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
+                    "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
                     "issearchable": true, 
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                     "config": null, 
                     "parentproperty": "P140_assigned_attribute_to", 
                     "name": "Inference Making"
@@ -178,194 +200,238 @@
                     "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
-                    "ontologyclass": "E49_Time_Appellation", 
-                    "nodeid": "f6a5dd5a-6bdb-11e7-9393-0242ac120004", 
-                    "datatype": "string", 
-                    "nodegroup_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
-                    "issearchable": true, 
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
-                    "config": null, 
-                    "parentproperty": "P1_is_identified_by", 
-                    "name": "Fuzzy Date From"
-                }, 
-                {
-                    "is_collector": true, 
-                    "description": "", 
-                    "istopnode": true, 
-                    "ontologyclass": "E64_End_of_Existence", 
-                    "nodeid": "5b52f51c-485a-11e7-a4d6-0242ac130004", 
+                    "ontologyclass": "E13_Attribute_Assignment", 
+                    "nodeid": "8c2d2176-6bd2-11e7-b072-0242ac120004", 
                     "datatype": "semantic", 
-                    "nodegroup_id": "5b52f51c-485a-11e7-a4d6-0242ac130004", 
+                    "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
                     "issearchable": true, 
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                     "config": null, 
-                    "parentproperty": "", 
-                    "name": "End of Existence"
+                    "parentproperty": "P140i_was_attributed_by", 
+                    "name": "Date Assignment"
                 }, 
                 {
                     "is_collector": false, 
                     "description": "Represents a single node in a graph", 
                     "istopnode": false, 
                     "ontologyclass": "E52_Time-Span", 
-                    "nodeid": "f6a5d922-6bdb-11e7-9393-0242ac120004", 
+                    "nodeid": "8c2d2914-6bd2-11e7-b072-0242ac120004", 
                     "datatype": "semantic", 
-                    "nodegroup_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
+                    "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
                     "issearchable": true, 
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                     "config": null, 
                     "parentproperty": "P4_has_time-span", 
-                    "name": "Fuzzy Date Time Span"
-                }, 
-                {
-                    "is_collector": false, 
-                    "description": "Represents a single node in a graph", 
-                    "istopnode": false, 
-                    "ontologyclass": "E49_Time_Appellation", 
-                    "nodeid": "f6a5e52a-6bdb-11e7-9393-0242ac120004", 
-                    "datatype": "string", 
-                    "nodegroup_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
-                    "issearchable": true, 
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
-                    "config": null, 
-                    "parentproperty": "P1_is_identified_by", 
-                    "name": "Fuzzy Date To"
+                    "name": "Exact Date Time Span"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
-            "description": "Describes the type and time span of the end of a resource's existence.\n\nRelates to the Actor resource model E39 via P92i.\nRelates to Historic Event E5 and Activity E7 via p116i.", 
+            "description": "An extended date branch to either specify a specific date or a fuzzy date", 
             "resource_2_resource_constraints": [], 
             "edges": [
                 {
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                     "name": null, 
-                    "edgeid": "f6a60852-6bdb-11e7-9393-0242ac120004", 
-                    "domainnode_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
-                    "rangenode_id": "f6a5e674-6bdb-11e7-9393-0242ac120004", 
-                    "ontologyproperty": "P2_has_type", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
-                    "name": null, 
-                    "edgeid": "f6a60172-6bdb-11e7-9393-0242ac120004", 
-                    "domainnode_id": "f6a5da8a-6bdb-11e7-9393-0242ac120004", 
-                    "rangenode_id": "f6a5e2a0-6bdb-11e7-9393-0242ac120004", 
-                    "ontologyproperty": "P1_is_identified_by", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
-                    "name": null, 
-                    "edgeid": "f6a60334-6bdb-11e7-9393-0242ac120004", 
-                    "domainnode_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
-                    "rangenode_id": "f6a5deae-6bdb-11e7-9393-0242ac120004", 
-                    "ontologyproperty": "P2_has_type", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
-                    "name": null, 
-                    "edgeid": "f6a6008c-6bdb-11e7-9393-0242ac120004", 
-                    "domainnode_id": "f6a5dff8-6bdb-11e7-9393-0242ac120004", 
-                    "rangenode_id": "f6a5e14c-6bdb-11e7-9393-0242ac120004", 
-                    "ontologyproperty": "P1_is_identified_by", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
-                    "name": null, 
-                    "edgeid": "f6a605c8-6bdb-11e7-9393-0242ac120004", 
-                    "domainnode_id": "f6a5e3ea-6bdb-11e7-9393-0242ac120004", 
-                    "rangenode_id": "f6a5d5c6-6bdb-11e7-9393-0242ac120004", 
+                    "edgeid": "8c2d5bbe-6bd2-11e7-b072-0242ac120004", 
+                    "domainnode_id": "8c2d25fe-6bd2-11e7-b072-0242ac120004", 
+                    "rangenode_id": "8c2d2a5e-6bd2-11e7-b072-0242ac120004", 
                     "ontologyproperty": "P3_has_note", 
                     "description": null
                 }, 
                 {
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                     "name": null, 
-                    "edgeid": "f6a6024e-6bdb-11e7-9393-0242ac120004", 
-                    "domainnode_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
-                    "rangenode_id": "f6a5d922-6bdb-11e7-9393-0242ac120004", 
-                    "ontologyproperty": "P4_has_time-span", 
-                    "description": null
-                }, 
-                {
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
-                    "name": null, 
-                    "edgeid": "f6a60410-6bdb-11e7-9393-0242ac120004", 
-                    "domainnode_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
-                    "rangenode_id": "f6a5e3ea-6bdb-11e7-9393-0242ac120004", 
+                    "edgeid": "8c2d646a-6bd2-11e7-b072-0242ac120004", 
+                    "domainnode_id": "8c2d2176-6bd2-11e7-b072-0242ac120004", 
+                    "rangenode_id": "8c2d25fe-6bd2-11e7-b072-0242ac120004", 
                     "ontologyproperty": "P140_assigned_attribute_to", 
                     "description": null
                 }, 
                 {
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                     "name": null, 
-                    "edgeid": "f6a5ff88-6bdb-11e7-9393-0242ac120004", 
-                    "domainnode_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
-                    "rangenode_id": "f6a5da8a-6bdb-11e7-9393-0242ac120004", 
+                    "edgeid": "8c2d6672-6bd2-11e7-b072-0242ac120004", 
+                    "domainnode_id": "8c2d2176-6bd2-11e7-b072-0242ac120004", 
+                    "rangenode_id": "8c2d2914-6bd2-11e7-b072-0242ac120004", 
                     "ontologyproperty": "P4_has_time-span", 
                     "description": null
                 }, 
                 {
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                     "name": null, 
-                    "edgeid": "f6a606a4-6bdb-11e7-9393-0242ac120004", 
-                    "domainnode_id": "f6a5e3ea-6bdb-11e7-9393-0242ac120004", 
-                    "rangenode_id": "f6a5dff8-6bdb-11e7-9393-0242ac120004", 
-                    "ontologyproperty": "P1_is_identified_by", 
+                    "edgeid": "8c2d60dc-6bd2-11e7-b072-0242ac120004", 
+                    "domainnode_id": "8c2d2176-6bd2-11e7-b072-0242ac120004", 
+                    "rangenode_id": "8c2d2338-6bd2-11e7-b072-0242ac120004", 
+                    "ontologyproperty": "P4_has_time-span", 
                     "description": null
                 }, 
                 {
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                     "name": null, 
-                    "edgeid": "f6a60a6e-6bdb-11e7-9393-0242ac120004", 
-                    "domainnode_id": "5b52f51c-485a-11e7-a4d6-0242ac130004", 
-                    "rangenode_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
+                    "edgeid": "8c2d58ee-6bd2-11e7-b072-0242ac120004", 
+                    "domainnode_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
+                    "rangenode_id": "8c2d2176-6bd2-11e7-b072-0242ac120004", 
                     "ontologyproperty": "P140i_was_attributed_by", 
                     "description": null
                 }, 
                 {
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                     "name": null, 
-                    "edgeid": "f6a60776-6bdb-11e7-9393-0242ac120004", 
-                    "domainnode_id": "f6a5d922-6bdb-11e7-9393-0242ac120004", 
-                    "rangenode_id": "f6a5dd5a-6bdb-11e7-9393-0242ac120004", 
+                    "edgeid": "8c2d5fec-6bd2-11e7-b072-0242ac120004", 
+                    "domainnode_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
+                    "rangenode_id": "8c2d2e28-6bd2-11e7-b072-0242ac120004", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "8c2d5d8a-6bd2-11e7-b072-0242ac120004", 
+                    "domainnode_id": "8c2d2914-6bd2-11e7-b072-0242ac120004", 
+                    "rangenode_id": "8c2d2ba8-6bd2-11e7-b072-0242ac120004", 
                     "ontologyproperty": "P1_is_identified_by", 
                     "description": null
                 }, 
                 {
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                     "name": null, 
-                    "edgeid": "f6a5fe5c-6bdb-11e7-9393-0242ac120004", 
-                    "domainnode_id": "f6a5da8a-6bdb-11e7-9393-0242ac120004", 
-                    "rangenode_id": "f6a5d76a-6bdb-11e7-9393-0242ac120004", 
+                    "edgeid": "8c2d572c-6bd2-11e7-b072-0242ac120004", 
+                    "domainnode_id": "8c2d2338-6bd2-11e7-b072-0242ac120004", 
+                    "rangenode_id": "8c2d275c-6bd2-11e7-b072-0242ac120004", 
                     "ontologyproperty": "P1_is_identified_by", 
                     "description": null
                 }, 
                 {
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                     "name": null, 
-                    "edgeid": "f6a604ec-6bdb-11e7-9393-0242ac120004", 
-                    "domainnode_id": "f6a5d922-6bdb-11e7-9393-0242ac120004", 
-                    "rangenode_id": "f6a5e52a-6bdb-11e7-9393-0242ac120004", 
+                    "edgeid": "8c2d59e8-6bd2-11e7-b072-0242ac120004", 
+                    "domainnode_id": "8c2d2338-6bd2-11e7-b072-0242ac120004", 
+                    "rangenode_id": "8c2d24a0-6bd2-11e7-b072-0242ac120004", 
                     "ontologyproperty": "P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "8c2d5ace-6bd2-11e7-b072-0242ac120004", 
+                    "domainnode_id": "8c2d25fe-6bd2-11e7-b072-0242ac120004", 
+                    "rangenode_id": "8c2d2ce8-6bd2-11e7-b072-0242ac120004", 
+                    "ontologyproperty": "P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "8c2d5024-6bd2-11e7-b072-0242ac120004", 
+                    "domainnode_id": "8c2d2ce8-6bd2-11e7-b072-0242ac120004", 
+                    "rangenode_id": "8c2d30a8-6bd2-11e7-b072-0242ac120004", 
+                    "ontologyproperty": "P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "8c2d5c9a-6bd2-11e7-b072-0242ac120004", 
+                    "domainnode_id": "8c2d2914-6bd2-11e7-b072-0242ac120004", 
+                    "rangenode_id": "8c2d31e8-6bd2-11e7-b072-0242ac120004", 
+                    "ontologyproperty": "P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "8c2d527c-6bd2-11e7-b072-0242ac120004", 
+                    "domainnode_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
+                    "rangenode_id": "8c2d2f5e-6bd2-11e7-b072-0242ac120004", 
+                    "ontologyproperty": "P2_has_type", 
                     "description": null
                 }
             ], 
             "maplinewidth": null, 
             "mappointsize": null, 
-            "graphid": "5b52f242-485a-11e7-a4d6-0242ac130004", 
-            "name": "End of Existence", 
+            "graphid": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
+            "name": "Date.old II", 
             "cards_x_nodes_x_widgets": [
                 {
+                    "widget_id": "10000000-0000-0000-0000-000000000004", 
+                    "card_id": "8c2d1f8c-6bd2-11e7-b072-0242ac120004", 
+                    "label": "Exact Date From", 
+                    "node_id": "8c2d2ba8-6bd2-11e7-b072-0242ac120004", 
+                    "sortorder": 2, 
+                    "config": {
+                        "dateFormat": "YYYY", 
+                        "maxDate": false, 
+                        "label": "Exact Date From", 
+                        "viewMode": "decades", 
+                        "placeholder": "Enter date", 
+                        "minDate": false
+                    }, 
+                    "id": "8c2d38be-6bd2-11e7-b072-0242ac120004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000001", 
+                    "card_id": "8c2d1f8c-6bd2-11e7-b072-0242ac120004", 
+                    "label": "Page Number", 
+                    "node_id": "8c2d30a8-6bd2-11e7-b072-0242ac120004", 
+                    "sortorder": 8, 
+                    "config": {
+                        "width": "100%", 
+                        "maxLength": null, 
+                        "placeholder": "Only digits, Roman numbers and dashes (-), e.g. '181', '181-5' or 'VI'", 
+                        "label": "Page Number"
+                    }, 
+                    "id": "8c2d35e4-6bd2-11e7-b072-0242ac120004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000005", 
+                    "card_id": "8c2d1f8c-6bd2-11e7-b072-0242ac120004", 
+                    "label": "Justification", 
+                    "node_id": "8c2d2a5e-6bd2-11e7-b072-0242ac120004", 
+                    "sortorder": 6, 
+                    "config": {
+                        "width": "100%", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "label": "Justification"
+                    }, 
+                    "id": "8c2d3698-6bd2-11e7-b072-0242ac120004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000001", 
+                    "card_id": "8c2d1f8c-6bd2-11e7-b072-0242ac120004", 
+                    "label": "Fuzzy Date From", 
+                    "node_id": "8c2d275c-6bd2-11e7-b072-0242ac120004", 
+                    "sortorder": 4, 
+                    "config": {
+                        "width": "100%", 
+                        "maxLength": null, 
+                        "placeholder": "Start of the time span, e.g. Early first quarter II century BC'", 
+                        "label": "Fuzzy Date From"
+                    }, 
+                    "id": "8c2d33aa-6bd2-11e7-b072-0242ac120004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000001", 
+                    "card_id": "8c2d1f8c-6bd2-11e7-b072-0242ac120004", 
+                    "label": "Fuzzy Date To", 
+                    "node_id": "8c2d24a0-6bd2-11e7-b072-0242ac120004", 
+                    "sortorder": 5, 
+                    "config": {
+                        "width": "100%", 
+                        "maxLength": null, 
+                        "placeholder": "End of the time span, e.g. 'Late second quarter II century BC'", 
+                        "label": "Fuzzy Date To"
+                    }, 
+                    "id": "8c2d3526-6bd2-11e7-b072-0242ac120004"
+                }, 
+                {
                     "widget_id": "10000000-0000-0000-0000-000000000009", 
-                    "card_id": "f6a5d3a0-6bdb-11e7-9393-0242ac120004", 
+                    "card_id": "8c2d1f8c-6bd2-11e7-b072-0242ac120004", 
                     "label": "Date Type", 
-                    "node_id": "f6a5e674-6bdb-11e7-9393-0242ac120004", 
+                    "node_id": "8c2d2f5e-6bd2-11e7-b072-0242ac120004", 
                     "sortorder": 1, 
                     "config": {
-                        "placeholder": "Select an option", 
+                        "placeholder": "", 
                         "options": [
                             {
                                 "conceptid": "b064ad8b-02ff-4033-b8f3-55420f1b071b", 
@@ -386,43 +452,29 @@
                         ], 
                         "label": "Date Type"
                     }, 
-                    "id": "f6a5e84a-6bdb-11e7-9393-0242ac120004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000001", 
-                    "card_id": "f6a5d3a0-6bdb-11e7-9393-0242ac120004", 
-                    "label": "Fuzzy Date From", 
-                    "node_id": "f6a5dd5a-6bdb-11e7-9393-0242ac120004", 
-                    "sortorder": 4, 
-                    "config": {
-                        "width": "100%", 
-                        "maxLength": null, 
-                        "placeholder": "Start of the time span, e.g. Early first quarter II century BC'", 
-                        "label": "Fuzzy Date From"
-                    }, 
-                    "id": "f6a5ec5a-6bdb-11e7-9393-0242ac120004"
+                    "id": "8c2d3468-6bd2-11e7-b072-0242ac120004"
                 }, 
                 {
                     "widget_id": "10000000-0000-0000-0000-000000000004", 
-                    "card_id": "f6a5d3a0-6bdb-11e7-9393-0242ac120004", 
-                    "label": "Exact Date From", 
-                    "node_id": "f6a5e2a0-6bdb-11e7-9393-0242ac120004", 
-                    "sortorder": 2, 
+                    "card_id": "8c2d1f8c-6bd2-11e7-b072-0242ac120004", 
+                    "label": "Exact Date To", 
+                    "node_id": "8c2d31e8-6bd2-11e7-b072-0242ac120004", 
+                    "sortorder": 3, 
                     "config": {
                         "dateFormat": "YYYY", 
                         "maxDate": false, 
-                        "label": "Exact Date From", 
+                        "label": "Exact Date To", 
                         "viewMode": "decades", 
                         "placeholder": "Enter date", 
-                        "minDate": false
+                        "minDate": null
                     }, 
-                    "id": "f6a5eae8-6bdb-11e7-9393-0242ac120004"
+                    "id": "8c2d32d8-6bd2-11e7-b072-0242ac120004"
                 }, 
                 {
                     "widget_id": "10000000-0000-0000-0000-000000000002", 
-                    "card_id": "f6a5d3a0-6bdb-11e7-9393-0242ac120004", 
+                    "card_id": "8c2d1f8c-6bd2-11e7-b072-0242ac120004", 
                     "label": "Event Type", 
-                    "node_id": "f6a5deae-6bdb-11e7-9393-0242ac120004", 
+                    "node_id": "8c2d2e28-6bd2-11e7-b072-0242ac120004", 
                     "sortorder": 0, 
                     "config": {
                         "placeholder": "What happened?", 
@@ -534,57 +586,13 @@
                         ], 
                         "label": "Event Type"
                     }, 
-                    "id": "f6a5eba6-6bdb-11e7-9393-0242ac120004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000001", 
-                    "card_id": "f6a5d3a0-6bdb-11e7-9393-0242ac120004", 
-                    "label": "Fuzzy Date To", 
-                    "node_id": "f6a5e52a-6bdb-11e7-9393-0242ac120004", 
-                    "sortorder": 5, 
-                    "config": {
-                        "width": "100%", 
-                        "maxLength": null, 
-                        "placeholder": "End of the time span, e.g. 'Late second quarter II century BC'", 
-                        "label": "Fuzzy Date To"
-                    }, 
-                    "id": "f6a5edc2-6bdb-11e7-9393-0242ac120004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000001", 
-                    "card_id": "f6a5d3a0-6bdb-11e7-9393-0242ac120004", 
-                    "label": "Page Number", 
-                    "node_id": "f6a5e14c-6bdb-11e7-9393-0242ac120004", 
-                    "sortorder": 8, 
-                    "config": {
-                        "width": "100%", 
-                        "maxLength": null, 
-                        "placeholder": "Only digits, Roman numbers and dashes (-), e.g. '181', '181-5' or 'VI'", 
-                        "label": "Page Number"
-                    }, 
-                    "id": "f6a5e908-6bdb-11e7-9393-0242ac120004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000004", 
-                    "card_id": "f6a5d3a0-6bdb-11e7-9393-0242ac120004", 
-                    "label": "Exact Date To", 
-                    "node_id": "f6a5d76a-6bdb-11e7-9393-0242ac120004", 
-                    "sortorder": 3, 
-                    "config": {
-                        "dateFormat": "YYYY", 
-                        "maxDate": false, 
-                        "label": "Exact Date To", 
-                        "viewMode": "decades", 
-                        "placeholder": "Enter date", 
-                        "minDate": false
-                    }, 
-                    "id": "f6a5ea16-6bdb-11e7-9393-0242ac120004"
+                    "id": "8c2d380a-6bd2-11e7-b072-0242ac120004"
                 }, 
                 {
                     "widget_id": "10000000-0000-0000-0000-000000000002", 
-                    "card_id": "f6a5d3a0-6bdb-11e7-9393-0242ac120004", 
+                    "card_id": "8c2d1f8c-6bd2-11e7-b072-0242ac120004", 
                     "label": "Bibliographical Reference", 
-                    "node_id": "f6a5dff8-6bdb-11e7-9393-0242ac120004", 
+                    "node_id": "8c2d2ce8-6bd2-11e7-b072-0242ac120004", 
                     "sortorder": 7, 
                     "config": {
                         "placeholder": "Who came to this conclusion?", 
@@ -633,65 +641,37 @@
                         ], 
                         "label": "Bibliographical Reference"
                     }, 
-                    "id": "f6a5e76e-6bdb-11e7-9393-0242ac120004"
-                }, 
-                {
-                    "widget_id": "10000000-0000-0000-0000-000000000005", 
-                    "card_id": "f6a5d3a0-6bdb-11e7-9393-0242ac120004", 
-                    "label": "Justification", 
-                    "node_id": "f6a5d5c6-6bdb-11e7-9393-0242ac120004", 
-                    "sortorder": 6, 
-                    "config": {
-                        "width": "100%", 
-                        "maxLength": null, 
-                        "placeholder": "Enter text", 
-                        "label": "Justification"
-                    }, 
-                    "id": "f6a5ed0e-6bdb-11e7-9393-0242ac120004"
+                    "id": "8c2d3756-6bd2-11e7-b072-0242ac120004"
                 }
             ], 
             "cards": [
                 {
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
-                    "helpenabled": false, 
-                    "description": "Describes the type and time span of the end of a resource's existence.\n\nRelates to the Actor resource model E39 via P92i.\nRelates to Historic Event E5 and Activity E7 via p116i.", 
-                    "visible": true, 
-                    "nodegroup_id": "5b52f51c-485a-11e7-a4d6-0242ac130004", 
-                    "helptext": null, 
-                    "sortorder": null, 
-                    "cardid": "5b52fb98-485a-11e7-a4d6-0242ac130004", 
-                    "helptitle": null, 
-                    "instructions": "", 
-                    "active": true, 
-                    "name": "End of Existence"
-                }, 
-                {
-                    "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                    "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                     "helpenabled": false, 
                     "description": "An extended date branch to either specify a specific date or a fuzzy date", 
                     "visible": true, 
-                    "nodegroup_id": "f6a5ceaa-6bdb-11e7-9393-0242ac120004", 
+                    "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
                     "helptext": null, 
                     "sortorder": null, 
-                    "cardid": "f6a5d3a0-6bdb-11e7-9393-0242ac120004", 
+                    "cardid": "8c2d1f8c-6bd2-11e7-b072-0242ac120004", 
                     "helptitle": null, 
-                    "instructions": null, 
+                    "instructions": "", 
                     "active": true, 
-                    "name": "Date"
+                    "name": "Date.old II"
                 }
             ], 
             "root": {
                 "is_collector": true, 
                 "description": "", 
                 "istopnode": true, 
-                "ontologyclass": "E64_End_of_Existence", 
-                "nodeid": "5b52f51c-485a-11e7-a4d6-0242ac130004", 
+                "ontologyclass": "E50_Date", 
+                "nodeid": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
                 "datatype": "semantic", 
-                "nodegroup_id": "5b52f51c-485a-11e7-a4d6-0242ac130004", 
+                "nodegroup_id": "8c2d1afa-6bd2-11e7-b072-0242ac120004", 
                 "issearchable": true, 
-                "graph_id": "5b52f242-485a-11e7-a4d6-0242ac130004", 
+                "graph_id": "8c2d1870-6bd2-11e7-b072-0242ac120004", 
                 "config": null, 
-                "name": "End of Existence"
+                "name": "Date"
             }, 
             "isactive": true, 
             "deploymentdate": null

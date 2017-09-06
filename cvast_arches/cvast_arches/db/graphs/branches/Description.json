@@ -118,18 +118,18 @@
                 {
                     "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
                     "name": null, 
-                    "edgeid": "2fd4d28c-4bb3-11e7-9c72-0242ac130004", 
-                    "domainnode_id": "0f901f0e-4bb3-11e7-b6c3-0242ac130004", 
-                    "rangenode_id": "2fd4d070-4bb3-11e7-9c72-0242ac130004", 
+                    "edgeid": "0f902166-4bb3-11e7-b6c3-0242ac130004", 
+                    "domainnode_id": "ed11a0b0-4bb2-11e7-b342-0242ac130004", 
+                    "rangenode_id": "0f901f0e-4bb3-11e7-b6c3-0242ac130004", 
                     "ontologyproperty": "P1_is_identified_by", 
                     "description": null
                 }, 
                 {
                     "graph_id": "3d532c7b-a063-11e6-84a5-026d961c88e6", 
                     "name": null, 
-                    "edgeid": "0f902166-4bb3-11e7-b6c3-0242ac130004", 
-                    "domainnode_id": "ed11a0b0-4bb2-11e7-b342-0242ac130004", 
-                    "rangenode_id": "0f901f0e-4bb3-11e7-b6c3-0242ac130004", 
+                    "edgeid": "2fd4d28c-4bb3-11e7-9c72-0242ac130004", 
+                    "domainnode_id": "0f901f0e-4bb3-11e7-b6c3-0242ac130004", 
+                    "rangenode_id": "2fd4d070-4bb3-11e7-9c72-0242ac130004", 
                     "ontologyproperty": "P1_is_identified_by", 
                     "description": null
                 }, 
@@ -273,7 +273,7 @@
     "metadata": {
         "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
         "db": "PostgreSQL 9.6.3 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
-        "os version": "4.9.27-moby", 
+        "os version": "4.9.36-moby", 
         "os": "Linux"
     }
 }

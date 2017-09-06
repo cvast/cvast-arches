@@ -1,0 +1,782 @@
+{
+    "graph": [
+        {
+            "subtitle": "An extended date branch to either specify a specific date or a fuzzy date", 
+            "functions_x_graphs": [], 
+            "mapfeaturecolor": null, 
+            "isresource": false, 
+            "forms_x_cards": [], 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "iconclass": "fa fa-calendar", 
+            "nodegroups": [
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "author": " GCI", 
+            "deploymentfile": null, 
+            "forms": [], 
+            "version": "", 
+            "nodes": [
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "7f5bef4a-6bc8-11e7-8962-0242ac120004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "config": {
+                        "rdmCollection": "007c2910-7f77-4440-bd29-0d8632f00701"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Event Type"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E52_Time-Span", 
+                    "nodeid": "7f5bee14-6bc8-11e7-8962-0242ac120004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P4_has_time-span", 
+                    "name": "Fuzzy Date"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "7f5be568-6bc8-11e7-8962-0242ac120004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "config": {
+                        "rdmCollection": "e7ec0760-0db9-4336-b25c-61c2d84dacd0"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Fuzzy Date Specification"
+                }, 
+                {
+                    "is_collector": true, 
+                    "description": "", 
+                    "istopnode": true, 
+                    "ontologyclass": "E50_Date", 
+                    "nodeid": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "", 
+                    "name": "Date"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E49_Time_Appellation", 
+                    "nodeid": "7f5be93c-6bc8-11e7-8962-0242ac120004", 
+                    "datatype": "string", 
+                    "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Fuzzy Date Display Name"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E50_Date", 
+                    "nodeid": "1572be40-6bca-11e7-9b33-0242ac120004", 
+                    "datatype": "date", 
+                    "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Fuzzy Year To"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E42_Identifier", 
+                    "nodeid": "7f5bf1ac-6bc8-11e7-8962-0242ac120004", 
+                    "datatype": "string", 
+                    "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "issearchable": false, 
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Page Number"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E50_Date", 
+                    "nodeid": "7f5beba8-6bc8-11e7-8962-0242ac120004", 
+                    "datatype": "date", 
+                    "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Fuzzy Year From"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "7f5bf080-6bc8-11e7-8962-0242ac120004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "config": {
+                        "rdmCollection": "61fedbc5-748f-4786-9a77-1f50f513fdd6"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Date Type"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E49_Time_Appellation", 
+                    "nodeid": "7f5be7fc-6bc8-11e7-8962-0242ac120004", 
+                    "datatype": "date", 
+                    "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Specific Date"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E42_Identifier", 
+                    "nodeid": "7f5becde-6bc8-11e7-8962-0242ac120004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "config": {
+                        "rdmCollection": "aae46cf5-c73c-4af2-af8c-9d8e1b6908bf"
+                    }, 
+                    "parentproperty": "P1_is_identified_by", 
+                    "name": "Bibliographical Reference"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "S5_Inference_Making", 
+                    "nodeid": "7f5be6bc-6bc8-11e7-8962-0242ac120004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P140_assigned_attribute_to", 
+                    "name": "Inference Making"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E13_Attribute_Assignment", 
+                    "nodeid": "7f5bf2e2-6bc8-11e7-8962-0242ac120004", 
+                    "datatype": "semantic", 
+                    "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "config": null, 
+                    "parentproperty": "P140i_was_attributed_by", 
+                    "name": "Date Assignment"
+                }, 
+                {
+                    "is_collector": false, 
+                    "description": "Represents a single node in a graph", 
+                    "istopnode": false, 
+                    "ontologyclass": "E55_Type", 
+                    "nodeid": "7f5bf4cc-6bc8-11e7-8962-0242ac120004", 
+                    "datatype": "concept", 
+                    "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "issearchable": true, 
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "config": {
+                        "rdmCollection": "1883eb7c-fcec-4a05-8775-06dc81e9339b"
+                    }, 
+                    "parentproperty": "P2_has_type", 
+                    "name": "Fuzzy Date Section"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "description": "An extended date branch to either specify a specific date or a fuzzy date", 
+            "resource_2_resource_constraints": [], 
+            "edges": [
+                {
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "7f5c1c90-6bc8-11e7-8962-0242ac120004", 
+                    "domainnode_id": "7f5bf2e2-6bc8-11e7-8962-0242ac120004", 
+                    "rangenode_id": "7f5be6bc-6bc8-11e7-8962-0242ac120004", 
+                    "ontologyproperty": "P140_assigned_attribute_to", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "7f5c221c-6bc8-11e7-8962-0242ac120004", 
+                    "domainnode_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "rangenode_id": "7f5bef4a-6bc8-11e7-8962-0242ac120004", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "7f5c17fe-6bc8-11e7-8962-0242ac120004", 
+                    "domainnode_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "rangenode_id": "7f5bf2e2-6bc8-11e7-8962-0242ac120004", 
+                    "ontologyproperty": "P140i_was_attributed_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "7f5c1e3e-6bc8-11e7-8962-0242ac120004", 
+                    "domainnode_id": "7f5bee14-6bc8-11e7-8962-0242ac120004", 
+                    "rangenode_id": "7f5beba8-6bc8-11e7-8962-0242ac120004", 
+                    "ontologyproperty": "P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "7f5c1d6c-6bc8-11e7-8962-0242ac120004", 
+                    "domainnode_id": "7f5bee14-6bc8-11e7-8962-0242ac120004", 
+                    "rangenode_id": "7f5be93c-6bc8-11e7-8962-0242ac120004", 
+                    "ontologyproperty": "P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "1572c160-6bca-11e7-9b33-0242ac120004", 
+                    "domainnode_id": "7f5bee14-6bc8-11e7-8962-0242ac120004", 
+                    "rangenode_id": "1572be40-6bca-11e7-9b33-0242ac120004", 
+                    "ontologyproperty": "P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "7f5c1a06-6bc8-11e7-8962-0242ac120004", 
+                    "domainnode_id": "7f5bee14-6bc8-11e7-8962-0242ac120004", 
+                    "rangenode_id": "7f5bf4cc-6bc8-11e7-8962-0242ac120004", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "7f5c1bbe-6bc8-11e7-8962-0242ac120004", 
+                    "domainnode_id": "7f5be6bc-6bc8-11e7-8962-0242ac120004", 
+                    "rangenode_id": "7f5becde-6bc8-11e7-8962-0242ac120004", 
+                    "ontologyproperty": "P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "7f5c1920-6bc8-11e7-8962-0242ac120004", 
+                    "domainnode_id": "7f5becde-6bc8-11e7-8962-0242ac120004", 
+                    "rangenode_id": "7f5bf1ac-6bc8-11e7-8962-0242ac120004", 
+                    "ontologyproperty": "P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "7f5c2492-6bc8-11e7-8962-0242ac120004", 
+                    "domainnode_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "rangenode_id": "7f5bf080-6bc8-11e7-8962-0242ac120004", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "7f5c23b6-6bc8-11e7-8962-0242ac120004", 
+                    "domainnode_id": "7f5bf2e2-6bc8-11e7-8962-0242ac120004", 
+                    "rangenode_id": "7f5bee14-6bc8-11e7-8962-0242ac120004", 
+                    "ontologyproperty": "P4_has_time-span", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "7f5c256e-6bc8-11e7-8962-0242ac120004", 
+                    "domainnode_id": "7f5bf2e2-6bc8-11e7-8962-0242ac120004", 
+                    "rangenode_id": "7f5be7fc-6bc8-11e7-8962-0242ac120004", 
+                    "ontologyproperty": "P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "name": null, 
+                    "edgeid": "7f5c1aec-6bc8-11e7-8962-0242ac120004", 
+                    "domainnode_id": "7f5bee14-6bc8-11e7-8962-0242ac120004", 
+                    "rangenode_id": "7f5be568-6bc8-11e7-8962-0242ac120004", 
+                    "ontologyproperty": "P2_has_type", 
+                    "description": null
+                }
+            ], 
+            "maplinewidth": null, 
+            "mappointsize": null, 
+            "graphid": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+            "name": "Date YYYY", 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000009", 
+                    "card_id": "7f5be220-6bc8-11e7-8962-0242ac120004", 
+                    "label": "Date Type", 
+                    "node_id": "7f5bf080-6bc8-11e7-8962-0242ac120004", 
+                    "sortorder": 1, 
+                    "config": {
+                        "placeholder": "", 
+                        "options": [
+                            {
+                                "conceptid": "b064ad8b-02ff-4033-b8f3-55420f1b071b", 
+                                "text": "Exact Date", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "5bdb3c45-dadb-4735-aa1a-b4cc3e976657"
+                            }, 
+                            {
+                                "conceptid": "3c3a751b-1399-4ef5-b4e3-963cb1d32c24", 
+                                "text": "Fuzzy Date", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "66422a34-58b7-4619-a180-002553c263b1"
+                            }
+                        ], 
+                        "label": "Date Type"
+                    }, 
+                    "id": "7f5bf5d0-6bc8-11e7-8962-0242ac120004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "7f5be220-6bc8-11e7-8962-0242ac120004", 
+                    "label": "Bibliographical Reference", 
+                    "node_id": "7f5becde-6bc8-11e7-8962-0242ac120004", 
+                    "sortorder": 10, 
+                    "config": {
+                        "placeholder": "Select an option", 
+                        "options": [
+                            {
+                                "text": "Academic Publications", 
+                                "conceptid": "8d299aa6-2eae-4df8-8e5e-c3974a5394eb", 
+                                "collector": "collector", 
+                                "children": [
+                                    {
+                                        "conceptid": "1cb9b830-112f-4dd7-8043-eb970a230219", 
+                                        "text": "Bell, M., III, 1981", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "cbcb60aa-dbba-4f8c-8ff8-70a70bd47f5a"
+                                    }, 
+                                    {
+                                        "conceptid": "c60970ef-cdb2-4cac-a8b0-bb1d804e4e52", 
+                                        "text": "Stone, S.C., 2014", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "10283adb-060d-4586-9df6-a8df8abac946"
+                                    }
+                                ], 
+                                "sortorder": ""
+                            }, 
+                            {
+                                "conceptid": "eace6ca4-08a8-42d8-a21d-9312c42dacd3", 
+                                "text": "Institute Inventories", 
+                                "children": [
+                                    {
+                                        "conceptid": "f84022fe-199f-4542-b436-1918c08e13c4", 
+                                        "text": "Museo Archeologico di Aidone Inventory", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "bbf3d4e2-567c-40f7-b3d7-b428f7fc5ada"
+                                    }
+                                ], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "85511db5-9361-4f41-9f86-5fb840d05f61"
+                            }
+                        ], 
+                        "label": "Bibliographical Reference"
+                    }, 
+                    "id": "7f5bfd3c-6bc8-11e7-8962-0242ac120004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000001", 
+                    "card_id": "7f5be220-6bc8-11e7-8962-0242ac120004", 
+                    "label": "Page Number", 
+                    "node_id": "7f5bf1ac-6bc8-11e7-8962-0242ac120004", 
+                    "sortorder": 11, 
+                    "config": {
+                        "width": "100%", 
+                        "maxLength": null, 
+                        "placeholder": "Only digits or Roman numbers, e.g. '181' or 'VI'", 
+                        "label": "Page Number"
+                    }, 
+                    "id": "7f5bfea4-6bc8-11e7-8962-0242ac120004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "7f5be220-6bc8-11e7-8962-0242ac120004", 
+                    "label": "Fuzzy End Date Specification", 
+                    "node_id": "7f5be568-6bc8-11e7-8962-0242ac120004", 
+                    "sortorder": 4, 
+                    "config": {
+                        "placeholder": "E.g. Early, Middle, Late", 
+                        "options": [
+                            {
+                                "conceptid": "24145d83-af34-494f-bba8-a4918f59cb80", 
+                                "text": "Early", 
+                                "children": [], 
+                                "sortorder": "1", 
+                                "collector": "", 
+                                "id": "8d31391d-b726-4078-9452-adbe5663cbd6"
+                            }, 
+                            {
+                                "conceptid": "83f58dff-ecbc-4edb-b6cf-bb4e9cd1a739", 
+                                "text": "Middle", 
+                                "children": [], 
+                                "sortorder": "2", 
+                                "collector": "", 
+                                "id": "6bb55316-5952-454c-8232-7cace31e95b6"
+                            }, 
+                            {
+                                "conceptid": "823a272b-b56c-408f-8fc7-2968c7297b11", 
+                                "text": "Late", 
+                                "children": [], 
+                                "sortorder": "3", 
+                                "collector": "", 
+                                "id": "a06a6e07-f428-49f1-aad5-ea4eee5193cb"
+                            }
+                        ], 
+                        "label": "Fuzzy End Date Specification"
+                    }, 
+                    "id": "7f5c025a-6bc8-11e7-8962-0242ac120004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "7f5be220-6bc8-11e7-8962-0242ac120004", 
+                    "label": "Fuzzy Date Section", 
+                    "node_id": "7f5bf4cc-6bc8-11e7-8962-0242ac120004", 
+                    "sortorder": 5, 
+                    "config": {
+                        "placeholder": "E.g. First half, Third quarter", 
+                        "options": [
+                            {
+                                "conceptid": "ba78cccb-dc7c-470a-8812-2b3e5225e3f1", 
+                                "text": "First half", 
+                                "children": [], 
+                                "sortorder": "1", 
+                                "collector": "", 
+                                "id": "796bf4b7-1f1c-4099-8d1f-8990a646677f"
+                            }, 
+                            {
+                                "conceptid": "2e6327f7-e640-4758-848a-dde6e543013d", 
+                                "text": "Second half", 
+                                "children": [], 
+                                "sortorder": "2", 
+                                "collector": "", 
+                                "id": "b299fe3e-0459-49cb-bd56-6e6f4b115144"
+                            }, 
+                            {
+                                "conceptid": "41d42f77-9ebf-4831-ac6c-a8f09fb2af65", 
+                                "text": "First quarter", 
+                                "children": [], 
+                                "sortorder": "3", 
+                                "collector": "", 
+                                "id": "c1502e4d-c213-4ef2-ba53-682ff6772c98"
+                            }, 
+                            {
+                                "conceptid": "176766dd-c055-46ef-889d-f04580aa07ea", 
+                                "text": "Second quarter", 
+                                "children": [], 
+                                "sortorder": "4", 
+                                "collector": "", 
+                                "id": "6500eac4-5923-4cf8-b7f3-b6bc35d388cc"
+                            }, 
+                            {
+                                "conceptid": "c99090e9-28ac-4069-aeca-07eeef8c0f8f", 
+                                "text": "Third quarter", 
+                                "children": [], 
+                                "sortorder": "5", 
+                                "collector": "", 
+                                "id": "2db5154c-7c84-4d29-94fa-bc0b8477d5af"
+                            }, 
+                            {
+                                "conceptid": "bafa4129-e67f-4a28-9def-d4c70be993a7", 
+                                "text": "Fourth quarter", 
+                                "children": [], 
+                                "sortorder": "6", 
+                                "collector": "", 
+                                "id": "d4424802-4b98-4ffd-8b75-51e05ba6b512"
+                            }
+                        ], 
+                        "label": "Fuzzy Date Section"
+                    }, 
+                    "id": "7f5c03b8-6bc8-11e7-8962-0242ac120004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000002", 
+                    "card_id": "7f5be220-6bc8-11e7-8962-0242ac120004", 
+                    "label": "Event Type", 
+                    "node_id": "7f5bef4a-6bc8-11e7-8962-0242ac120004", 
+                    "sortorder": 0, 
+                    "config": {
+                        "placeholder": "Select an option", 
+                        "options": [
+                            {
+                                "text": "Beginning Of Existence Type", 
+                                "conceptid": "216ee2fb-4197-4f84-84dd-3a38d59480fb", 
+                                "collector": "collector", 
+                                "children": [
+                                    {
+                                        "conceptid": "226bb292-4def-484f-8c6b-6eab8dd48c03", 
+                                        "text": "Birth Date", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "73e5204c-0635-478b-a369-91d5cde5c68f"
+                                    }, 
+                                    {
+                                        "conceptid": "cf3683e1-6969-47b4-8cda-c61753819ec7", 
+                                        "text": "Built Date", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "29adbea8-891a-44bf-b0c5-8912d118f629"
+                                    }, 
+                                    {
+                                        "conceptid": "11303e6e-9ea1-4b4c-8e2d-c0fa7c9db390", 
+                                        "text": "Creation Date", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "cf4d3fee-1c66-499c-a087-13eb3a069807"
+                                    }, 
+                                    {
+                                        "conceptid": "0560b41b-123e-413b-ac75-eeb09d7b9de7", 
+                                        "text": "Formation Date", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "af52d238-b9ce-47bd-ba71-585d007d090b"
+                                    }, 
+                                    {
+                                        "conceptid": "9963003a-f6ae-4792-ad5d-44e4b04da1ea", 
+                                        "text": "Start Date", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "af8e248f-28c9-4c97-b57b-add942b8e009"
+                                    }
+                                ], 
+                                "sortorder": ""
+                            }, 
+                            {
+                                "text": "End Of Existence Type", 
+                                "conceptid": "84f2ba6e-0443-4f4e-b1f7-b286733c9330", 
+                                "collector": "collector", 
+                                "children": [
+                                    {
+                                        "conceptid": "393e8c52-11c9-4163-8670-8680c895e8f3", 
+                                        "text": "Death Date", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "9697e0bd-15ea-476f-94fb-092a351418d9"
+                                    }, 
+                                    {
+                                        "conceptid": "edf1336f-df77-48ad-a992-a27111031404", 
+                                        "text": "Demolition Date", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "6449c50e-289c-425d-aac1-50e2ce070100"
+                                    }, 
+                                    {
+                                        "conceptid": "0af60c1e-947c-4e9b-80ce-96a8d76ebf5b", 
+                                        "text": "Destruction Date", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "f21fd154-a96d-4b50-9fa9-dbab3c54d441"
+                                    }, 
+                                    {
+                                        "conceptid": "0f24c72b-c065-42b6-869f-ba107440376f", 
+                                        "text": "Dissolution Date", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "24807451-df89-4cf1-99a2-18967b43fe40"
+                                    }, 
+                                    {
+                                        "conceptid": "0f0126f2-1f26-431f-b0f3-06fcbd172162", 
+                                        "text": "End Date", 
+                                        "children": [], 
+                                        "sortorder": "", 
+                                        "collector": "", 
+                                        "id": "2195c931-95b0-4c91-9a1d-7607d56d1377"
+                                    }
+                                ], 
+                                "sortorder": ""
+                            }, 
+                            {
+                                "conceptid": "60e8794a-c262-4365-af33-cd9637d452a2", 
+                                "text": "In Use", 
+                                "children": [], 
+                                "sortorder": "", 
+                                "collector": "", 
+                                "id": "c00c719b-96e4-4fc9-8fa1-acf4647dacc7"
+                            }
+                        ], 
+                        "label": "Event Type"
+                    }, 
+                    "id": "7f5bfdfa-6bc8-11e7-8962-0242ac120004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000004", 
+                    "card_id": "7f5be220-6bc8-11e7-8962-0242ac120004", 
+                    "label": "Fuzzy Year To", 
+                    "node_id": "1572be40-6bca-11e7-9b33-0242ac120004", 
+                    "sortorder": 7, 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "maxDate": false, 
+                        "label": "Fuzzy Year To", 
+                        "viewMode": "days", 
+                        "placeholder": "Enter date", 
+                        "minDate": false
+                    }, 
+                    "id": "2ce35fc6-6bca-11e7-b226-0242ac120004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000004", 
+                    "card_id": "7f5be220-6bc8-11e7-8962-0242ac120004", 
+                    "label": "Fuzzy Date From", 
+                    "node_id": "7f5beba8-6bc8-11e7-8962-0242ac120004", 
+                    "sortorder": 6, 
+                    "config": {
+                        "min": "0", 
+                        "maxDate": false, 
+                        "dateFormat": "YYYY", 
+                        "label": "Fuzzy Date From", 
+                        "width": "100%", 
+                        "viewMode": "days", 
+                        "max": "", 
+                        "maxLength": null, 
+                        "placeholder": "Only digits, e.g. 1 or 21", 
+                        "minDate": false
+                    }, 
+                    "id": "7f5bf88c-6bc8-11e7-8962-0242ac120004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000004", 
+                    "card_id": "7f5be220-6bc8-11e7-8962-0242ac120004", 
+                    "label": "Specific Date", 
+                    "node_id": "7f5be7fc-6bc8-11e7-8962-0242ac120004", 
+                    "sortorder": 2, 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "maxDate": false, 
+                        "label": "Specific Date", 
+                        "viewMode": "days", 
+                        "placeholder": "Enter date", 
+                        "minDate": false
+                    }, 
+                    "id": "7f5bfc2e-6bc8-11e7-8962-0242ac120004"
+                }, 
+                {
+                    "widget_id": "10000000-0000-0000-0000-000000000001", 
+                    "card_id": "7f5be220-6bc8-11e7-8962-0242ac120004", 
+                    "label": "Fuzzy Date Display Name", 
+                    "node_id": "7f5be93c-6bc8-11e7-8962-0242ac120004", 
+                    "sortorder": 3, 
+                    "config": {
+                        "width": "100%", 
+                        "maxLength": null, 
+                        "placeholder": "Enter the full date, e.g. 'Late second quarter II century BC'", 
+                        "label": "Fuzzy Date Display Name"
+                    }, 
+                    "id": "7f5bf954-6bc8-11e7-8962-0242ac120004"
+                }
+            ], 
+            "cards": [
+                {
+                    "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                    "helpenabled": false, 
+                    "description": "An extended date branch to either specify a specific date or a fuzzy date", 
+                    "visible": true, 
+                    "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "7f5be220-6bc8-11e7-8962-0242ac120004", 
+                    "helptitle": null, 
+                    "instructions": "", 
+                    "active": true, 
+                    "name": "Date YYYY"
+                }
+            ], 
+            "root": {
+                "is_collector": true, 
+                "description": "", 
+                "istopnode": true, 
+                "ontologyclass": "E50_Date", 
+                "nodeid": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                "datatype": "semantic", 
+                "nodegroup_id": "7f5bddc0-6bc8-11e7-8962-0242ac120004", 
+                "issearchable": true, 
+                "graph_id": "7f5bdb5e-6bc8-11e7-8962-0242ac120004", 
+                "config": null, 
+                "name": "Date"
+            }, 
+            "isactive": true, 
+            "deploymentdate": null
+        }
+    ], 
+    "metadata": {
+        "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
+        "db": "PostgreSQL 9.6.3 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
+        "os version": "4.9.36-moby", 
+        "os": "Linux"
+    }
+}
