@@ -55,7 +55,7 @@
     "leaflet-draw": "^0.4.9",
     "ckeditor": "~4.6.2",
     "mathjs": "^3.11.4",
-    "cvast-3dhop": "https://github.com/cvast/cvast-3dhop.git#ddbca3c8d92e202fb12cd6acd136de8bb96b4639"
+    "three-d-hop": "https://github.com/cnr-isti-vclab/3DHOP.git#573e03058163ab51d3d32f02415b37567b6a0649"
   },
   "resolutions": {
     "bootstrap": "3.3.2",

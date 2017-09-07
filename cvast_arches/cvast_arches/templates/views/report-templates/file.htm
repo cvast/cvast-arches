@@ -1,8 +1,9 @@
 {% extends "views/report-templates/default.htm" %} {% load i18n %} {% load staticfiles %} 
 
 {% block header %}
-<link type="text/css" rel="stylesheet" href="{{ STATIC_URL }}bower_components/cvast-3dhop/3DHOP_4.1/minimal/stylesheet/3dhop.css"/>
+<link type="text/css" rel="stylesheet" href="{{ STATIC_URL }}bower_components/three-d-hop/minimal/stylesheet/3dhop.css"/>
 <link type="text/css" rel="stylesheet" href="{{ STATIC_URL }}css/report.css"/>
+
 
 <!-- ko if: threeDHopFiles().length > 0 -->
 <div class="cvast-report-media-wrapper">
