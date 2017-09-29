@@ -26,9 +26,9 @@ define([
 
         setupURL: function (source) {
 
-            presenter = new Presenter("draw-canvas");
+            window.presenter = new Presenter("draw-canvas");
 
-            presenter.setScene({
+            window.presenter.setScene({
                 meshes: {
                     // The path in which the model to be loaded in the viewer is stored
                     "mesh1": { url: source }

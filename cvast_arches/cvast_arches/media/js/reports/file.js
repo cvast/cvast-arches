@@ -24,7 +24,7 @@ define([
                     _.each(tile.data, function (val, key) {
                         if (Array.isArray(val)) {
                             val.forEach(function (item) {
-                                
+
                                 if (item.status &&
                                     item.type &&
                                     item.status === 'uploaded' &&
@@ -60,6 +60,7 @@ define([
                     var filepath = threeDHopFiles[0].src;
                     init3dhop();
                     cvast_3dhop.setupURL(filepath);
+                    sectiontoolInit()
                 }
             }
 
