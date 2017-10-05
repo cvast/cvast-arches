@@ -11,7 +11,7 @@ require.config({
         'trackball_pantilt': '../bower_components/three-d-hop/minimal/js/trackball_pantilt',
         'init': '../bower_components/three-d-hop/minimal/js/init',
         // 'setup': '../bower_components/three-d-hop/js/setup',
-        'cvast-three-d-hop': 'reports/cvast-three-d-hop'
+        'cvast-3dhop': 'reports/cvast-3dhop'
     },
     shim: {
         'spidergl': {
@@ -54,7 +54,7 @@ require.config({
         'init': {
             deps: ['trackball_pantilt']
         },
-        'cvast-three-d-hop': {
+        'cvast-3dhop': {
             deps: ['init']
         },
     }
