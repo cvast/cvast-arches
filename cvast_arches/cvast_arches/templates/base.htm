@@ -55,13 +55,14 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 {% block javascript %}
     <script src="{{ STATIC_URL }}bower_components/requirejs/require.js"></script>
-    <script src="{{ STATIC_URL }}js/cvast-javascript.js"></script>
     
     {% block pre_require_js %}
     {% endblock pre_require_js %}
 
     {% include 'javascript.htm' %}
-
+    
+    <script src="{{ STATIC_URL }}js/cvast-javascript.js"></script>
+    
     <script>
         require(["nifty"{% if main_script %},"{{ main_script }}"{% endif %}]);
     </script>

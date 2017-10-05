@@ -3,7 +3,7 @@ define([
     'knockout',
     'viewmodels/report',
     'arches',
-    'reports/cvast-3dhop',
+    'cvast-3dhop',
     'plugins/knockstrap',
     'bindings/chosen',
 ], function (_, ko, ReportViewModel, arches, cvast_3dhop) {

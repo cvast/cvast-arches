@@ -1,7 +1,6 @@
 require.config({
     paths: {
         'spidergl': '../bower_components/three-d-hop/minimal/js/spidergl',
-        'jquery': '../bower_components/three-d-hop/minimal/js/jquery',
         'nexus': '../bower_components/three-d-hop/minimal/js/nexus',
         'presenter': '../bower_components/three-d-hop/minimal/js/presenter',
         'ply': '../bower_components/three-d-hop/minimal/js/ply',
@@ -17,11 +16,8 @@ require.config({
         'spidergl': {
             exports: 'SpiderGL'
         },
-        'jquery': {
-            deps: [ 'spidergl' ],
-        },
         'presenter': {
-            deps: ['jquery'],
+            deps: ['spidergl'],
             exports: 'Presenter'
         },
         'nexus': {
