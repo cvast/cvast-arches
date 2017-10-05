@@ -1,4 +1,4 @@
-FROM arches/arches:4.0.0
+FROM archesproject/arches:4.0.0
 
 ENV BOWER_INSTALL_DIR=${ARCHES_ROOT}/cvast_arches/cvast_arches
 ENV ENTRYPOINT_DIR=/docker/entrypoint
