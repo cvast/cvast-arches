@@ -1,6 +1,12 @@
 #/bin/bash
 
 
+cd_app_folder() {
+	cd ${CVAST_ARCHES_APP}
+	echo "Current work directory: ${CVAST_ARCHES_APP}"
+}
+
+
 init_custom_db() {
 	
 	# Import graphs
@@ -13,8 +19,8 @@ init_custom_db() {
 	
 	# Import concepts
 	if ! concepts_exist; then
-		import_reference_data cvast_arches/db/schemes/arches_concept_scheme.rdf
-		import_reference_data cvast_arches/db/schemes/cvast_concept_scheme.rdf
+		import_reference_data ${CVAST_ARCHES_APP}/db/schemes/arches_concept_scheme.rdf
+		import_reference_data ${CVAST_ARCHES_APP}/db/schemes/cvast_concept_scheme.rdf
 	else
 		echo "Concepts already exist in the database."
 		echo "Skipping 'arches_concept_scheme.rdf'."		
@@ -23,7 +29,7 @@ init_custom_db() {
 	
 	# Import collections
 	if ! collections_exist; then
-		import_reference_data cvast_arches/db/schemes/arches_concept_collections.rdf
+		import_reference_data ${CVAST_ARCHES_APP}/db/schemes/arches_concept_collections.rdf
 	else
 		echo "Collections already exist in the database. Skipping 'import_reference_data arches_concept_collections.rdf'."
 	fi
