@@ -1,8 +1,8 @@
 version: '2'
 services:
 
-    arches:
-      container_name: arches
+    cvast-arches:
+      container_name: cvast-arches
       restart: always
       image: cvast/cvast-arches:latest
       build:
